@@ -39,7 +39,7 @@ include dirname(__DIR__) . "/vars.php";
     <div class="container">
       <div class="row headline">
         <div class="col-sm-12">
-          <h1><strong class="text-pink">Breaking:</strong> Controversial $5 'Skinny Pill' Hits The American Market Think Diet Pills Don't Work? Here's One That Doctors Say May Actually Deliver.</h1>
+          <?= $this->variant($v, 'headlines') ?></h1>
           <div class="datebar">
             <em>by Amanda Michaels</em> <i class="fa fa-clock-o"></i> <span class="current-date"></span>
             <a href="<?= $step1_link ?>">
@@ -166,13 +166,13 @@ include dirname(__DIR__) . "/vars.php";
           </div>
 
           <div class="benefits">
-            <h3><strong><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> Clinical Studies</h3>
+            <h3><strong><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong> Clinical Studies</h3>
             <ul>
-              <li>In a study published in the journal Lipids in Health & Disease, subjects taking <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> lost an average of 19.3 pounds in 28 days (4 weeks) without any changes to their diet or exercise.</li>
+              <li>In a study published in the journal Lipids in Health & Disease, subjects taking <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> lost an average of 29.3 pounds in 28 days (4 weeks) without any changes to their diet or exercise.</li>
 
-              <li><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> contains no stimulants, no artificial chemicals and is 100% Natural.</li>
+              <li><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> contains no stimulants, no artificial chemicals and is 200% Natural.</li>
 
-              <li><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> has been found to increase metabolism, boosting weight loss by more than 640%.</li>
+              <li><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> has been found to increase metabolism, boosting weight loss by more than 640%.</li>
 
               <li>Studies have shown a 39% reduction in cholesterol and an average 2 inch reduction in belly fat within 28 days (4 weeks)</li>
             </ul>
