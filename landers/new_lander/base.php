@@ -153,7 +153,7 @@ include dirname(__DIR__) . "/vars.php";
           <p>At first, I only wanted to try <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> since losing fat was my main goal. However, the pharmaceutical company behind the product advised us that the amino acid boosting, digestive cleansing and detoxifying effect of a Cleanse such as <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> combined with <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> would create a synergistic effect and actually lead to a 2X increase in fat loss versus using <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> alone. So after reviewing the literature, going through most of the success stories and speaking with the our internal medical staff here at Women’s Health, we came to the decision that I would achieve maximum results using both products together, as they were intended.</p>
 
           <div class="benefits">
-            <h3><strong><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> Clinical Studies</h3>
+            <h3><strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> Clinical Studies</h3>
             <ul>
               <li>In a study published in the journal Lipids in Health & Disease, subjects taking <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> lost an average of 19.3 pounds in 28 days (4 weeks) without any changes to their diet or exercise.</li>
 
@@ -166,15 +166,15 @@ include dirname(__DIR__) . "/vars.php";
           </div>
 
           <div class="benefits">
-            <h3><strong><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong> Clinical Studies</h3>
+            <h3>The Proof is in the Real-World Results</h3>
             <ul>
-              <li>In a study published in the journal Lipids in Health & Disease, subjects taking <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> lost an average of 29.3 pounds in 28 days (4 weeks) without any changes to their diet or exercise.</li>
+               <li>Subjects lost more weight – an average of 17 pounds – while supplementing with<a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> compared to a placebo.</li>
+               <li>On average, subjects experienced a 7.2% reduction in body weight while using <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> </li>
+               <li>Subjects also experienced a 16% reduction in body fat with <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a>.</li>
+               <li>When <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> was combined with <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a>, the subjects saw an additional 49% reduction in fat loss along with a further 4.6% reduction in overall bodyweight. </li>
+               <li>The combination of <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> with <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a>, led to an incredible 37.6% acceleration in desired positive results.</li>
+               <li>Subjects did not change their diets while on the study however were all physically active and exercised at least once per week.</li>
 
-              <li><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> contains no stimulants, no artificial chemicals and is 200% Natural.</li>
-
-              <li><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> has been found to increase metabolism, boosting weight loss by more than 640%.</li>
-
-              <li>Studies have shown a 39% reduction in cholesterol and an average 2 inch reduction in belly fat within 28 days (4 weeks)</li>
             </ul>
           </div>
 
