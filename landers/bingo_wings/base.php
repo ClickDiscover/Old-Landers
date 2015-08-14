@@ -117,7 +117,7 @@ include dirname(__DIR__) . "/vars.php";
                     <ul>
                       <li> Made from 18 - 100% all natural ingredients</li>
                       <li>Clinically tested by the Good Housekeeping Research Institute (comprised of the top 10 dermatologists in the US)</li>
-                      <li><b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> has been proven to not only tone issues such as<b><a href="<?= $step1_link ?>">Bingo Wings</a></b>, but has been clinically proven to correct <b><a href="<?= $step1_link ?>">Cellulite</a></b>, <b><a href="<?= $step1_link ?>">Skin Lumps & Bumps</a></b>, <b><a href="<?= $step1_link ?>">Wrinkles</a></b>, and many more!             
+                      <li><b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> has been proven to not only tone issues such as <b><a href="<?= $step1_link ?>">Bingo Wings</a></b>, but has been clinically proven to correct <b><a href="<?= $step1_link ?>">Cellulite</a></b>, <b><a href="<?= $step1_link ?>">Skin Lumps & Bumps</a></b>, <b><a href="<?= $step1_link ?>">Wrinkles</a></b>, and many more!             
                       <li>Lab test states: 47% decrease in dimpled skin after only 9 minutes</li>
                       <li>72% reduction in lumps and bumps after 6 weeks use</li>
                       <li>Penetrates all 7 layers of skin</li>
