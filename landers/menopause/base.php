@@ -1,10 +1,19 @@
 <?php 
+
+$assets = "/static/menopause/";
+$step1_name = "PRODUCT NAME";
+$step2_name = "Product Name2";
+$step1_link = "http://cpv.flagshippromotions.com/base2.php";
+$step2_link = "http://cpv.flagshippromotions.com/base2.php";
+$step1_image = "img/product-bottle.png";
+
+
 if (isset($_SERVER['HTTP_USER_AGENT']) &&
     (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
     header('X-UA-Compatible: IE=edge,chrome=1');
 
-include dirname(__DIR__) . "/vars.php";
-$assets .= '/';
+//include dirname(__DIR__) . "/vars.php";
+//$assets .= '/';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -64,7 +73,7 @@ $assets .= '/';
       <div class="row headline">
         <div class="col-sm-12">
           <h1><strong class="text-pink"><span>BREAKING:</span></strong><b> Breakthrough Formula Has Women Dropping Weight Fast</b></h1>
-          <h4 class="text-pink"><i>A Powerful <a href="<?= $step1_link ?>">Fruit <?= $step1_name ?></a> Is Helping Women Drop Weight, Increase Energy And Alleviate Symptoms Of Menopause</i></h4>
+          <h4 class="text-pink"><i>New SIim-Down Helps Women Drop Weight, Stop Hot Flashes, and Get Better Sleep</i></h4>
 		  <div class="full-width-image">
 		  <img src="<?= $assets ?>img/img-w6.jpg">
 		  </div>
@@ -76,13 +85,13 @@ $assets .= '/';
 
           <h4><strong>Article Summary</strong></h4>
           <ul>
-          <li>Doctors have discovered that women who maintain a healthy weight live longer and have fewer health problems.</li>
-          <li>Dolores, 52, used an all-natural fruit <a href="<?= $step1_link ?>"><?= $step1_name ?></a> and is now thinner than she’s been in decades.</li>
-          <li>Besides weight loss, this <a href="<?= $step1_link ?>">powerful <?= $step1_name ?></a> has many additional health benefits for ‘older’ ladies.</li>
+          <li>Women over the age of 40 can drop weight, improve their mood and sleep better at night. </li>
+          <li> The all-natural fruit extract <a href="<?= $step1_link ?>"><?= $step1_name ?></a> allows women to keep their diets while losing weight. </li>
+          <li>This &quot;Menopause Slim-Down&quot; is  available to facebook users for one day only for $5. </li>
           </ul>
 
           <div class="gap20"></div>
-          <p><strong class="text-pink">(Women's Health)</strong> - Dr. Leon Samuels of Los Angeles is a world-recognized expert in senior health. He’s worked with thousands of women on issues related to weight loss, nutrition and overall quality of life. Whenever he meets with a new patient, he asks them a simple question: “How many older women do you know who are overweight?”</p>
+          <p><strong class="text-pink">(Women's Health)</strong> - Since the beginning of the year, our readers have been going crazy over a new <a href="<?= $step1_link ?>">"Skinny Pill"</a> that is sweeping the nation and helping people from all walks of life transform their bodies quickly and safely - a product that has been so successful, many weight-loss doctors and plastic surgeons now want to see it banned.</p>
         </div>
       </div>
       <div class="row">
@@ -92,9 +101,9 @@ $assets .= '/';
         
         <div class="col-sm-6">
           <div class="gap20"></div>
-          <p>The answer is always something along the lines of "not many."</p>
-          <p>It's an unfortunate medical fact. The more overweight someone is, the less likely they’ll live a long life. The studies don’t lie, but the good news is it’s never too late to lose weight now.</p>
-          <p>Many women have mobility issues. This often makes normal exercises difficult to perform. Also, many older women have specific nutritional needs. So going on a variety of diets can lead to health problems. While most people want to lose weight without diet or exercise, for older ladies this is often a requirement to live a longer, happier life.</p>
+          <p>They are making accusations that it causes people to get lean too quickly and should be regulated, despite the fact that it&rsquo;s clinically proven to be safe and has none of the dangerous side effects that prescription diet pills have.</p>
+          <p>Since the products were recently featured on an episode of The Dr. Oz Show, we have been getting 1000&rsquo;s of daily letters from our readers, begging us for more information and asking us how they can get their hands on this new fat-burning supplement. Surprisingly, many people who struggle daily with their weight have yet to hear about this powerful option.</p>
+          <p>In a recent exclusive interview with Women&rsquo;s Health, movie star Scarlett Johansson credits the product with helping her lose nearly 22-lbs of body fat in preparation for her role as the &lsquo;Black Widow&rsquo; in The Avengers. Dozens of other celebrities like Jennifer Hudson, Christina Aguilera, Sandra Bullock and Kelly Osborne have all lost weight and transformed their bodies using this controversial pill. Even Men have gotten in on the weight-loss action and used the same product to make some drastic physical transformations.</p>
         </div>
       </div>
       <div class="gap20"></div>
@@ -111,9 +120,8 @@ $assets .= '/';
         </div>
         <div class="col-sm-7 col-sm-pull-5">
         <div class="gap20"></div>
-        <p>There is a weight-loss “secret” which more and more doctors are recommending for their female patients who wish to lose weight. Many celebrities have talked about this <a href="<?= $step1_link ?>"> ”skinny pill”</a> in interviews. Recently, actress/model, Lake Bell, said this secret was the reason she lost weight in time to film her latest movie.</p>
-          <p>We say it's a secret but, in reality, this weight-loss cure has been around for thousands of years. It's a fruit called <a href="<?= $step1_link ?>"><?= $step1_name ?></a>. </p>
-          <p><strong>If you're interested in losing weight without diet or exercise, <?= $step1_name ?> is something you need to know more about.</strong></p>
+        <p>The product we're talking about is called <a href="<?= $step1_link ?>"><?= $step1_name ?></a>. You may have seen it in the news, on TV, or trending online as the safe and powerful "secret diet trick&rdquo; being used by models, celebrities and regular folk all across America. <a href="<?= $step1_link ?>"><?= $step1_name ?></a>'s high anti-oxidant content and powerful fat burning properties make it a belly busting machine. Combine it with the detoxifying, cleansing and additional weight loss effect of a <a href="<?= $step2_link ?>"><?= $step2_name ?></a> and you see why this deserves a Special Report. But maybe the most important part is that <?= $step1_name ?> is finally available nationwide WITHOUT a prescription.</p>
+          <p><strong>If you're interested in losing weight without diet or exercise, <a href="<?= $step1_link ?>"><?= $step1_name ?></a> is something you need to know more about.</strong></p>
 
 
         </div>
@@ -129,9 +137,12 @@ $assets .= '/';
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="gap20"></div>
+          <p>&nbsp;</p>
+          <p>If you&rsquo;re feeling skeptical right now, you&rsquo;re not alone. We here at Women&rsquo;s Health have seen many promising products come and go over the last 18 years. When we first learned about &lsquo;yet another&rsquo; fat-burning/body-firming product our fad radar went off right away. Even after pouring through mountains of research. While I had an educated opinion, I still had no personal proof that <a href="<?= $step1_link ?>"><?= $step1_name ?></a> option was worth the time. So, with my editors blessing, I decided to go out and put the product to the test myself. What better way to find out the truth than to conduct my own study?</p>
+          <p>We know that the thought of losing your excess fat often feels like an impossible challenge. We&rsquo;ve evaluated numerous fat-loss programs and it seems like everything, too demanding or doesn&rsquo;t work as claimed. The reason why most programs fail is because they impose unrealistic restrictions on your daily life.</p>
+          <p>In this special report, I explain exactly how I tested the product and show you the surprising results I achieved. Today, I&rsquo;m leaking the secret to what, we here at Women&rsquo;s Health, call &ldquo;quite possibly the most effective female physique transformation stack the world has ever seen&rdquo;. I&rsquo;ll show you how you too can get a leaner, slimmer sexier body quickly and safely without having to use illegal drugs or paying $1000&rsquo;s for surgery.</p>
           <h3><strong>The Science behind<a href="<?= $step1_link ?>"> <?= $step1_name ?></a></strong></h3>
-          <p><?= $step1_name ?> is a small fruit which looks a bit like a tiny pumpkin. Found in Asia, Australia, Polynesia and parts of Africa, this fruit has long been used by native people because of its amazing and diversified health properties. </p>
+          <p><a href="<?= $step1_link ?>"><?= $step1_name ?></a> is a small fruit which looks a bit like a tiny pumpkin. Found in Asia, Australia, Polynesia and parts of Africa, this fruit has long been used by native people because of its amazing and diversified health properties. </p>
 
           <div class="benefits">
             <h3><strong><a href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> has been scientifically proven to:</h3>
@@ -142,9 +153,9 @@ $assets .= '/';
               <li>Increase the quality of your sleep during the night</li>
             </ul>
           </div>
-          <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> is when used for weight loss. But we noticed something else remarkable. <strong>Many of the problems <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats are problems associated with menopause.</strong></p>
+          <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> is when used for weight loss. But we noticed something else remarkable - <strong>many of the problems <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats are problems associated with menopause.</strong></p>
           <p>Menopausal women often experience hot flashes, decreased energy levels, restlessness when sleeping and mood changes. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats every one of these symptoms. Even better, <?= $step1_name ?> is completely natural and safe.</p> 
-          <p>If you’re a woman experiencing menopause, <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> can help lessen the symptoms – and even prevent some of them from occurring in the first place.</p>
+          <p>If you’re a woman experiencing menopause, <a href="<?= $step1_link ?>"><?= $step1_name ?> </a>can help lessen the symptoms – and even prevent some of them from occurring in the first place.</p>
           <div class="benefits">
             <h3><strong>For Women Undergoing Menopause,<a href="<?= $step1_link ?>"> <?= $step1_name ?>:</a></strong></h3>
             <ul>
@@ -157,9 +168,9 @@ $assets .= '/';
 
           <h3><strong>How to Find <a href="<?= $step1_link ?>"><?= $step1_name ?></a></strong></h3>
 
-          <p>The <?= $step1_name ?> fruit can be a bit difficult to get ahold of. Fortunately, <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> works just as well – if not better – than the fruit itself. An extract captures the nutrients and powers of the fruit in an easy-to-use form which you take once or twice a day. There are many options available but after doing our research we recommend <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a>.</p>
+          <p>The <?= $step1_name ?> fruit can be a bit difficult to get ahold of. Fortunately, <a href="<?= $step1_link ?>"><?= $step1_name ?></a> extract works just as well – if not better – than the fruit itself. An extract captures the nutrients and powers of the fruit in an easy-to-use form which you take once or twice a day. There are many options available but after doing our research we recommend <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a>.</p>
 
-          <p><a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> offers all of the benefits of <a href="<?= $step1_link ?>"><?= $step1_name ?></a> with none of the hassles associated with eating fruit daily. This extract is created in a high quality laboratory under the supervision of chemists and nutritionists.</p>
+          <?= $step1_name ?> offers all of the benefits of the Garcinia Cambogia fruit, without the hassle of eating and obtaining the fruit from Asia, Africa, or Australia. This extract is created in a high quality laboratory under the supervision of chemists and nutritionists.</p>
 
           <p>Before we tried this product ourselves, we checked through all the scientific literature available. Here’s a summary of what we found:</p>
 
@@ -183,27 +194,27 @@ $assets .= '/';
         <div class="col-sm-12">
           <h4><strong><a href="<?= $step1_link ?>" class="step-link"> <?= $step1_name ?></a> Clinical Studies</strong></h4>
           <ul>
-          <li>The health journal Lipids in Health &amp; Disease published the results of a study which showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> lost an average of 19.3 pounds in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
+          <li>The health journal Lipids in Health &amp; Disease  showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> lost an average of 19.3 pounds in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
 
-          <li><a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> contains <b>no toxins, artificial chemicals or stimulants</b>. <a href="<?= $step1_link ?>">Product</a> is 100% natural.</li>
+          <li><?= $step1_name ?> contains <b>no toxins, artificial chemicals or stimulants</b>. It is 100% natural.</li>
 
           <li>Studies show <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> increases metabolism. In turn, the increased metabolic functions increase weight loss by more than 640%.</li>
 
           <li>Studies also show a 39% <b>reduction in cholesterol</b> along with a two-inch average reduction in belly fat over four weeks.</li> 
 
-          <li>Subject in the study who took the <a href="<?= $step1_link ?>"><?= $step1_name ?></a> lost an average of 17 pounds more than study participants who were given a placebo. </li>
+          <li>Subject in the study who took <?= $step1_name ?> lost an average of 17 pounds more than study participants who were given a placebo. </li>
 
           <li>Additional studies show that participants who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> had a 49% reduction in fat loss and a reduction of body weight of up to 4.6%.</li> 
           </ul>
 
-          <p>Of course, we’d never recommend a <a href="<?= $step1_link ?>">product</a> without firsthand knowledge. This is why we’d like to introduce our readers to Dolores Williams.</p>
+          <p>Of course, we’d never recommend <?= $step1_name ?> without firsthand knowledge. This is why we’d like to introduce our readers to Dolores Williams.</p>
 
           <h4><strong>Dolores Williams, 52, Lost 21 Pounds in 30 Days. Here’s How She Did It and How You Can, Too!</strong></h4>
 
-          <p>When we were asking our staff is they knew any women who might be willing to test out <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> for our report, almost immediately our associate editor Christina Williams raised her hand.</p>
+          <p>When we were asking our staff if they knew any women who might be willing to test out <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> for our report, almost immediately our associate editor Christina Williams raised her hand.</p>
 
-          <p>“My mother is 52 years old and just last week her doctor told she needed to lose weight as soon as possible,” said Ashley. “The problem is a heart condition keeps her from doing any strenuous exercise. She’s been looking for a way to stay out of the gym but also drop the pounds.”</p>
-          <p>Ashley’s mom, Dolores, seemed like the perfect candidate to give us a completely honest report of her experiences. When we approached her, she was thrilled to try it out. And, as we quickly learned, she wasn’t the type of person to hold back her opinion.</p>
+          <p>“My mother is 52 years old and just last week her doctor told she needed to lose weight as soon as possible,” said Ashley. “The problem is a heart condition that keeps her from doing any strenuous exercise. She’s been looking for a way to stay out of the gym but also drop the pounds.”</p>
+          <p>Ashley’s mom, Dolores, seemed like the perfect candidate to give us an honest report of her experiences. When we approached her, she was thrilled to try it out. And, as we quickly learned, she wasn’t the type of person to hold back her opinion.</p>
           <div class="gap20"></div>
         <h3 class="text-center"><strong>Dolores' Complete Weight-Loss Report</strong></h3><div class="gap20"></div>
 
@@ -228,7 +239,7 @@ $assets .= '/';
           <h2><strong class="text-pink">Week One</strong></h2>
           <p>My doctor just told me I was fat. Well, he didn’t say it so directly – he went on about my BMI and where I fit in on the obesity scale – but I knew what he meant. I was at least 15 pounds overweight.</p>
           <p>Going to the gym just isn’t a part of my lifestyle. I have a bad ticker and bad knees. So I needed something which would help me stop being fat, but which didn’t require diet or exercise. When my daughter suggested <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a>, I was intrigued.</p> 
-          <p>I took one pill daily for the first week. Right away, I noticed an increase in energy. That was great, but what I really wanted was weight loss. Well, within the first week, I’d dropped seven pounds. But was it just water weight?</p>
+          <p>I took one pill daily for the first week. Right away, I noticed an increase in energy. That was great, but what I really wanted was weight loss. Well, within the first week, I dropped seven pounds. But was it just water weight?</p>
         </div>
       </div>
     </div>
@@ -239,7 +250,7 @@ $assets .= '/';
         <div class="col-sm-6">
           <div class="gap40"></div>
           <h2><strong class="text-pink">Week Two</strong></h2>
-          <p>Those first seven pounds weren't just water weight! By the end of week two, I'd lost an additional five pounds. I didn't have to change my diet or routine in any way. I was now down a total of 12 pounds. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
+          <p>Those first seven pounds weren't just water weight! By the end of week two, I lost an additional five pounds. I didn't have to change my diet or routine in any way. I was now down a total of 12 pounds. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
           
         </div>
         <div class="col-sm-6">
@@ -279,8 +290,9 @@ $assets .= '/';
             <img src="<?= $assets ?>img/img-c2.jpg" class="img-responsive center-block img-thumbnail"><div class="gap20"></div>
         </div>
         <div class="col-sm-6">
-            <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve basically all areas of your overall health. As an unexpected side effect, <?= $step1_name ?> extract is also extremely effective at managing and reducing the symptoms of menopause.</p> 
-            <p>No matter what your age is, it’s never too late to be trim and healthy – and <a href="<?= $step1_link ?>"><?= $step1_name ?> extracts</a> such as <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> are a great solution. We absolutely recommend it to our readers!</p>    
+            <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve all areas of your overall health. As an unexpected side effect, 
+            <?= $step1_name ?> extract is also extremely effective at managing and reducing the symptoms of menopause.</p> 
+            <p>No matter what your age is, it’s never too late to be trim and healthy – and <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> is a great solution. We absolutely recommend it to our readers!</p>    
         </div>
       </div>
     </div>
