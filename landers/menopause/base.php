@@ -1,19 +1,12 @@
 <?php 
 
-$assets = "/static/menopause/";
-$step1_name = "PRODUCT NAME";
-$step2_name = "Product Name2";
-$step1_link = "http://cpv.flagshippromotions.com/base2.php";
-$step2_link = "http://cpv.flagshippromotions.com/base2.php";
-$step1_image = "img/product-bottle.png";
-
 
 if (isset($_SERVER['HTTP_USER_AGENT']) &&
     (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
     header('X-UA-Compatible: IE=edge,chrome=1');
 
-//include dirname(__DIR__) . "/vars.php";
-//$assets .= '/';
+include dirname(__DIR__) . "/vars.php";
+$assets .= '/';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
