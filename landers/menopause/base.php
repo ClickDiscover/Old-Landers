@@ -4,7 +4,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
     header('X-UA-Compatible: IE=edge,chrome=1');
 
-include dirname(__DIR__) . "/vars.php";
+include dirname(__DIR__) . "/local.php";
 $assets .= '/';
 ?>
 <!DOCTYPE html>
@@ -53,6 +53,9 @@ $assets .= '/';
   <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
+  <div class="facebook-exclusive">
+	<span id="bluebar">Exclusive Free Offer for  Facebook Visitors Below</span>
+</div>
   <section class="topbar">
     <div class="container">
       <div class="row">
@@ -65,8 +68,8 @@ $assets .= '/';
       <div class="row headline">
         <div class="col-sm-12">
           <h1><strong class="text-pink"><span>BREAKING:</span></strong><b> Breakthrough Formula Has Women Dropping Weight Fast</b></h1>
-          <h4 class="text-pink"><i>New SIim-Down Helps Women Drop Weight, Stop Hot Flashes, and Get Better Sleep</i></h4>
-		  <div class="full-width-image">
+          <br>
+          <div class="full-width-image">
 		  <img src="<?= $assets ?>img/img-w6.jpg">
 		  </div>
           <div class="gap20"></div>
