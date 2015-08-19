@@ -4,7 +4,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
     header('X-UA-Compatible: IE=edge,chrome=1');
 
-include dirname(__DIR__) . "/local.php";
+include dirname(__DIR__) . "/vars.php";
 $assets .= '/';
 ?>
 <!DOCTYPE html>
