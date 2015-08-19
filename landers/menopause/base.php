@@ -67,7 +67,8 @@ $assets .= '/';
     <div class="container">
       <div class="row headline">
         <div class="col-sm-12">
-          <h1><strong class="text-pink"><span>BREAKING:</span></strong><b> Breakthrough Formula Has Women Dropping Weight Fast</b></h1>
+          <h1><strong class="text-pink"><span>BREAKING:</span></strong><b> Breakthrough Formula Has Women Dropping Weight Fast</b>   
+          </h1>
           <br>
           <div class="full-width-image">
 		  <img src="<?= $assets ?>img/img-w6.jpg">
@@ -138,7 +139,6 @@ $assets .= '/';
           <p>In this special report, I explain exactly how I tested the product and show you the surprising results I achieved. Today, I&rsquo;m leaking the secret to what, we here at Women&rsquo;s Health, call &ldquo;quite possibly the most effective female physique transformation stack the world has ever seen&rdquo;. I&rsquo;ll show you how you too can get a leaner, slimmer sexier body quickly and safely without having to use illegal drugs or paying $1000&rsquo;s for surgery.</p>
           <h3><strong>The Science behind<a href="<?= $step1_link ?>"> <?= $step1_name ?></a></strong></h3>
           <p><a href="<?= $step1_link ?>"><?= $step1_name ?></a> is a small fruit which looks a bit like a tiny pumpkin. Found in Asia, Australia, Polynesia and parts of Africa, this fruit has long been used by native people because of its amazing and diversified health properties. </p>
-
           <div class="benefits">
             <h3><strong><a href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> has been scientifically proven to:</h3>
             <ul>
@@ -148,9 +148,12 @@ $assets .= '/';
               <li>Increase the quality of your sleep during the night</li>
             </ul>
           </div>
-          <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> were when used for weight loss. But we noticed something else remarkable - <strong>many of the problems <a href="<?= $step1_link ?>"><?= $step1_name ?></a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> treat are problems associated with menopause.</strong></p>
-          <p>Menopausal women often experience hot flashes, decreased energy levels, restlessness when sleeping and mood changes. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> treat every one of these symptoms. Even better, <?= $step1_name ?>  and <?= $step2_name ?> are completely natural and safe.</p> 
-          <p>If you’re a woman experiencing menopause, <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> can help lessen the symptoms – and even prevent some of them from occurring in the first place.</p>
+          <div class="col-sm-5">
+         <img src="<?= $assets ?>img/beforeafterfront.jpg" class="img-responsive center-block img-thumbnail">
+         </div>
+          <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> were when used for weight loss. But we noticed something else remarkable - <strong>not only does <a href="<?= $step1_link ?>"><?= $step1_name ?></a> combined with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> help you lose weight, these products can also help with sypmtoms associated with menopause!</strong></p>
+          <p>Menopausal women often experience hot flashes, decreased energy levels, restlessness when sleeping and mood changes. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> taken with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> treats every one of these symptoms. Even better, <?= $step1_name ?>  and <?= $step2_name ?> are completely natural and safe.</p> 
+          <p>If you’re a woman experiencing menopause, <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> will help lessen the symptoms – and even prevent some of them from occurring in the first place.</p>
           <div class="benefits">
             <h3><strong>For Women Undergoing Menopause,<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a>:</strong></h3>
             <ul>
@@ -191,13 +194,13 @@ $assets .= '/';
           <ul>
           <li>The health journal Lipids in Health &amp; Disease  showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> lost an average of 19.3 pounds in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
 
-          <li><?= $step1_name ?> contains <b>no toxins, artificial chemicals or stimulants</b>. It is 100% natural.</li>
+          <li>These products contain <b>no toxins, artificial chemicals or stimulants</b>. They are both 100% natural.</li>
 
-          <li>Studies show <a href="<?= $step2_link ?>" class="step-link"><?= $step2_name ?></a> increases metabolism. In turn, the increased metabolic functions increase weight loss by more than 640%.</li>
+          <li>Studies show that <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> taken with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> increases metabolism. In turn, the increased metabolic functions increase weight loss by more than 640%.</li>
 
-          <li>Studies also show a 39% <b>reduction in cholesterol</b> along with a two-inch average reduction in belly fat over four weeks.</li> 
+          <li>When <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> is taken with <a href="<?= $step2_link ?>"><?= $step2_name ?></a>, studies have also shown a 39% <b>reduction in cholesterol</b> along with a two-inch average reduction in belly fat over four weeks.</li> 
 
-          <li>Subject in the study who took <?= $step1_name ?> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> lost an average of 17 pounds more than study participants who were given a placebo. </li>
+          <li>Subject in the study who took <?= $step1_name ?> and <?= $step2_name ?> lost an average of 17 pounds more than study participants who were given a placebo. </li>
 
           <li>Additional studies show that participants who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> had a 49% reduction in fat loss and a reduction of body weight of up to 4.6%.</li> 
           </ul>
@@ -216,7 +219,7 @@ $assets .= '/';
         <p>Hi everyone!</p>
         <p>My first step was to order the products directly from the website. With their money-back guarantee, I had nothing to worry about.</p>
         <p>My bottle of <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> arrived in 2 days with no problems, and <a href="<?= $step2_link ?>"><?= $step2_name ?></a> came 2 days after that.</p>
-        <p>Instructions were simple. I took one pill in the morning and another pill in the evening. My complete journal is below:</p> 
+        <p>Instructions were simple. I took one pill of each product in the morning and evening. My complete journal is below:</p> 
 
         </div>
       </div>
@@ -282,8 +285,8 @@ $assets .= '/';
         <div class="col-sm-3"><div class="gap20"></div>
         </div>
         <div class="col-sm-6">
-          <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve all areas of your overall health. As an unexpected side effect, 
-            <?= $step1_name ?> extract paired with <?= $step1_name ?> is also an extremely effective way of managing and reducing the symptoms of menopause.</p> 
+          <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve all areas of your overall health. As an unexpected side effect, 
+            <?= $step1_name ?> extract paired with <?= $step2_name ?> is also an extremely effective way of managing and reducing the symptoms of menopause!</p> 
             <p>No matter what your age is, it’s never too late to be trim and healthy – and <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> is a great solution. We absolutely recommend it to our readers!<span class="col-sm-3"><img src="<?= $assets ?>img/img-c1.jpg" class="img-responsive center-block img-thumbnail"></span></p>
             <p><span class="col-sm-3"><img src="<?= $assets ?>img/img-c2.jpg" class="img-responsive center-block img-thumbnail"></span></p>    
         </div>
