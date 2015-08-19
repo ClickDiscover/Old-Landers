@@ -157,10 +157,10 @@ $assets .= '/';
           <div class="benefits">
             <h3><strong>For Women Undergoing Menopause,<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a>:</strong></h3>
             <ul>
-              <li>Results in <strong>natural weight loss</strong> with no diet or exercise</li>
+              <li>Result in <strong>natural weight loss</strong> with no diet or exercise</li>
               <li>Reduces or even eliminates hot flashes</li>
-              <li>Improves and stabilizes mood</li>
-              <li>Improves duration and quality of sleep</li>
+              <li>Improve and stabilizes mood</li>
+              <li>Improve duration and quality of sleep</li>
             </ul>
           </div>
 
