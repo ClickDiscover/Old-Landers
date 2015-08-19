@@ -259,7 +259,7 @@ $assets .= '/';
         <div class="col-sm-6">
           <div class="gap20"></div>
           <h2><strong class="text-pink">Week Four</strong></h2>
-          <p>After the fourth week, my final results were shocking. I lost an unbelievable 21-lbs since starting the PRODUCT NAME & Product Name2 diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the PRODUCT NAME & Product Name2 in week 4 I lost 4 more pounds. But to be honest I really didn’t have much more left to lose. I am definitely going to continue taking the PRODUCT NAME afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable. A pretty sweet side-effect.“I couldn’t be any happier with the results. I Lost 21-lbs in 4 Weeks, No Special Diet, No Intense Exercise”</p>
+          <p>After the fourth week, my final results were shocking. I lost an unbelievable 21-lbs since starting the <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the <?= $step1_name ?> and <?= $step2_name ?> diet in week 4 I lost 4 more pounds. But to be honest I really didn’t have much more left to lose. I am definitely going to continue taking <?= $step1_name ?> and <?= $step2_name ?> afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable. A pretty sweet side-effect.“I couldn’t be any happier with the results. I Lost 21-lbs in 4 Weeks, No Special Diet, No Intense Exercise”</p>
         </div>
 		<div class="col-sm-6">
 		  <div class="gap20"></div>
