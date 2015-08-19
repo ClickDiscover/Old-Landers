@@ -1,7 +1,5 @@
 <?php 
 
-
-
 if (isset($_SERVER['HTTP_USER_AGENT']) &&
     (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
     header('X-UA-Compatible: IE=edge,chrome=1');
@@ -227,13 +225,13 @@ $assets .= '/';
       <div class="row">
         <div class="col-sm-6">
         <div class="gap20"></div>
-          <img src="<?= $assets ?>img/img-w1.jpg" class="img-responsive center-block img-round">
         </div>
         <div class="col-sm-6">
           <h2><strong class="text-pink">Week One</strong></h2>
           <p>My doctor just told me I was fat. Well, he didn’t say it so directly – he went on about my BMI and where I fit in on the obesity scale – but I knew what he meant. I was at least 15 pounds overweight.</p>
           <p>Going to the gym just isn’t a part of my lifestyle. I have a bad ticker and bad knees. So I needed something which would help me stop being fat, but which didn’t require diet or exercise. When my daughter suggested <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a>, I was intrigued.</p> 
           <p>I took one pill daily for the first week. Right away, I noticed an increase in energy. That was great, but what I really wanted was weight loss. Well, within the first week, I dropped seven pounds. But was it just water weight?</p>
+          <p><img src="<?= $assets ?>img/img-w1.jpg" class="img-responsive center-block img-round"></p>
         </div>
       </div>
     </div>
@@ -256,13 +254,12 @@ $assets .= '/';
   <section class="padding-tb-40 graybar">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <img src="<?= $assets ?>img/img-w3.jpg" class="img-responsive center-block img-round">
-        </div>
+        <div class="col-sm-6"></div>
         <div class="col-sm-6">
           <div class="gap40"></div>
           <h2><strong class="text-pink">Week Four</strong></h2>
           <p>My doctor was completely surprised – in a good way! I lost 21 pounds in just one month. And I didn’t change my lifestyle in any way except with the addition of <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> and <a href="<?= $step2_link ?>"><?= $step2_name ?></a>.</p> <p>In just one month, I lost enough weight that my doctor no longer considers my weight a risk factor. Here’s to the long life ahead of me!</p>
+          <p><img src="<?= $assets ?>img/img-w3.jpg" class="img-responsive center-block img-round"></p>
         </div>
       </div>
     </div>
@@ -277,16 +274,15 @@ $assets .= '/';
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-3">
-            <img src="<?= $assets ?>img/img-c1.jpg" class="img-responsive center-block img-thumbnail"><div class="gap20"></div>
+        <div class="col-sm-3"><div class="gap20"></div>
         </div>
-        <div class="col-sm-3">
-            <img src="<?= $assets ?>img/img-c2.jpg" class="img-responsive center-block img-thumbnail"><div class="gap20"></div>
+        <div class="col-sm-3"><div class="gap20"></div>
         </div>
         <div class="col-sm-6">
-            <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve all areas of your overall health. As an unexpected side effect, 
+          <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve all areas of your overall health. As an unexpected side effect, 
             <?= $step1_name ?> extract paired with <?= $step1_name ?> is also an extremely effective way of managing and reducing the symptoms of menopause.</p> 
-            <p>No matter what your age is, it’s never too late to be trim and healthy – and <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> is a great solution. We absolutely recommend it to our readers!</p>    
+            <p>No matter what your age is, it’s never too late to be trim and healthy – and <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> paired with <a href="<?= $step2_link ?>"><?= $step2_name ?></a> is a great solution. We absolutely recommend it to our readers!<span class="col-sm-3"><img src="<?= $assets ?>img/img-c1.jpg" class="img-responsive center-block img-thumbnail"></span></p>
+            <p><span class="col-sm-3"><img src="<?= $assets ?>img/img-c2.jpg" class="img-responsive center-block img-thumbnail"></span></p>    
         </div>
       </div>
     </div>
