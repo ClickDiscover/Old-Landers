@@ -660,5 +660,7 @@ if('1' == '1'){
   </div>
 </div>
 <div class="CS_black_overlay"></div>
+
+<?= $scripts ?>
 </body>
 </html>

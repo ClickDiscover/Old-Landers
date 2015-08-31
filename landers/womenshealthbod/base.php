@@ -761,6 +761,7 @@ div#bottombar {
 
 countdown(15);
 </script>
+<?= $scripts ?>
     
   </body>
 </html>

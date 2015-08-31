@@ -3,7 +3,8 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
         header('X-UA-Compatible: IE=edge,chrome=1');
 
-include dirname(__DIR__) . "/vars.php";
+// Optional include in rotator V2
+// include dirname(__DIR__) . "/vars.php";
 $assets .= '/';
 
 ?>
@@ -408,5 +409,6 @@ $assets .= '/';
  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
  <link rel="stylesheet" href="<?= $assets ?>css/font-awesome.min.css">
   
+<?= $scripts ?>
 </body>
 </html>

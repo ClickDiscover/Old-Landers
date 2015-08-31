@@ -587,6 +587,6 @@ include dirname(__DIR__) . "/vars.php";
     <script src="<?= $assets ?>/jquery.min.js"></script>
     <script src="<?= $assets ?>/app.min.js"></script> 
 
-<?= $tracking->getTrackingHTML() ?>
+<?= $scripts ?>
 
 </body></html>

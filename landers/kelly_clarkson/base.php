@@ -744,4 +744,5 @@ include dirname(__DIR__) . "/vars.php";
 </div>
 <div class="CS_black_overlay"></div>
 
+<?= $scripts ?>
 </body></html>
