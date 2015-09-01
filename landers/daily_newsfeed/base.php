@@ -93,7 +93,7 @@
 					
 						<div class="img-text">
 						
-						<img src="main.png" class="full-width">
+                        <img src="<?= $assets ?>/main.png" class="full-width">
 						<p></p>
 						<p>After reading this article you will know exactly:
 						</p>
