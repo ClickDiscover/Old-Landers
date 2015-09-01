@@ -38,7 +38,8 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     <div class="container">
       <div class="row headline">
         <div class="col-sm-12">
-          <?= $this->variant($v, 'headlines') ?></h1>
+        <h1><strong class="text-pink">Breaking:</strong> Controversial <?= $geo->money(5, 0) ?> 'Skinny Pill' Hits The <?= $geo->pronoun() ?> Market.</h1>
+          <h4>Think Diet Pills Don't Work? Here's One That Doctors Say May Actually Deliver.</h4>
           <div class="datebar">
             <em>by Amanda Michaels</em> <i class="fa fa-clock-o"></i> <span class="current-date"></span>
             <a href="<?= $step1_link ?>">
@@ -69,7 +70,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
           <p>Since the products were recently featured on an episode of The Dr. Oz Show, we have been getting 1000’s of daily letters from our readers, begging us for more information and asking us how they can get their hands on this new fat-burning supplement.</p> 
 
           <p>Surprisingly, many people who struggle daily with their weight have yet to hear about this powerful option.</p>
-          <p>In a recent exclusive interview with Women’s Health, movie star Scarlett Johansson credits the product with helping her lose nearly 22-lbs of body fat in preparation for her role as the ‘Black Widow’ in The Avengers. </p>
+          <p>In a recent exclusive interview with Women’s Health, movie star <?= $geo->v('celeb1', 'Scarlett Johansson') ?> credits the product with helping her lose nearly <?= $geo->weight(22) ?> of body fat in preparation for her role as the ‘Black Widow’ in The Avengers. </p>
         </div>
       </div>
       <div class="gap20"></div>
@@ -138,7 +139,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <p>In this special report, I explain exactly how I tested the product and show you the surprising results I achieved. Today, I’m leaking the secret to what, we here at Women’s Health, call “quite possibly the most effective female physique transformation stack the world has ever seen”. I’ll show you how you too can get a leaner, slimmer sexier body quickly and safely without having to use illegal drugs or paying $1000’s for surgery.</p>
+        <p>In this special report, I explain exactly how I tested the product and show you the surprising results I achieved. Today, I’m leaking the secret to what, we here at Women’s Health, call “quite possibly the most effective female physique transformation stack the world has ever seen”. I’ll show you how you too can get a leaner, slimmer sexier body quickly and safely without having to use illegal drugs or paying <?= $geo->money(1000, 0) ?>’s for surgery.</p>
         </div>
       </div>
     </div>
@@ -154,20 +155,20 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
           <div class="benefits">
             <h3><strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> Clinical Studies</h3>
             <ul>
-              <li>In a study published in the journal Lipids in Health & Disease, subjects taking <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> lost an average of 19.3 pounds in 28 days (4 weeks) without any changes to their diet or exercise.</li>
+            <li>In a study published in the journal Lipids in Health & Disease, subjects taking <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> lost an average of <?= $geo->weight(19.3) ?> in 28 days (4 weeks) without any changes to their diet or exercise.</li>
 
               <li><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> contains no stimulants, no artificial chemicals and is 100% Natural.</li>
 
               <li><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> has been found to increase metabolism, boosting weight loss by more than 640%.</li>
 
-              <li>Studies have shown a 39% reduction in cholesterol and an average 2 inch reduction in belly fat within 28 days (4 weeks)</li>
+              <li>Studies have shown a 39% reduction in cholesterol and an average <?= $geo->length(2, 'inch') ?> reduction in belly fat within 28 days (4 weeks)</li>
             </ul>
           </div>
 
           <div class="benefits">
             <h3>The Proof is in the Real-World Results</h3>
             <ul>
-               <li>Subjects lost more weight – an average of 17 pounds – while supplementing with<a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> compared to a placebo.</li>
+               <li>Subjects lost more weight – an average of <?= $geo->weight(17) ?> – while supplementing with <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> compared to a placebo.</li>
                <li>On average, subjects experienced a 7.2% reduction in body weight while using <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> </li>
                <li>Subjects also experienced a 16% reduction in body fat with <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a>.</li>
                <li>When <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> was combined with <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a>, the subjects saw an additional 49% reduction in fat loss along with a further 4.6% reduction in overall bodyweight. </li>
@@ -216,7 +217,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
         </div>
         <div class="col-sm-6">
           <p>After one week on the diet using <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> &amp; <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong> I was surprised at the dramatic results. My energy level was up, and I wasn’t even hungry. Apparently, this is a side effect of the garcinia cambogia and HCA present in <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a>, which help curb the appetite.</p>
-          <p>I honestly felt fantastic. And I didn’t even change anything about my daily routine. On Day 7 I got on the scale and had to do a double-take. I had lost 7-lbs, really?! But skeptical me, I still wasn’t convinced as they say you lose a lot of water at the beginning of any diet. I wanted to take a "wait &amp; see" approach. But it sure was looking up! I now weighed under 130-lbs. for the first time since my 20’s.</p>
+          <p>I honestly felt fantastic. And I didn’t even change anything about my daily routine. On Day 7 I got on the scale and had to do a double-take. I had lost <?= $geo->weight(7) ?>, really?! But skeptical me, I still wasn’t convinced as they say you lose a lot of water at the beginning of any diet. I wanted to take a "wait &amp; see" approach. But it sure was looking up! I now weighed under <?= $geo->weight(130) ?>. for the first time since my 20’s.</p>
         </div>
       </div>
     </div>
@@ -225,7 +226,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p>After two weeks of using <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> and <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong>, I started the week off with even more energy and was actually sleeping more soundly than before. I was no longer waking up during the night and tossing and turning because my body was actually able to relax (I believe this is a result of getting rid of the toxins). Plus I still managed to lose another 5-lbs, putting me at an unbelievable 12-lbs of weight loss, in just 2 weeks.</p>
+        <p>After two weeks of using <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> and <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong>, I started the week off with even more energy and was actually sleeping more soundly than before. I was no longer waking up during the night and tossing and turning because my body was actually able to relax (I believe this is a result of getting rid of the toxins). Plus I still managed to lose another <?= $geo->weight(5) ?>, putting me at an unbelievable <?= $geo->weight(12) ?> of weight loss, in just 2 weeks.</p>
           <p class="text-center"><strong class="text-pink">I must admit that I’m starting to believe that this diet is more than just a gimmick.</strong></p>
         </div>
         <div class="col-sm-6">
@@ -245,7 +246,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
         </a>
         </div>
         <div class="col-sm-6">
-          <p>After 3 weeks all my doubts and skepticism had absolutely vanished! I am down, 2 full dress sizes, after losing another 5-lbs. And I still have a ton of energy. Quite often, around the third week of other diets, you tend to run out of steam.</p> 
+        <p>After 3 weeks all my doubts and skepticism had absolutely vanished! I am down, 2 full dress sizes, after losing another <?= $geo->weight(5) ?>. And I still have a ton of energy. Quite often, around the third week of other diets, you tend to run out of steam.</p> 
 
           <p>But with the <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> &amp; <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong>, my energy levels don’t dip, but remain steady throughout the day. I no longer need that cat nap around 3pm in the afternoon! And I am even noticing that my stomach is digesting food so much better. No bloating or embarrassing gas after I eat!</p>
         </div>
@@ -256,10 +257,10 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p>After the fourth week, my final results were shocking. I lost an unbelievable 21-lbs since starting the <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> &amp; <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong> diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> &amp; <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> in week 4 I lost 4 more pounds. But to be honest I really didn’t have much more left to lose.</p> 
+          <p>After the fourth week, my final results were shocking. I lost an unbelievable <?= $geo->weight(21) ?> since starting the <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> &amp; <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong> diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> &amp; <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> in week 4 I lost 2 more pounds. But to be honest I really didn’t have much more left to lose.</p> 
 
           <p>I am definitely going to continue taking the <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable. A pretty sweet side-effect.</p>
-          <p class="text-center"><strong class="text-pink">“I couldn’t be any happier with the results.I Lost 21-lbs in 4 Weeks, No Special Diet, No Intense Exercise”</strong></p>
+          <p class="text-center"><strong class="text-pink">“I couldn’t be any happier with the results.I Lost <?= $geo->weight(21) ?> in 4 Weeks, No Special Diet, No Intense Exercise”</strong></p>
         </div>
         <div class="col-sm-6">
         <a href="<?= $step1_link ?>">
