@@ -1,0 +1,218 @@
+/* ::::: http://trendingbeatychatter.com/south-africa/para/daily-crutches-2/index_files/css ::::: */
+
+/* ::::: http://trendingbeatychatter.com/south-africa/para/daily-crutches-2/index_files/style.css ::::: */
+
+.fbcommentscontainer { margin-top: 50px; width: 100%; margin-left: auto; margin-right: auto; }
+.clearfix::after { content: " "; visibility: hidden; display: block; height: 0px; clear: both; }
+.fbConnectWidgetFooter { bottom: 0px; cursor: default; position: absolute; width: 100%; }
+.fbConnectWidgetFooter .fbFooterBorder { border-top: 1px solid rgb(204, 204, 204); margin: 0px 6px; padding: 4px 3px; }
+.fbFeedbackContent {  }
+.fbFeedbackContent .composerHider { border-bottom: 0px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204); margin: 0px; padding: 9px 10px 7px; }
+.fbFeedbackContent .composerHider .uiSelector { margin: -3px 1px; }
+.fbFeedbackContent .composerHider .uiSelector .uiSelectorButton, .fbFeedbackContent .composerHider .uiSelector .uiSelectorButton:active, .fbFeedbackContent .composerHider .uiSelector .uiSelectorButton:focus, .fbFeedbackContent .composerHider .uiSelector .uiSelectorButton:hover { background-image: url('5wfwmzm-cvr.html'); background-repeat: no-repeat; background-position: right -202px; background-color: transparent; border: medium none; margin: 0px; outline: 0px none; padding: 2px 20px 2px 0px; }
+.fbFeedbackContent .composerHider a { font-weight: bold; }
+.fbFeedbackContent .indicator { float: left; margin: 10px 0px 0px -45px; position: absolute; }
+.fbFeedbackContent .postContent .action_links { margin-bottom: 8px; }
+.fbFeedbackContent .postBlingBox { border: medium none; bottom: 1px; cursor: text; padding: 0px; position: relative; }
+.fbFeedbackContent .postBlingBox:hover { background-color: transparent; border: medium none; }
+.fbFeedbackContent { min-height: 160px; }
+.fbFeedbackContent .fbFeedbackPosts { padding: 0px 0px 0px 10px; }
+.fbFeedbackContent .profileName { font-size: 11px; }
+.fbFeedbackContent .fbFeedbackPost { border-style: solid; border-color: rgb(226, 226, 226); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px 0px; clear: both; padding-bottom: 0px ! important; padding-top: 10px; }
+.fbFeedbackContent li.fbTopLevelComment:first-of-type { border-width: 0px; }
+.fbFeedbackContent li.fbTopLevelComment:last-of-type { margin-bottom: -5px; }
+.fbFeedbackReplies .fbFeedbackPost { border-width: 0px 0px 1px; border-color: rgb(233, 233, 233); }
+.fbFeedbackReply form, .fbFeedbackContent .postReply, .postReplies { margin-top: 8px; }
+.fbFeedbackPost { position: relative; }
+.fbFeedbackPost .postContent { margin-top: 5px; }
+.fbFeedbackPost .postText { color: rgb(26, 26, 26); line-height: 14px; margin: 0px 28px 5px 0px; }
+.fbFeedbackPost .postActor { background-color: rgb(237, 237, 237); margin-bottom: 8px; margin-right: 11px; }
+.fbFeedbackContent .fbConnectWidgetFooter { position: static; }
+.fbFeedbackContent .fbConnectWidgetFooter .fbFooterBorder { margin: 5px 0px 0px; }
+.fbTopLevelComment .fbFeedbackReplies .fbCommentReply { border-width: 1px 0px 0px; }
+.fbCommentsEditSettings .uiInfoTable tr:nth-last-child(2) th, .fbCommentsEditSettings .uiInfoTable tr:nth-last-child(2) td { padding-bottom: 0px; }
+.uiHeader h3, .uiHeader h4 { color: rgb(51, 51, 51); font-size: 11px; }
+.uiHeader .uiHeaderTitle { outline: medium none; }
+.uiHeaderTopBorder { border-top: 1px solid rgb(170, 170, 170); padding-top: 0.5em; }
+div.uiHeaderTopBorder { margin-left: 0px; }
+.uiHeaderNav { border-color: rgb(238, 238, 238); margin: 8px 0px 0px 6px; padding: 7px 6px 3px 5px; }
+.uiHeaderNav h4 { color: gray; }
+.lfloat { float: left; }
+.rfloat { float: right; }
+.phm { padding-left: 10px; padding-right: 10px; }
+.sp_comments { background-image: url('like.png'); background-repeat: no-repeat; display: inline-block; height: 16px; width: 16px; }
+.sx_comments_cfavicon { width: 14px; height: 14px; background-position: 0px -187px; }
+.sx_comments_like { width: 15px; height: 13px; background-position: -33px -170px; }
+.fuzzies ul li::before { content: "» "; }
+.uiBlingBox { border-bottom: 1px solid rgb(255, 255, 255); display: inline-block; padding: 3px 4px 3px 2px; }
+.uiBlingBox:hover { text-decoration: none; background-color: rgb(236, 239, 245); border-bottom: 1px solid rgb(229, 234, 241); }
+.uiBlingBox .text { line-height: 11px; vertical-align: text-bottom; }
+.uiBlingBox .img { margin-right: 2px; vertical-align: text-top; }
+.uiButton { cursor: pointer; display: inline-block; font-size: 11px; font-weight: bold; line-height: 13px; padding: 2px 6px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; }
+.uiButton, .uiButtonSuppressed:active, .uiButtonSuppressed:focus, .uiButtonSuppressed:hover { background-image: url('5wfwmzm-cvr.html'); background-repeat: no-repeat; background-position: -352px -348px; background-color: rgb(238, 238, 238); border-width: 1px; border-style: solid; border-color: rgb(153, 153, 153) rgb(153, 153, 153) rgb(136, 136, 136); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.uiButton:hover { text-decoration: none; }
+.uiButton:active, .uiButtonDepressed { background: rgb(221, 221, 221) none repeat scroll 0% 0%; border-bottom-color: rgb(153, 153, 153); }
+.uiButtonSuppressed { background: transparent none repeat scroll 0% 0%; border-color: transparent; }
+.uiImageBlockContent { overflow: hidden; }
+.uiImageBlockSmallContent { padding-top: 1px; }
+.uiImageBlockImage, .uiImageBlockImage .img { display: block; }
+.uiImageBlockSmallImage { margin-right: 5px; }
+a.uiLinkSubtle { color: gray; }
+.uiListItem { display: block; }
+.uiListVerticalItemBorder { border-width: 1px 0px 0px; }
+.uiListItem:first-child { border-width: 0px; }
+.uiToggleFlyout, .toggleTargetClosed, .openToggler .uiToggleFlyout .uiToggleFlyout { display: none; }
+.uiSelector { max-width: 200px; vertical-align: top; }
+.uiSelector .wrap { position: relative; }
+.uiSelector .uiButton, .uiSelector .uiButton:active, .uiSelector .uiButton:focus, .uiSelector .uiButton:hover { background-image: none; }
+.uiSelector .uiSelectorButton { vertical-align: top; }
+.uiSelector .uiSelectorButton:active { background-color: rgb(221, 221, 221); }
+.uiSelectorNormal .uiSelectorButton, .uiSelectorNormal .uiSelectorButton:active, .uiSelectorNormal .uiSelectorButton:focus, .uiSelectorNormal .uiSelectorButton:hover, .uiSelectorNormal .uiButtonSuppressed:active, .uiSelectorNormal .uiButtonSuppressed:focus, .uiSelectorNormal .uiButtonSuppressed:hover { background-image: url('5wfwmzm-cvr.html'); background-repeat: no-repeat; background-position: right -5px; max-width: 169px; padding-right: 23px; }
+.uiSelectorNormal .uiButtonOverlay, .uiSelectorNormal .uiButtonOverlay:active, .uiSelectorNormal .uiButtonOverlay:focus, .uiSelectorNormal .uiButtonOverlay:hover, .uiSelectorNormal .uiSelectorButton:active, .uiSelectorNormal .uiButtonSuppressed { background-image: url('5wfwmzm-cvr.html'); background-repeat: no-repeat; background-position: right -202px; }
+.uiSelectorMenuWrapper { bottom: auto; left: 0px; margin: -1px 0px 30px; max-width: 340px; min-width: 100%; position: absolute; right: auto; top: 100%; z-index: -1; }
+.fss { font-size: 9px; }
+.fsm { font-size: 11px; }
+.fsl { font-size: 13px; }
+.fwn { font-weight: normal; }
+.fwb { font-weight: bold; }
+.fcb { color: rgb(51, 51, 51); }
+.fcg { color: gray; }
+.UIImageBlock_Content { display: table-cell; vertical-align: top; width: 10000px; }
+.UIImageBlock_Image { float: left; margin-right: 5px; }
+.UIImageBlock_Image .img, img.UIImageBlock_Image, i.UIImageBlock_Image { display: block; }
+.UIImageBlock_MED_Image, .UIImageBlock_ENT_Image { margin-right: 10px; }
+.fbcommentscontainer a { color: rgb(59, 89, 152) ! important; }
+@media screen and (max-width: 767px) {
+  .fbcommentscontainer { margin-top: 20px; width: 100%; }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fbcommentscontainer { width: 100%; }
+}
+html { font-family: sans-serif; }
+body { margin: 0px; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+audio:not([controls]) { display: none; height: 0px; }
+a { background: transparent none repeat scroll 0% 0%; }
+a:link { color: rgb(255, 150, 0); }
+a:visited { color: rgb(255, 150, 0); }
+a:hover { color: rgb(175, 107, 10); }
+a:active { color: rgb(255, 150, 0); }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+img { border: 0px none; display: block; max-width: 100%; height: auto; }
+svg:not(:root) { overflow: hidden; }
+hr { box-sizing: content-box; height: 0px; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+p { margin: 0px 0px 15px; }
+* { box-sizing: border-box; }
+*::before, *::after { box-sizing: border-box; }
+body { font: 400 16px/20px "Roboto",sans-serif; color: rgb(0, 0, 0); padding: 0px; margin: 0px; background-color: rgb(255, 255, 255); }
+.container { width: 960px; margin: 0px auto; }
+a { color: rgb(72, 96, 130); text-decoration: none; }
+header {  }
+.header-top-block {  }
+.header-top-block::before { content: ""; display: block; width: 100%; height: 40px; background-color: rgb(255, 255, 255); }
+.header-top-block .container { padding: 10px 0px; position: relative; }
+.header-top-block .social-links { float: right; }
+.header-top-block .social-links .twitt { display: inline-block; vertical-align: top; width: 25px; height: 25px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll 0px -40px; margin: 0px 0px 0px 10px; }
+.header-top-block .social-links .fbook { display: inline-block; vertical-align: top; width: 25px; height: 25px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll -40px -40px; margin: 0px 0px 0px 10px; }
+.header-top-menu { float: right; padding: 0px 10px; margin: 0px; }
+.header-top-menu li { display: block; float: left; padding: 0px; margin: 0px 10px; text-transform: uppercase; font-size: 14px; line-height: 25px; }
+.header-top-menu a { color: rgb(92, 92, 92); }
+.header-top-menu a:hover {  }
+.header-top-block .some-links {  }
+.header-top-block .some-links .sun-link { display: inline-block; vertical-align: top; width: 25px; height: 25px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll 0px 0px; margin-right: 15px; }
+.header-top-block .some-links .thunder-link { display: inline-block; vertical-align: top; width: 25px; height: 25px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll -40px 0px; margin-right: 15px; }
+.header-top-block .some-links .text-link { font-size: 14px; line-height: 25px; text-transform: uppercase; color: rgb(92, 92, 92); }
+.site-logo { display: block; width: 30%; margin: 10px auto -30px; position: relative; z-index: 100; }
+.site-logo img { display: block; max-width: 100%; margin: 0px auto; }
+.main-menu-wrapper { box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3); }
+.main-menu-wrapper .container {  }
+.main-menu { display: block; padding: 0px; margin: 0px; position: relative; height: 35px; }
+.main-menu > li { display: block; float: left; padding: 5px 20px; margin: 0px; font-size: 16px; line-height: 25px; border-right: 2px solid rgb(221, 221, 221); }
+.main-menu > li:nth-child(3), .main-menu > li:nth-child(4) { border-right: 0px none; border-left: 2px solid rgb(221, 221, 221); }
+.main-menu > li:nth-child(3) { margin-left: 46.875%; }
+.main-menu .menu-link { color: rgb(53, 53, 53); font-family: "Playfair Display",serif; }
+.main-menu .menu-link.auth, .main-menu .menu-link.search { color: rgb(154, 154, 154) ! important; font-family: "Roboto",sans-serif; }
+.main-menu .menu-link.auth::before { content: ""; display: inline-block; vertical-align: top; width: 25px; height: 25px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll -40px -80px; }
+.main-menu .menu-link.search::before { content: ""; display: inline-block; vertical-align: top; width: 25px; height: 25px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll 0px -80px; }
+.main-menu li:hover .menu-link, .main-menu .menu-link.is-active { color: rgb(80, 144, 153); }
+.main-menu .sublink-dropdown { display: none; width: 100%; height: 35px; padding: 5px 20px; margin: 0px; box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3); font-size: 14px; line-height: 25px; border-width: 0px 2px 2px; border-style: none solid solid; border-color: -moz-use-text-color rgb(221, 221, 221) rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: absolute; top: 100%; left: 0px; }
+.content-page { clear: left; }
+.content-page .container { padding-top: 5px; overflow: hidden; }
+.content-page .content { width: 66%; float: left; padding: 0px 20px 30px; margin: 0px; background-color: transparent; background-image: url('article-bg-left.png'), url('article-bg-right.png'); background-attachment: scroll, scroll; background-clip: border-box, border-box; background-origin: padding-box, padding-box; background-size: auto auto, auto auto; background-repeat: repeat-y; background-position: 1% center, 99% center; }
+.content .article { margin-bottom: 35px; padding-top: 10px; }
+.content .article p { font-family: Georgia,Cambria,"Times New Roman",Times,serif; line-height: 1.5625; }
+.content .article h3 { font-family: "Alouisius-bold",Verdana,Geneva,sans-serif; font-size: 18px; font-weight: bold; line-height: 1.5625em; color: rgb(46, 74, 131); }
+.content .article .img-text { background: rgb(241, 244, 236) none repeat scroll 0% 0%; padding-bottom: 10px; }
+.content .article .img-text .full-width { width: 100%; }
+.content .article-title { font-size: 30px; line-height: 28px; }
+.content .article-author { margin: 0px; padding: 0px; }
+.content .article-publish-date { margin: 0px 0px 10px; padding: 0px; }
+.content .article-publish-date b { font-size: 12px; line-height: 20px; }
+.content .article-share { overflow: hidden; padding: 5px 0px; margin: 0px 0px 20px; border-top: 2px solid rgb(158, 154, 153); border-bottom: 2px solid rgb(158, 154, 153); }
+.content .article-share .comments-amount { float: right; }
+.content .article-share .comments-amount span { display: block; font-size: 44px; line-height: 40px; color: rgb(0, 78, 179); }
+.content .article-share .comments-amount span::before { content: ""; display: inline-block; vertical-align: top; margin-top: 5px; margin-right: 5px; width: 32px; height: 29px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll 0px -120px; }
+.content .article-share .comments-amount a { color: rgb(0, 78, 179); }
+.content .article-share .fbook-share { display: inline-block; vertical-align: top; font-size: 30px; line-height: 60px; font-weight: 600; font-family: "Roboto",sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; padding: 0px 10%; margin-left: 56px; margin-right: 10px; background: rgb(60, 90, 152) none repeat scroll 0% 0%; position: relative; }
+.content .article-share .fbook-share::before { content: ""; display: block; width: 54px; height: 60px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll 0px -240px; position: absolute; top: 0px; left: -56px; }
+.content .article-share .share-amount { display: inline-block; vertical-align: top; text-align: center; }
+.content .article-share .share-amount span { display: block; font-size: 44px; line-height: 40px; font-weight: 600; font-family: "Roboto",sans-serif; }
+.content .article2 { font-family: Arial,sans-serif; }
+.content .article-quote { position: relative; border-top: 2px solid rgb(237, 237, 237); border-bottom: 2px solid rgb(237, 237, 237); width: 40%; float: right; color: rgb(142, 129, 147); font-family: "Roboto",sans-serif; margin: 20px 20px 10px; padding: 40px 20px 5px; }
+.content .article-quote2 { position: relative; border-top: 2px solid rgb(237, 237, 237); border-bottom: 2px solid rgb(237, 237, 237); color: rgb(142, 129, 147); font-family: "Roboto",sans-serif; margin: 20px 20px 10px; padding: 10px 20px; }
+.content .article-quote::before { content: ""; display: block; width: 106px; height: 43px; background: transparent url('volkskrant_sprite01.jpg') no-repeat scroll 0px -180px; position: absolute; top: -20px; left: 50%; margin-left: -53px; }
+.content .article-quote .message { display: inline-block; vertical-align: top; font-size: 14px; line-height: 18px; margin-bottom: 10px; text-align: center; }
+.content .first-letter { font-size: 60px; line-height: 60px; margin-right: 10px; color: rgb(0, 0, 0); float: left; }
+.page-article { border-radius: 3px; border: 1px solid rgb(142, 129, 147); background: rgb(255, 255, 255) none repeat scroll 0% 0%; overflow: hidden; }
+.page-article .article-title { width: 100%; margin: 0px 0px 23px; padding: 9px 14px; font-size: 14px; line-height: 20px; text-transform: uppercase; border: 0px none; border-radius: 3px; color: rgb(255, 255, 255); background: rgb(50, 74, 126) none repeat scroll 0% 0%; }
+.page-article .img-banner { width: 300px; float: left; margin-right: -300px; margin-bottom: 28px; padding: 0px 28px; }
+.page-article .info-banner { float: left; margin-left: 300px; }
+.page-article .info-banner p { color: rgb(0, 0, 0); font-weight: 700; font-size: 17px; line-height: 19px; padding: 5px 0px; margin: 0px 0px 10px; }
+.page-article .info-banner .link { font-size: 14px; line-height: 24px; padding: 13px 55px; display: inline-block; color: rgb(255, 255, 255); background: rgb(188, 58, 58) none repeat scroll 0% 0%; border-radius: 3px; text-transform: uppercase; font-weight: 400; }
+.page-article .info-banner .link span {  }
+.page-article .info-banner .link span::after { content: ""; display: inline-block; vertical-align: top; width: 30px; height: 24px; background: transparent url('oksite_button.png') no-repeat scroll 8px 4px; }
+.content-page .content-sidebar { width: 34%; float: left; padding: 0px 20px; margin: 0px; }
+.content-sidebar .sidebar-block { margin: 0px 0px 20px; overflow: hidden; }
+.sidebar-block-title { margin: 0px 0px 10px; padding: 0px; text-transform: none; font-size: 16px; line-height: 30px; font-weight: 600; border-bottom: 2px solid rgb(221, 221, 221); color: rgb(138, 132, 144); }
+.articles .sidebar-block-title { text-transform: uppercase; }
+.sidebar-articles-list { display: block; margin: 0px; padding: 0px; }
+.sidebar-articles-list li { display: block; padding: 0px; margin: 10px 0px; }
+.sidebar-articles-list .article-link { font-size: 14px; color: rgb(0, 0, 0); }
+.sidebar-articles-list .article-date { display: block; color: rgb(171, 171, 171); }
+@media all and (max-width: 959px) {
+  .container { width: 100%; }
+  .content-page .content { float: none; width: 100%; }
+  .content-page .content-sidebar { float: none; width: 100%; }
+  .header-top-block { display: none; }
+  .site-logo { margin-bottom: 10px; width: 50%; }
+  .main-menu { height: auto; }
+  .main-menu > li { float: none; }
+  .main-menu .menu-link { display: block; text-align: center; }
+  .main-menu .menu-link.is-active {  }
+  .main-menu .sublink-dropdown { position: static; margin-top: 2px; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); height: auto; }
+  .main-menu .sublink-dropdown.is-open {  }
+  .main-menu > li:nth-child(3) { margin: 0px; }
+  .main-menu > li:nth-child(4) {  }
+  .content ul { padding-left: 20px; }
+  .page-article { margin-left: 0px; margin-bottom: 15px; float: none; width: 100%; overflow: hidden; }
+  .page-article .article-title { font-size: 11px; line-height: 14px; }
+  .page-article .img-banner { margin-right: -240px; width: 240px; }
+  .page-article .info-banner { margin-left: 240px; }
+}
+@media all and (max-width: 540px) {
+  .page-article .img-banner { margin: 0px auto 10px; float: none; }
+  .page-article .info-banner { float: none; width: 100%; margin: 0px 0px 10px; text-align: center; }
+  .page-article .info-banner .link { display: inline-block; vertical-align: top; }
+}
+@media all and (max-width: 479px) {
+  .content .article-share {  }
+  .content .article-share .comments-amount span { font-size: 34px; }
+  .content .article-share .fbook-share { margin-left: 0px; font-size: 20px; border-radius: 5px; }
+  .content .article-share .fbook-share::before { display: none; }
+  .content .article-share .share-amount {  }
+  .content .article-share .share-amount span { font-size: 34px; }
+  .content .article-quote { padding-left: 10px; padding-right: 10px; }
+  .content .article-quote .message { font-size: 12px; line-height: 14px; }
+}
