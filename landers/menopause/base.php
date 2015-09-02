@@ -81,7 +81,7 @@ $assets .= '/';
           <ul>
           <li>Women over the age of 40 can drop weight, improve their mood and sleep better at night. </li>
           <li> The all-natural fruit extract <a href="<?= $step1_link ?>"><?= $step1_name ?></a> allows women to keep their diets while losing weight. </li>
-          <li>This &quot;Menopause Slim-Down&quot; is  available to facebook users for one day only for $5. </li>
+          <li>This &quot;Menopause Slim-Down&quot; is  available to facebook users for one day only for <?= $geo->money(5, 0) ?>. </li>
           </ul>
 
           <div class="gap20"></div>
@@ -134,7 +134,7 @@ $assets .= '/';
           <p>&nbsp;</p>
           <p>If you&rsquo;re feeling skeptical right now, you&rsquo;re not alone. We here at Women&rsquo;s Health have seen many promising products come and go over the last 18 years. When we first learned about &lsquo;yet another&rsquo; fat-burning/body-firming product our fad radar went off right away. Even after pouring through mountains of research. While I had an educated opinion, I still had no personal proof that <a href="<?= $step1_link ?>"><?= $step1_name ?></a> option was worth the time. So, with my editors blessing, I decided to go out and put the product to the test myself. What better way to find out the truth than to conduct my own study?</p>
           <p>We know that the thought of losing your excess fat often feels like an impossible challenge. We&rsquo;ve evaluated numerous fat-loss programs and it seems like everything, too demanding or doesn&rsquo;t work as claimed. The reason why most programs fail is because they impose unrealistic restrictions on your daily life.</p>
-          <p>In this special report, I explain exactly how I tested the product and show you the surprising results I achieved. Today, I&rsquo;m leaking the secret to what, we here at Women&rsquo;s Health, call &ldquo;quite possibly the most effective female physique transformation stack the world has ever seen&rdquo;. I&rsquo;ll show you how you too can get a leaner, slimmer sexier body quickly and safely without having to use illegal drugs or paying $1000&rsquo;s for surgery.</p>
+          <p>In this special report, I explain exactly how I tested the product and show you the surprising results I achieved. Today, I&rsquo;m leaking the secret to what, we here at Women&rsquo;s Health, call &ldquo;quite possibly the most effective female physique transformation stack the world has ever seen&rdquo;. I&rsquo;ll show you how you too can get a leaner, slimmer sexier body quickly and safely without having to use illegal drugs or paying <?= $geo->money(1000) ?>'s for surgery.</p>
           <h3><strong>The Science behind<a href="<?= $step1_link ?>"> <?= $step1_name ?></a></strong></h3>
           <p><a href="<?= $step1_link ?>"><?= $step1_name ?></a> is a small fruit which looks a bit like a tiny pumpkin. Found in Asia, Australia, Polynesia and parts of Africa, this fruit has long been used by native people because of its amazing and diversified health properties. </p>
 
@@ -188,26 +188,26 @@ $assets .= '/';
         <div class="col-sm-12">
           <h4><strong><a href="<?= $step1_link ?>" class="step-link"> <?= $step1_name ?></a> Clinical Studies</strong></h4>
           <ul>
-          <li>The health journal Lipids in Health &amp; Disease  showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> lost an average of 19.3 pounds in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
+          <li>The health journal Lipids in Health &amp; Disease  showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> lost an average of <?= $geo->weight(19.3) ?> in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
 
           <li><?= $step1_name ?> contains <b>no toxins, artificial chemicals or stimulants</b>. It is 100% natural.</li>
 
           <li>Studies show <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> increases metabolism. In turn, the increased metabolic functions increase weight loss by more than 640%.</li>
 
-          <li>Studies also show a 39% <b>reduction in cholesterol</b> along with a two-inch average reduction in belly fat over four weeks.</li> 
+          <li>Studies also show a 39% <b>reduction in cholesterol</b> along with a <?= $geo->weight(2) ?> average reduction in belly fat over four weeks.</li> 
 
-          <li>Subject in the study who took <?= $step1_name ?> lost an average of 17 pounds more than study participants who were given a placebo. </li>
+          <li>Subject in the study who took <?= $step1_name ?> lost an average of <?= $geo->weight(17) ?> more than study participants who were given a placebo. </li>
 
           <li>Additional studies show that participants who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> had a 49% reduction in fat loss and a reduction of body weight of up to 4.6%.</li> 
           </ul>
 
           <p>Of course, we’d never recommend <?= $step1_name ?> without firsthand knowledge. This is why we’d like to introduce our readers to Dolores Williams.</p>
 
-          <h4><strong>Dolores Williams, 52, Lost 21 Pounds in 30 Days. Here’s How She Did It and How You Can, Too!</strong></h4>
+          <h4><strong>Dolores Williams, 52, Lost <?= $geo->weight(21) ?> in 30 Days. Here’s How She Did It and How You Can, Too!</strong></h4>
 
           <p>When we were asking our staff if they knew any women who might be willing to test out <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> for our report, almost immediately our associate editor Christina Williams raised her hand.</p>
 
-          <p>“My mother is 52 years old and just last week her doctor told she needed to lose weight as soon as possible,” said Ashley. “The problem is a heart condition that keeps her from doing any strenuous exercise. She’s been looking for a way to stay out of the gym but also drop the pounds.”</p>
+          <p>“My mother is 52 years old and just last week her doctor told she needed to lose weight as soon as possible,” said Ashley. “The problem is a heart condition that keeps her from doing any strenuous exercise. She’s been looking for a way to stay out of the gym but also drop the <?= $geo->unit('weight') ?>.”</p>
           <p>Ashley’s mom, Dolores, seemed like the perfect candidate to give us an honest report of her experiences. When we approached her, she was thrilled to try it out. And, as we quickly learned, she wasn’t the type of person to hold back her opinion.</p>
           <div class="gap20"></div>
         <h3 class="text-center"><strong>Dolores' Complete Weight-Loss Report</strong></h3><div class="gap20"></div>
@@ -231,9 +231,9 @@ $assets .= '/';
         </div>
         <div class="col-sm-6">
           <h2><strong class="text-pink">Week One</strong></h2>
-          <p>My doctor just told me I was fat. Well, he didn’t say it so directly – he went on about my BMI and where I fit in on the obesity scale – but I knew what he meant. I was at least 15 pounds overweight.</p>
+          <p>My doctor just told me I was fat. Well, he didn’t say it so directly – he went on about my BMI and where I fit in on the obesity scale – but I knew what he meant. I was at least <?= $geo->weight(15) ?> overweight.</p>
           <p>Going to the gym just isn’t a part of my lifestyle. I have a bad ticker and bad knees. So I needed something which would help me stop being fat, but which didn’t require diet or exercise. When my daughter suggested <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a>, I was intrigued.</p> 
-          <p>I took one pill daily for the first week. Right away, I noticed an increase in energy. That was great, but what I really wanted was weight loss. Well, within the first week, I dropped seven pounds. But was it just water weight?</p>
+          <p>I took one pill daily for the first week. Right away, I noticed an increase in energy. That was great, but what I really wanted was weight loss. Well, within the first week, I dropped <?= $geo->weight(7) ?>. But was it just water weight?</p>
         </div>
       </div>
     </div>
@@ -244,7 +244,7 @@ $assets .= '/';
         <div class="col-sm-6">
           <div class="gap40"></div>
           <h2><strong class="text-pink">Week Two</strong></h2>
-          <p>Those first seven pounds weren't just water weight! By the end of week two, I lost an additional five pounds. I didn't have to change my diet or routine in any way. I was now down a total of 12 pounds. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
+          <p>Those first <?= $geo->weight(7) ?>weren't just water weight! By the end of week two, I lost an additional <?= $geo->weight(5) ?>. I didn't have to change my diet or routine in any way. I was now down a total of <?= $geo->weight(12) ?>. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
           
         </div>
         <div class="col-sm-6">
@@ -262,7 +262,7 @@ $assets .= '/';
         <div class="col-sm-6">
           <div class="gap40"></div>
           <h2><strong class="text-pink">Week Four</strong></h2>
-          <p>My doctor was completely surprised – in a good way! I lost 21 pounds in just one month. And I didn’t change my lifestyle in any way except with the addition of <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a>.</p> <p>In just one month, I lost enough weight that my doctor no longer considers my weight a risk factor. Here’s to the long life ahead of me!</p>
+          <p>My doctor was completely surprised – in a good way! I lost <?= $geo->weight(21) ?> in just one month. And I didn’t change my lifestyle in any way except with the addition of <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a>.</p> <p>In just one month, I lost enough weight that my doctor no longer considers my weight a risk factor. Here’s to the long life ahead of me!</p>
         </div>
       </div>
     </div>
@@ -284,7 +284,7 @@ $assets .= '/';
             <img src="<?= $assets ?>img/img-c2.jpg" class="img-responsive center-block img-thumbnail"><div class="gap20"></div>
         </div>
         <div class="col-sm-6">
-            <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve all areas of your overall health. As an unexpected side effect, 
+        <p><strong>The Results of Our Investigation:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> extract</a> is an effective and safe way for women to lose weight. You’ll drop <?= $geo->unit('weight') ?> quickly which, in turn, will improve all areas of your overall health. As an unexpected side effect, 
             <?= $step1_name ?> extract is also extremely effective at managing and reducing the symptoms of menopause.</p> 
             <p>No matter what your age is, it’s never too late to be trim and healthy – and <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> is a great solution. We absolutely recommend it to our readers!</p>    
         </div>
@@ -308,7 +308,7 @@ $assets .= '/';
                   <h5 class="text-center pillstep">HURRY: Only 8 Trials Remaining</h5><br>
                   <h4 class="text-center">Click here to get a Risk-Free Trial of <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a></h4>
                   <a href="<?= $step1_link ?>" class="cta step-link">Try Sample Today</a>
-                  <p class="text-center"><small>Use this exclusive link and pay just $5.95 for Shipping and Handling</small></p>
+                  <p class="text-center"><small>Use this exclusive link and pay just <?= $geo->money(5.95) ?> for Shipping and Handling</small></p>
                   <p class="text-center"><small><strong>DISCLAIMER:</strong> I used this product during my 4-week Experiment to achieve my results.</small></p>
                   </div>
               </div>
@@ -337,7 +337,7 @@ $assets .= '/';
                 <div class="col-xs-3 col-sm-2"><img src="<?= $assets ?>img/c1.jpg" class="img-responsive center-block"></div>
                 <div class="col-xs-9 col-sm-10">
                   <p><strong><a href="#">Lana Rodgers Watson</a></strong></p>
-                  <p>Exercise is one of my least favorite activities. I was so amazed when the pounds started just melting off after just two weeks of using this <?= $step1_name ?> supplement. Works great with no working out!</p>
+                  <p>Exercise is one of my least favorite activities. I was so amazed when the <?= $geo->unit('weight') ?> started just melting off after just two weeks of using this <?= $step1_name ?> supplement. Works great with no working out!</p>
                   <div class="comment-meta"><a href="#">Reply</a> &bull; 13 &bull; <a href="#">Like</a> &bull; <abbr title="Comment">12 minutes ago</abbr></div>
                 </div>
               </div>
@@ -376,7 +376,7 @@ $assets .= '/';
                 <div class="col-xs-3 col-sm-2"><img src="<?= $assets ?>img/c8.jpg" class="img-responsive center-block"></div>
                 <div class="col-xs-9 col-sm-10">
                   <p><strong><a href="#">Tanya Gonzales</a></strong></p>
-                  <p>I lost 12 pounds in just three weeks! Works great so far. Excited to see how much more weight I’ll lose.</p>
+                  <p>I lost <?= $geo->weight(12) ?> in just three weeks! Works great so far. Excited to see how much more weight I’ll lose.</p>
                   <div class="comment-meta"><a href="#">Reply</a> &bull; 3 &bull; <a href="#">Like</a> &bull; <abbr title="Comment">1 hour ago</abbr></div>
                 </div>
               </div>
