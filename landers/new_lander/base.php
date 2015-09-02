@@ -257,10 +257,10 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p>After the fourth week, my final results were shocking. I lost an unbelievable <?= $geo->weight(21) ?> since starting the <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> &amp; <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong> diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> &amp; <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> in week 4 I lost 2 more pounds. But to be honest I really didn’t have much more left to lose.</p> 
+        <p>After the fourth week, my final results were shocking. I lost an unbelievable <?= $geo->weight(21) ?> since starting the <strong class="text-pink"><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> &amp; <strong class="text-pink"><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong> diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> &amp; <a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a> in week 4 I lost 2 more <?= $geo->unit('weight') ?>. But to be honest I really didn’t have much more left to lose.</p>
 
           <p>I am definitely going to continue taking the <a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a> afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable. A pretty sweet side-effect.</p>
-          <p class="text-center"><strong class="text-pink">“I couldn’t be any happier with the results.I Lost <?= $geo->weight(21) ?> in 4 Weeks, No Special Diet, No Intense Exercise”</strong></p>
+          <p class="text-center"><strong class="text-pink">“I couldn’t be any happier with the results. I Lost <?= $geo->weight(21) ?> in 4 Weeks, No Special Diet, No Intense Exercise”</strong></p>
         </div>
         <div class="col-sm-6">
         <a href="<?= $step1_link ?>">
@@ -317,7 +317,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
                   <h5 class="text-center pillstep">HURRY: Only 8 Trials Remaining</h5><br>
                   <h4 class="text-center">Click here to get a Risk-Free Trial of <strong><a class="step-link" href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> &amp; <strong><a class="step-link" href="<?= $step2_link ?>"><?= $step2_name ?></a></strong></h4>
                   <a class="step-link" href="<?= $step1_link ?>" class="cta">Try Sample Today</a>
-                  <p class="text-center"><small>Use this exclusive link and pay just $5.95 for Shipping and Handling</small></p>
+                  <p class="text-center"><small>Use this exclusive link and pay just <?= $geo->money(5.95) ?> for Shipping and Handling</small></p>
                   <p class="text-center"><small><strong>DISCLAIMER:</strong> I used BOTH products during my 4-week Experiment to achieve my results.</small></p>
                   </div>
               </div>
