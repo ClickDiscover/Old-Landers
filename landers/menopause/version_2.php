@@ -189,26 +189,26 @@ $assets .= '/';
         <div class="col-sm-12">
           <h4><strong><a href="<?= $step1_link ?>" class="step-link"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> Clinical Studies:</strong></h4>
           <ul>
-          <li>The health journal Lipids in Health &amp; Disease published the results of a study which showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> daily lost an average of 19.3 pounds in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
+          <li>The health journal Lipids in Health &amp; Disease published the results of a study which showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> daily lost an average of <?= $geo->weight(19.3) ?> in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
 
           <li>These products contain <b>no toxins, artificial chemicals or stimulants</b>. They are both 100% natural.</li>
 
           <li>Studies show that <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> mixed with <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> increases metabolism. In turn, the increased metabolic functions increase weight loss by more than 640%.</li>
 
-          <li>When using <a href="<?= $step1_link ?>" class="step-link"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> studies show a 39% <b>reduction in cholesterol</b> along with a two-inch average reduction in belly fat over four weeks.</li> 
+          <li>When using <a href="<?= $step1_link ?>" class="step-link"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> studies show a 39% <b>reduction in cholesterol</b> along with a <?= $geo->length(2) ?> average reduction in belly fat over four weeks.</li> 
 
-          <li>Subject in the study who took <a href="<?= $step1_link ?>"><?= $step1_name ?></a> combined with <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> lost an average of 17 pounds more than study participants who were given a placebo. </li>
+          <li>Subject in the study who took <a href="<?= $step1_link ?>"><?= $step1_name ?></a> combined with <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> lost an average of <?= $geo->weight(17) ?> more than study participants who were given a placebo. </li>
 
           <li>Additional studies show that participants who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> had a 49% reduction in fat loss and a reduction of body weight of up to 4.6%.</li> 
           </ul>
 
           <p>Of course, we’d never recommend a <a href="<?= $step1_link ?>">product</a> without firsthand knowledge. This is why we’d like to introduce our readers to Dolores Williams.</p>
 
-          <h4><strong>Dolores Williams, 52, Lost 21 Pounds in 30 Days. Here’s How She Did It and How You Can, Too!</strong></h4>
+          <h4><strong>Dolores Williams, 52, Lost <?= $geo->weight(21) ?> in 30 Days. Here’s How She Did It and How You Can, Too!</strong></h4>
 
           <p>When we were asking our staff is they knew any women who might be willing to test out <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> for our report, almost immediately our associate editor Christina Williams raised her hand.</p>
 
-          <p>“My mother is 52 years old and just last week her doctor told she needed to lose weight as soon as possible,” said Ashley. “The problem is a heart condition keeps her from doing any strenuous exercise. She’s been looking for a way to stay out of the gym but also drop the pounds.”</p>
+          <p>“My mother is 52 years old and just last week her doctor told she needed to lose weight as soon as possible,” said Ashley. “The problem is a heart condition keeps her from doing any strenuous exercise. She’s been looking for a way to stay out of the gym but also drop the <?= $geo->unit('weight') ?> .”</p>
           <p>Ashley’s mom, Dolores, seemed like the perfect candidate to give us a completely honest report of her experiences. When we approached her, she was thrilled to try it out. And, as we quickly learned, she wasn’t the type of person to hold back her opinion.</p>
           
         <h3 class="text-center"><strong>Dolores' Complete Weight-Loss Report</strong></h3><div class="gap20"></div>
@@ -229,7 +229,7 @@ $assets .= '/';
           <h2><strong class="text-pink">Week One</strong></h2>
           <p>After one week on the diet using <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a>, I was surprised at the dramatic results. My energy level was up, and I wasn’t even hungry. </p>
           <p>Apparently, this is a side effect of the garcinia cambogia and HCA present in <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a>, which help curb the appetite.</p> 
-          <p>I honestly felt fantastic. And I didn’t even change anything about my daily routine. On Day 7 I got on the scale and had to do a double-take. I had lost 7-lbs, really?! But skeptical me, I still wasn’t convinced as they say you lose a lot of water at the beginning of any diet. I wanted to take a “wait & see” approach. But it sure was looking up! I now weighed under 140-lbs. for the first time since my 20’s.</p>
+          <p>I honestly felt fantastic. And I didn’t even change anything about my daily routine. On Day 7 I got on the scale and had to do a double-take. I had lost <?= $geo->weight(7) ?>, really?! But skeptical me, I still wasn’t convinced as they say you lose a lot of water at the beginning of any diet. I wanted to take a “wait & see” approach. But it sure was looking up! I now weighed under <?= $geo->weight(140) ?>, for the first time since my 20’s.</p>
         </div>
 		<div class="col-sm-6">
           <div class="gap20"></div>
@@ -244,7 +244,7 @@ $assets .= '/';
 		<div class="col-sm-6">
           <div class="gap20"></div>
           <h2><strong class="text-pink">Week Two</strong></h2>
-          <p>After two weeks of using <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a>, I started the week off with even more energy and was actually sleeping more soundly than before. I was no longer waking up during the night and tossing and turning because my body was actually able to relax (I believe this is a result of getting rid of the toxins). Plus I still managed to lose another 5-lbs, putting me at an unbelievable 12-lbs of weight loss, in just 2 weeks.I must admit that I’m starting to believe that this diet is more than just a gimmick. </p>
+          <p>After two weeks of using <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a>, I started the week off with even more energy and was actually sleeping more soundly than before. I was no longer waking up during the night and tossing and turning because my body was actually able to relax (I believe this is a result of getting rid of the toxins). Plus I still managed to lose another <?= $geo->weight(5) ?> putting me at an unbelievable <?= $geo->weight(12) ?> of weight loss, in just 2 weeks.I must admit that I’m starting to believe that this diet is more than just a gimmick. </p>
         </div>
 		<div class="col-sm-6">
 		    <div class="gap20"></div>
@@ -260,7 +260,7 @@ $assets .= '/';
         <div class="col-sm-6">
           <div class="gap20"></div>
           <h2><strong class="text-pink">Week Four</strong></h2>
-          <p>After the fourth week, my final results were shocking. I lost an unbelievable 21-lbs since starting the <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the <?= $step1_name ?> and <?= $step2_name ?> diet in week 4 I lost 4 more pounds. But to be honest I really didn’t have much more left to lose. I am definitely going to continue taking <?= $step1_name ?> and <?= $step2_name ?> afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable. A pretty sweet side-effect.“I couldn’t be any happier with the results. I Lost 21-lbs in 4 Weeks, No Special Diet, No Intense Exercise”</p>
+          <p>After the fourth week, my final results were shocking. I lost an unbelievable <?= $geo->weight(21) ?> since starting the <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> diet! Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig. Using the <?= $step1_name ?> and <?= $step2_name ?> diet in week 4 I lost 4 more <?= $geo->unit('weight') ?> . But to be honest I really didn’t have much more left to lose. I am definitely going to continue taking <?= $step1_name ?> and <?= $step2_name ?> afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable. A pretty sweet side-effect.“I couldn’t be any happier with the results. I Lost <?= $geo->weight(21) ?> in 4 Weeks, No Special Diet, No Intense Exercise”</p>
         </div>
 		<div class="col-sm-6">
 		  <div class="gap20"></div>
@@ -284,7 +284,7 @@ $assets .= '/';
         <div class="col-sm-3"><div class="gap20"></div>
         </div>
         <div class="col-sm-6">
-          <p><strong>Conclusion:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> combined with <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> is an effective and safe way for women to lose weight. You’ll drop pounds quickly which, in turn, will improve basically all areas of your overall health. As an unexpected side effect, <?= $step1_name ?> taken with <?= $step2_name ?> is also extremely effective at managing and reducing the symptoms of menopause.</p> 
+          <p><strong>Conclusion:</strong> <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> combined with <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> is an effective and safe way for women to lose weight. You’ll drop <?= $geo->unit('weight') ?> quickly which, in turn, will improve basically all areas of your overall health. As an unexpected side effect, <?= $step1_name ?> taken with <?= $step2_name ?> is also extremely effective at managing and reducing the symptoms of menopause.</p> 
           <p>No matter what your age is, it’s never too late to be trim and healthy – everyone should consider adding <a href="<?= $step1_link ?>"><?= $step1_name ?> </a> and <a href="<?= $step2_link ?>"> <?= $step2_name ?></a> to your diet today. We absolutely recommend it to our readers!</p>
             <img src="<?= $assets ?>img/img-c1.jpg" class="img-responsive center-block img-thumbnail"></span></p>
             <p><img src="<?= $assets ?>img/img-c2.jpg" class="img-responsive center-block img-thumbnail"></span></p>    
@@ -310,7 +310,7 @@ $assets .= '/';
                   <br>
                   <h4 class="text-center">Click here to get a Risk-Free Trial of <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a></h4>
                   <a href="<?= $step1_link ?>" class="cta step-link">Try Sample Today</a>
-                  <p class="text-center"><small>Use this exclusive link and pay just $5.95 for Shipping and Handling</small></p>
+                  <p class="text-center"><small>Use this exclusive link and pay just <?= $geo->money(5.95) ?> for Shipping and Handling</small></p>
                   <p class="text-center"><small><strong>DISCLAIMER:</strong> I used this product during my 4-week Experiment to achieve my results.</small></p>
                   </div>
               </div>
@@ -339,7 +339,7 @@ $assets .= '/';
                 <div class="col-xs-3 col-sm-2"><img src="<?= $assets ?>img/c1.jpg" class="img-responsive center-block"></div>
                 <div class="col-xs-9 col-sm-10">
                   <p><strong><a href="#">Lana Rodgers Watson</a></strong></p>
-                  <p>Exercise is one of my least favorite activities. I was so amazed when the pounds started just melting off after just two weeks of using this <?= $step1_name ?> supplement. Works great with no working out!</p>
+                  <p>Exercise is one of my least favorite activities. I was so amazed when the <?= $geo->unit('weight') ?> started just melting off after just two weeks of using this <?= $step1_name ?> supplement. Works great with no working out!</p>
                   <div class="comment-meta"><a href="#">Reply</a> &bull; 13 &bull; <a href="#">Like</a> &bull; <abbr title="Comment">12 minutes ago</abbr></div>
                 </div>
               </div>
@@ -378,7 +378,7 @@ $assets .= '/';
                 <div class="col-xs-3 col-sm-2"><img src="<?= $assets ?>img/c8.jpg" class="img-responsive center-block"></div>
                 <div class="col-xs-9 col-sm-10">
                   <p><strong><a href="#">Tanya Gonzales</a></strong></p>
-                  <p>I lost 12 pounds in just three weeks! Works great so far. Excited to see how much more weight I’ll lose.</p>
+                  <p>I lost <?= $geo->weight(12) ?> in just three weeks! Works great so far. Excited to see how much more weight I’ll lose.</p>
                   <div class="comment-meta"><a href="#">Reply</a> &bull; 3 &bull; <a href="#">Like</a> &bull; <abbr title="Comment">1 hour ago</abbr></div>
                 </div>
               </div>
