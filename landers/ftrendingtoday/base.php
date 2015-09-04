@@ -31,17 +31,17 @@
             padding: 0!important;
         }
     </style>
-    <link rel='stylesheet' id='contact-form-7-css' href='../wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='bd-min-css' href='../wp-content/themes/magic-mag/css/min.css' type='text/css' media='screen' />
-    <link rel='stylesheet' id='bd-style-css' href='../wp-content/themes/magic-mag/style.css' type='text/css' media='screen' />
-    <link rel='stylesheet' id='bdayhFontAwesome-css' href='../wp-content/themes/magic-mag/css/fontawesome/css/font-awesome.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='color-3-css' href='../wp-content/themes/magic-mag/css/color-3.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='<?= $assets ?>/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bd-min-css' href='<?= $assets ?>/themes/magic-mag/css/min.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='bd-style-css' href='<?= $assets ?>/themes/magic-mag/style.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='bdayhFontAwesome-css' href='<?= $assets ?>/themes/magic-mag/css/fontawesome/css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='color-3-css' href='<?= $assets ?>/themes/magic-mag/css/color-3.css' type='text/css' media='all' />
     <link rel='stylesheet' id='BD-GOOGLE-css' href='http://fonts.googleapis.com/css_e9cc07a1.css' type='text/css' media='all' />
     <link rel='stylesheet' id='Droid+Sans-css' href='http://fonts.googleapis.com/css_75eef10f.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='../wp-content/themes/magic-mag/css/jquery.fancybox.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='<?= $assets ?>/themes/magic-mag/css/jquery.fancybox.css' type='text/css' media='all' />
 
     <meta name="generator" content="WordPress 4.2.2" />
-    <link rel="shortcut icon" href="../wp-content/themes/magic-mag/images/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?= $assets ?>/themes/magic-mag/images/favicon.png" type="image/x-icon" />
     <style type="text/css" media='screen'>
         .socialbox {
             text-align: center;
@@ -1009,11 +1009,11 @@ Most diet pills I have tried had me feeling very jittery and sick to my stomach.
 	
 	
 
-    <link rel='stylesheet' id='su-extra-css' href='../wp-content/plugins/shortcodes-ultimate-extra/assets/css/extra.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='su-content-shortcodes-css' href='../wp-content/plugins/shortcodes-ultimate/assets/css/content-shortcodes.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='su-box-shortcodes-css' href='../wp-content/plugins/shortcodes-ultimate/assets/css/box-shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='su-extra-css' href='<?= $assets ?>/shortcodes-ultimate-extra/assets/css/extra.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='su-content-shortcodes-css' href='<?= $assets ?>/shortcodes-ultimate/assets/css/content-shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='su-box-shortcodes-css' href='<?= $assets ?>/shortcodes-ultimate/assets/css/box-shortcodes.css' type='text/css' media='all' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="../wp-content/themes/magic-mag/js/scripts.js"></script>
+    <script src="<?= $assets ?>/themes/magic-mag/js/scripts.js"></script>
 
 <script>
 var fbLoaded = false,
