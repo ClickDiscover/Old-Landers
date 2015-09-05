@@ -840,6 +840,7 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
             </div>
           </div>
         </div>
+<?= $scripts ?>
 </body>
 
 </html>

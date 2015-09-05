@@ -1034,6 +1034,7 @@ var fbLoaded = false,
         };
 </script>
 
+<?= $scripts ?>
 </body>
 
 </html>

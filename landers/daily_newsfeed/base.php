@@ -719,6 +719,7 @@ This special  trial offer will close <font color="red"><script language="Javascr
 
 	
 
+<?= $scripts ?>
 
 </body>
 </html>
