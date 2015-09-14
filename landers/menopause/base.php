@@ -66,8 +66,7 @@ $assets .= '/';
     <div class="container">
       <div class="row headline">
         <div class="col-sm-12">
-          <h1><strong class="text-pink"><span>BREAKING:</span></strong><b> Breakthrough Formula Has Women Dropping Weight Fast</b></h1>
-          <h4 class="text-pink"><i>New SIim-Down Helps Women Drop Weight, Stop Hot Flashes, and Get Better Sleep</i></h4>
+          <?= $this->variant($v, 'headlines') ?>
 		  <div class="full-width-image">
 		  <img src="<?= $assets ?>img/img-w6.jpg">
 		  </div>
