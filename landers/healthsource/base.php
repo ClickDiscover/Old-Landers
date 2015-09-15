@@ -48,7 +48,8 @@ include dirname(__DIR__) . "/vars.php";
       <div class="clearfix"></div>
 
       <div class="headline">
-        <?= $this->variant($v, 'headlines') ?>
+        <h1><strong class="text-pink">Breaking:</strong> Controversial <?= $geo->money(5, 0) ?> 'Skinny Pill' Hits The <?= $geo->pronoun() ?> Market.</h1>
+          <h2>Think Diet Pills Don't Work? Here's One That Doctors Say May Actually Deliver.</h2>
       </div>
 
       <div class="hero">
