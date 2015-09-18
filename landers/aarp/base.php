@@ -94,6 +94,7 @@
             <source src="https://s3-us-west-2.amazonaws.com/womenshealthsource.net/dozvideo.mp4" type="video/mp4">
           </video>
         <br>
+        </center>
         <p class="pageheader"> “Dr. Oz Calls It - The Miracle Weight Loss Breakthrough - <br>
           Because It Works!” </p>
         <br>
