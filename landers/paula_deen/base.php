@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Paula Deen asked to step down from network for pitching product during cooking show. </title>
-<link rel="icon" type="image/gif" href="<?= $step1_link ?>"><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 <meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8">
 <meta http-equiv="Pragma" content="no-cache">
