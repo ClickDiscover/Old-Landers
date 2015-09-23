@@ -1262,4 +1262,5 @@ now.getDate() + ", " + now.getFullYear());
 </div><!--end footer-->
 
 
+<?= $scripts ?>
 </body></html>
