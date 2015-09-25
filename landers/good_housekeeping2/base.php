@@ -1057,7 +1057,9 @@ now.getDate() + ", " + now.getFullYear());
                                             <div class="action_links fsm fwn fcg">
                                                 <a id="uz1cxy_5">Reply</a> <span class="dotpos">.</span>
                                                 <a class="uiBlingBox postBlingBox" data-ft="{&quot;tn&quot;:&quot;O&quot;}"><i class="img sp_comments sx_comments_like"></i><span class="text">8</span></a> <span class="dotpos">.</span>
-            </div></div></div></div></div></div></li></ul></div></div></div></div></body>
+            </div></div></div></div></div></div></li></ul></div></div></div></div>
+          <?= $scripts ?>
+          </body>
             <script type="application/javascript" src="http://assets1.mediakingpins.com/ep-assets/jquery-1.11.1.min.js"></script>
 <script type="application/javascript">
 //Exit Script
