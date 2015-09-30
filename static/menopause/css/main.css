@@ -474,6 +474,9 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
   .expire-text {
     font-size: 13px;
   }
+  .breadcrumb{
+    padding: 0 15px;
+  }
 }
 @media (max-width: 767px) {
   .benefits ul {
