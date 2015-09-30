@@ -86,7 +86,7 @@
 </ol>
 		           <div class="col-md-8">
                   <h1 class="h1"> <b>How Jacky Dropped Her Bingo Wings</b></h1>
-                  <h4 class="h4">In this Article: We Bring You An Amazing Story About Jacky Wilson, And Her Success Over Bingo Wings" </h4>
+                  <h4 class="h4">In this Article: We Bring You An Amazing Story About Jacky Wilson, And Her Success Over Bingo Wings </h4>
                   <u>BY SHELLY CLARKSON</u><br>
                   <script language="Javascript">var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
