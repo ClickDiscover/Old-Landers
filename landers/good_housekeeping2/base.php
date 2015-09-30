@@ -1061,9 +1061,9 @@ now.getDate() + ", " + now.getFullYear());
 <script type="application/javascript">
 //Exit Script
 
-window.onbeforeunload = closePage;
+// window.onbeforeunload = closePage;
 
-var ShowExitPopup = true;
+// var ShowExitPopup = true;
 
 function resetCloseEvent(){
 	//window.alert("reset");
@@ -1079,9 +1079,9 @@ function exitSafe(){
 	setTimeout("resetCloseEvent()", int*10);
 }
 
-function redirectPage(){
-	window.location='http://track.trustgo.mobi/b58e4677-4d1f-4ecd-bb59-2271308e61e3';
-}
+// function redirectPage(){
+//     window.location='http://track.trustgo.mobi/b58e4677-4d1f-4ecd-bb59-2271308e61e3';
+// }
 
 function ExitPage(){
 	if (ShowExitPopup)

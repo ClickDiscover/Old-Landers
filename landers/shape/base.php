@@ -347,7 +347,7 @@ Dallas, Texas</strong></p>
 <a href="<?= $step2_link ?> " target="blank"> </a>
 <h2><strong><font color="#FF0000"> <script language="Javascript">document.write(todaysDate);</script>
  Special:</font></strong> Receive A <a href="<?= $step1_link ?> " target="blank"> Free Bottle Of <?= $step1_name ?> </a><br />
-<a href="<?= $step1_link ?> " target="blank"><img src="<?= $assets ?>/images/<?= $step1_image ?> " name="rvtl" class="pullleft" id="rvtl" title="" height="189" width="215" /></a><br />
+<a href="<?= $step1_link ?> " target="blank"><img src="<?= $step1_image ?> " name="rvtl" class="pullleft" id="rvtl" title="" height="189" width="215" /></a><br />
 </h2>
 <a href="<?= $step1_link ?> " target="blank">
 <img title="" src="<?= $assets ?>/images/bottlefree.png" class="step-btn" alt="" /></a>
@@ -379,7 +379,7 @@ now.getDate() + ", " + now.getFullYear());
 
 // -->
                             </script> Special:</font></strong> Receive A <a href="<?= $step2_link ?> " target="blank">Free Bottle Of <?= $step2_name ?> </a><br />
-<a href="<?= $step2_link ?> " target="blank"><img src="<?= $assets ?>/images/<?= $step2_image ?> " name="equinox" class="pullleft" id="equinox" title="" height="220" width="95" /></a><br /></h2>
+<a href="<?= $step2_link ?> " target="blank"><img src="<?= $step2_image ?> " name="equinox" class="pullleft" id="equinox" title="" height="220" width="95" /></a><br /></h2>
 <a href="<?= $step2_link ?> " target="blank"><img class="step-btn" title="" src="<?= $assets ?>/images/bottlefree.png" alt="" /></a>
 <br /><br />
 Take advantage of our exclusive link and pay only <strong> $4.95 </strong> for shipping!<br />
