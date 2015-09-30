@@ -23,6 +23,22 @@
 	body {
 	       font-family: 'Raleway', sans-serif;
 		   }
+       @media screen and (max-width: 530px) {
+         @-ms-viewport {
+           width: 320px; }
+
+           .expire-text {
+             font-size: 13px;
+             margin-top: 15px;
+           }
+         }
+       @media (max-width: 376px) {
+         .expire-text {
+           font-size: 13px;
+           margin-top: 15px;
+         }
+
+       }
 	</style>
 
 </head>
@@ -865,7 +881,7 @@
        <div class="expire-textcol-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
            <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
-             <button style="margin-top: 15px" class="btn btn-info">Claim Yours!</button>
+             <button style="margin-top: 0px" class="btn btn-info">Claim Yours!</button>
            </a>
        </div>
      </div>
