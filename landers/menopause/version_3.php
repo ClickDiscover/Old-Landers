@@ -71,7 +71,6 @@ $assets .= '/';
       <li><a href="#">Health</a></li>
       <li class="active">Fitness and Nutrition</li>
     </ol>
-    <hr>
   </section>
   <section class="padding-tb-40">
     <div class="container">
