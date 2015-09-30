@@ -6,7 +6,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) &&
     header('X-UA-Compatible: IE=edge,chrome=1');
 
 // Optional include in rotator V2
-// include dirname(__DIR__) . "/vars.php";
+// include dirname(__DIR__) . "/local.php";
 $assets .= '/';
 ?>
 <!DOCTYPE html>
@@ -17,6 +17,8 @@ $assets .= '/';
 
 <html class="no-js"> <!--<![endif]-->
   <head>
+
+
     <meta charset="utf-8">
     <title>Womens Health</title>
     <meta name="description" content="Womans Health" />

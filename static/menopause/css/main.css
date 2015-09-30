@@ -10,12 +10,12 @@ body {
   color: #333333;
   font-weight: 300; }
 
-  .facebook-exclusive {
+.facebook-exclusive {
     background: #3b5998;
     color: #ffffff;
     text-align: center;
+    margin-bottom: -25px;
 }
-
 
 
 p {
@@ -26,12 +26,6 @@ p {
   .facebook-exclusive #bluebar{
   font-size: 12px;
   }
-
-   .facebook-exclusive {
-	background: #3b5998;
-	color: #ffffff;
-	text-align: center;
-}
 
 /* Overrides */
 .nospace {
