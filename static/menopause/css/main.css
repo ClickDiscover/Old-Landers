@@ -10,15 +10,23 @@ body {
   color: #333333;
   font-weight: 300; }
 
+  .facebook-exclusive {
+    background: #3b5998;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
 p {
   line-height: 24px;
   margin-bottom: 24px;
   font-size: 16px; }
-  
+
   .facebook-exclusive #bluebar{
   font-size: 12px;
   }
-  
+
    .facebook-exclusive {
 	background: #3b5998;
 	color: #ffffff;
@@ -84,7 +92,7 @@ p {
   color: black;
   font-weight: bold;  }
 
-h4.text-pink { 
+h4.text-pink {
 	line-height: 1.8em;
 	padding: 0px;
 	margin: 0px;
@@ -96,7 +104,7 @@ h4.text-pink {
 .text-pink span{
 	color: #fc6b6c;
 }
-  
+
 .text-green {
   color: #73a437; }
 
@@ -153,11 +161,11 @@ h4.text-pink {
 .img-round {
   border-radius: 30px; }
 .benefits h3 a, .benefits h3 a:hover, .benefits h3 a:focus {
-    color: #fc6b6c !important; 
+    color: #fc6b6c !important;
 }
 
 .full-width-image img {
-	width: 100%;	
+	width: 100%;
 	height: auto;
 }
 .full-width-image{
@@ -186,6 +194,10 @@ h4.text-pink {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb6b6c', endColorstr='#cd5758',GradientType=0 );
   /* IE6-8 */
   padding: 10px 40px; }
+
+.topbar.versionThree {
+  background-color: rgb(228,36,77)
+}
 
 section li {
   font-size: 16px;
@@ -265,7 +277,7 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
 
 .benefits li a, .benefits li a:hover, .benefits li a:focus {
   color: #fc6b6c; }
-  
+
 
 .benefits li:before {
   font-family: 'FontAwesome';
@@ -427,7 +439,7 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
   margin: 0;
   font-size: 13px;
   line-height: 18px; }
-    
+
 
 .comment-meta {
   font-size: 12px;

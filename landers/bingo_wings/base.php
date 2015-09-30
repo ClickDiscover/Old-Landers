@@ -4,7 +4,7 @@ include dirname(__DIR__) . "/vars.php";
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-        
+
 <head>
         <title>Consumer Lab Report: Jacky's Arm Miracle Secret Revealed</title>
         <meta name="description" content=""/>
@@ -27,10 +27,10 @@ include dirname(__DIR__) . "/vars.php";
             <div> <a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/logo.png" alt=""/></a> <a href="<?= $step1_link ?>" target="_blank" class="right"><img src="<?= $assets ?>/rightsite.png" alt="" height="98px" style="margin-right: 20px;"/></a> </a> </div>
             <div class="clear"></div>
             <br/>
-            <div id="header-menu-pos"> 
-              
+            <div id="header-menu-pos">
+
               <!-- Begin header menu -->
-              
+
               <ul class="nav jt-menu ">
                 <li class="item-3 deeper parent"><a href="<?= $step1_link ?>">Home</a></li>
                 <li class="item-28 current active"><a href="<?= $step1_link ?>">Product Reviews</a></li>
@@ -49,9 +49,9 @@ include dirname(__DIR__) . "/vars.php";
                   <button onclick="" class="btn btn-primary"><img src="<?= $assets ?>/search.png" width="20px"></button>
                 </form>
               </div>
-              
+
               <!-- End header menu -->
-              
+
               <div class="clear"></div>
               <br/>
               <div>
@@ -67,7 +67,7 @@ include dirname(__DIR__) . "/vars.php";
 
                                                     var now = new Date();
 
-                                                    document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script> 
+                                                    document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script>
                   <img src="<?= $assets ?>/feature2.png" alt=""/> <img src="<?= $assets ?>/newsarticles.png" alt=""/><br>
                   <br>
                   <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/ag1-2.jpg" alt="" width="600px"/></a>
@@ -108,7 +108,7 @@ include dirname(__DIR__) . "/vars.php";
                   <div> <sup><img src="<?= $assets ?>/cite.png" width="25" height="19"></sup><b><i> Hollywood Celebs Have Been Using This Secret Formula For Years. And Now </i><a href="<?= $step1_link ?>"><?= $step1_name ?></a><i> Is FINALLY Available For The Public!</b></i> <sup><img src="<?= $assets ?>/cite2.png" width="25" height="19"></sup> </div>
                   <br/>
                   <p>
-                  
+
                   <div class="clear"></div>
                   <br/>
                   <div class="thumbsup-success-stories">
@@ -117,7 +117,7 @@ include dirname(__DIR__) . "/vars.php";
                     <ul>
                       <li> Made from 18 - 100% all natural ingredients</li>
                       <li>Clinically tested by the Good Housekeeping Research Institute (comprised of the top 10 dermatologists in the US)</li>
-                      <li><b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> has been proven to not only tone issues such as <b><a href="<?= $step1_link ?>">Bingo Wings</a></b>, but has been clinically proven to correct <b><a href="<?= $step1_link ?>">Cellulite</a></b>, <b><a href="<?= $step1_link ?>">Skin Lumps & Bumps</a></b>, <b><a href="<?= $step1_link ?>">Wrinkles</a></b>, and many more!             
+                      <li><b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> has been proven to not only tone issues such as <b><a href="<?= $step1_link ?>">Bingo Wings</a></b>, but has been clinically proven to correct <b><a href="<?= $step1_link ?>">Cellulite</a></b>, <b><a href="<?= $step1_link ?>">Skin Lumps & Bumps</a></b>, <b><a href="<?= $step1_link ?>">Wrinkles</a></b>, and many more!
                       <li>Lab test states: 47% decrease in dimpled skin after only 9 minutes</li>
                       <li>72% reduction in lumps and bumps after 6 weeks use</li>
                       <li>Penetrates all 7 layers of skin</li>
@@ -239,7 +239,7 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
                                                     document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script></strong></span> </div>
                   <div class="clear"></div>
                   <br/>
-                  <div style="border: 1px #4cc659 solid;padding: 10px;"> 
+                  <div style="border: 1px #4cc659 solid;padding: 10px;">
 					<div style="float: left; width: 221px; height: 260px;"><a href="<?= $step1_link ?>"> <img src="<?= $step1_image ?>" width="170" align="left" style="margin-right: 10px;" id="rvtl" title=""/> </a></div>
                     <h4>Receive A <a href="<?= $step1_link ?>">Free Trial Of <?= $step1_name ?></a></h4>
                     Use Our <span style="background-color: #FFFF00">EXCLUSIVE LINK</span> and pay only <span style="background-color: #FFFF00"><b>$4.95 USD</b></span> for shipping</b></span><br/>
@@ -256,7 +256,7 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
 
                                                     document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script></b></span> </div>
                   <div class="clear"></div>
-                  <div style="border: 1px #4cc659 solid;padding: 10px;"> 
+                  <div style="border: 1px #4cc659 solid;padding: 10px;">
                     <div style="float: left; width: 221px; height: 260px;"><a href="<?= $step2_link ?>"> <img src="<?= $step2_image ?>" name="<?= $step1_name ?>2" width="150" align="left" style="margin-right: 10px;" id="rvtl" title=""/> </a></div>
                     <h4>Receive A <a href="<?= $step2_link ?>">Free Trial Of <?= $step2_name ?></a></h4>
                     Use Our <span style="background-color: #FFFF00">EXCLUSIVE LINK</span> and pay only <span style="background-color: #FFFF00"><b>$4.95 USD</b></span> for shipping</b></span><br/>
@@ -700,7 +700,7 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
                   <div class="clear"></div>
                   <br/>
 
-                 
+
                   <div class="clear"></div>
                   <br/>
                   <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/sidebarba8.jpg" width="260" height="190" alt=""/></a><br/>
@@ -762,31 +762,32 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
                 <div class="footer">
                   <div align="center"><font color="eeeeee"><small>Copyright 2015</small></div>
                   <p> <small> We are not affiliated in any way with Dr.Oz, Rachel Ray, The Doctors, CNN, WebTV,
-                    
+
                     News Channel 7, ABC, NBC, MSNBC, USA Today, BBC, 60 Minutes, CBS, U.S. News or FOX.
-                    
+
                     CNN, WebTV, News Channel 7, ABC, NBC, MSNBC, USA Today, BBC, 60 Minutes, CBS, U.S.
-                    
+
                     News and FOX are all registered trademarks of their respective owners. All trademarks
-                    
+
                     on this web site whether registered or not, are the property of their respective owners.
-                    
+
                     The authors of this web site are not sponsored by or affiliated with any of the third-party
-                    
+
                     trade mark or third-party registered trade mark owners, and make no representations about
-                    
+
                     them, their owners, their products or services. *Results are not typical. Results can and
-                    
+
                     will vary from person to person. The story is based on the results that some people who have
-                    
+
                     used these products have achieved. The results portrayed in the story and in the comments are
-                    
+
                     illustrative and may not be the results that you achieve with these products. </small> </p>
                 </div>
                 <div class="clear"></div>
                 <div id="bottombar">
                   <div class="expire-text" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
                 </div>
+                                
                 <script>
 
                                                 function countdown(minutes) {
@@ -835,7 +836,7 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
 
                                                 countdown(15);
 
-                                            </script> 
+                                            </script>
               </div>
             </div>
           </div>

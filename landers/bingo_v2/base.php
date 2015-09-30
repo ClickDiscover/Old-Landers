@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	     <link rel="shortcut icon" href="<?= $assets ?>/images/icon.png">
-	
+
  <title>Consumer Lab Report: Jacky's Arm Miracle Secret Revealed</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?= $assets ?>/images/bootstrap.css" rel="stylesheet">
@@ -24,7 +24,7 @@
 	       font-family: 'Raleway', sans-serif;
 		   }
 	</style>
-	
+
 </head>
 <body oncontextmenu="return false">
 <div class="container">
@@ -37,7 +37,7 @@
 <div class="col-md-2">
 </div>
 <div class="col-md-2">
-<a href="<?= $step1_link ?>" target="_blank"><img class="mc" src="<?= $assets ?>/images/rightsite.png"> </a> 
+<a href="<?= $step1_link ?>" target="_blank"><img class="mc" src="<?= $assets ?>/images/rightsite.png"> </a>
 </div>
 </div>
 </div>
@@ -94,7 +94,7 @@
 
                                                     var now = new Date();
 
-                                                    document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script> 
+                                                    document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script>
                   <img src="<?= $assets ?>/images/feature2.png" width="100%" class="img-responsive" alt="">
 				  <img src="<?= $assets ?>/images/newsarticles.png" width="100%" class="img-responsive" alt=""> <br>
                   <a href="<?= $step1_link ?>"><img style="border-radius:5px;" src="<?= $assets ?>/images/ag1-2.jpg" width="100%" class="img-responsive"></a><br><br>
@@ -102,38 +102,38 @@
                   <div class="clear"></div>
                   <div class="thumbsup-success-stories">
                     <h2>About Jacky</h2>
-                    <p>  Here's a story about a 48 year old woman named Jacky Wilson and what happened to her after having triplets. Soon 
+                    <p>  Here's a story about a 48 year old woman named Jacky Wilson and what happened to her after having triplets. Soon
 					after giving birth to her 3 amazing girls, Jacky noticed that the skin under her arms wasn’t
-					retracting after losing her water weight. Her arms quickly became a sight for sore eyes, not only for her, 
-					but for her husband, which ultimately led to their divorce. Being a stay at home mom, Jacky was constantly 
+					retracting after losing her water weight. Her arms quickly became a sight for sore eyes, not only for her,
+					but for her husband, which ultimately led to their divorce. Being a stay at home mom, Jacky was constantly
 					running around. As you can imagine, having 4 children, a husband, and a house to take care of took up all
-					her time. This left her with little to no time for her own personal upkeep. Jacky's arms were, by far, her 
+					her time. This left her with little to no time for her own personal upkeep. Jacky's arms were, by far, her
 					biggest problem. They measured an astounding 17 inches around, standing at only a little over 5'. This was a big issue.<br>
                     </p><h2>Journey Begins</h2>
-                    <p> Jacky was teased by her daughters and ex-husband about her arms daily with comments like 
-					"Watch out Jacky, don't flap too hard, you might take off!" She finally had enough and now with all of this free time, 
-					it was her chance to silence the mean comments, once and for all. "I started looking online for bingo wing solutions,” 
+                    <p> Jacky was teased by her daughters and ex-husband about her arms daily with comments like
+					"Watch out Jacky, don't flap too hard, you might take off!" She finally had enough and now with all of this free time,
+					it was her chance to silence the mean comments, once and for all. "I started looking online for bingo wing solutions,”
 					said Jacky “and found only expensive surgical procedures and other skin creams that screamed SCAM!"</p>
                     <h2>The Fix</h2>
-                    <p> At this point, I was desperate but I wasn't going to fork out my hard earned savings for $4000 - $10,000 arm lift surgery and I 
+                    <p> At this point, I was desperate but I wasn't going to fork out my hard earned savings for $4000 - $10,000 arm lift surgery and I
 					definitely wasn’t going to give my credit card number to a scammy website with before and after pictures that were obviously
-					photoshopped. <br><br>One day during my hopeless search, I stumbled upon a newsfeed article on Facebook written 
+					photoshopped. <br><br>One day during my hopeless search, I stumbled upon a newsfeed article on Facebook written
 					about a new toning cream called <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b>. The
-					website stated that the product was made just for toning skin and it came with a 100% satisfaction guarantee! Better yet, 
-					they offered a free 60-day supply to try FOR FREE! Dr. Oz even endorsed it on his show! Let’s just say I was very intrigued... 
+					website stated that the product was made just for toning skin and it came with a 100% satisfaction guarantee! Better yet,
+					they offered a free 60-day supply to try FOR FREE! Dr. Oz even endorsed it on his show! Let’s just say I was very intrigued...
 					The shipping cost was only $4.95 so I said “What the hell, I’m in!”</p>
                     <h2>The Results</h2>
-                    <p> As you may have noticed from the results in my picture, THIS STUFF WORKS AND FAST TOO! I started noticing results after 
-					just the second day of using it. I simply applied a pea sized amount on each arm daily, and <i>VOILA</i> look at me now, 
-					kids! My only regret is not learning about this sooner. My daughters have been begging me to reveal my secret, but I’ve 
+                    <p> As you may have noticed from the results in my picture, THIS STUFF WORKS AND FAST TOO! I started noticing results after
+					just the second day of using it. I simply applied a pea sized amount on each arm daily, and <i>VOILA</i> look at me now,
+					kids! My only regret is not learning about this sooner. My daughters have been begging me to reveal my secret, but I’ve
 					decided to let them read about it in this article instead... Shows them for making fun of me!
 					</p>
-                    <p>Over the last 7 weeks of using this product I’ve seen a 7 Inch reduction in my arms! I am no longer ashamed of them 
+                    <p>Over the last 7 weeks of using this product I’ve seen a 7 Inch reduction in my arms! I am no longer ashamed of them
 					and as my daughters say "Rock Them Proudly." I strongly suggest <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> to anyone with, well...saggy anything really!</p>
                   </div>
-                  <p>Jacky isn't the only one that knows about this miracle cream, after some serious digging and jumping through some 
-				  major hoops, I found out celebrities like Demi Moore, Madonna, Jessica Simpson, and Malin Akerman were all 
-				  using <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> to keep their toned form. I’ve been incredibly intrigued since, 
+                  <p>Jacky isn't the only one that knows about this miracle cream, after some serious digging and jumping through some
+				  major hoops, I found out celebrities like Demi Moore, Madonna, Jessica Simpson, and Malin Akerman were all
+				  using <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> to keep their toned form. I’ve been incredibly intrigued since,
 				  even though I didn't have bingo wings. So I decided to do my own research and make the judgment call for myself. </p>
                   <h4> </h4>
                   <br>
@@ -168,22 +168,22 @@
     <div class="item">
       <img src="<?= $assets ?>/images/celeb4.jpg" class="img-responsive" alt="Flower">
     </div>
-	
+
 	 <div class="item">
       <img src="<?= $assets ?>/images/celeb5.jpg" class="img-responsive" alt="Flower">
     </div>
-	
+
 	 <div class="item">
       <img src="<?= $assets ?>/images/celeb6.jpg" class="img-responsive" alt="Flower">
     </div>
   </div>
- 
+
 </div>
 
 
-			<div style="padding:20px;"> 
-				<sup><img src="<?= $assets ?>/images/cite.png" width="25" height="19"></sup><b><i> 
-				  Hollywood Celebs Have Been Using This Secret Formula For Years. And Now </i><a href="<?= $step1_link ?>"><?= $step1_name ?></a><i> 
+			<div style="padding:20px;">
+				<sup><img src="<?= $assets ?>/images/cite.png" width="25" height="19"></sup><b><i>
+				  Hollywood Celebs Have Been Using This Secret Formula For Years. And Now </i><a href="<?= $step1_link ?>"><?= $step1_name ?></a><i>
 				  Is FINALLY Available For The Public!</i></b> <sup><img src="<?= $assets ?>/images/cite2.png" width="25" height="19"></sup> </div>
 		   <div style="background-color:rgba(94, 94, 94, 0.05); padding:10px;">
                     <h2>After doing some extensive research, I've comprised a list of facts about <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b></h2>
@@ -206,10 +206,10 @@
                     The best part about the <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b>  is the fact that it's backed by a 100% Satisfaction guarantee! </p>
                  <hr>
                   <div>
-                    <p> <img src="<?= $assets ?>/images/drozsmall.jpg" width="135" height="135" alt="droz" align="left" style="margin-right: 10px;"> 
+                    <p> <img src="<?= $assets ?>/images/drozsmall.jpg" width="135" height="135" alt="droz" align="left" style="margin-right: 10px;">
 					"<b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> works by penetrating all 7 layers of skin and getting rid of old, dead layers which helps your
 					skin generate fresh new ones. Our tests show that you can erase almost 25 years off your body in less than 30 days. The key is to choose
-					the toning cream that contains the highest and purest quality of ingredients, since they are not all made the same. 
+					the toning cream that contains the highest and purest quality of ingredients, since they are not all made the same.
 					<b><a href="<?= $step1_link ?>"> <?= $step1_name ?> </a></b> ticks all the boxes on my list and that is why I fully endorse this product ! " <b>- Dr. Oz</b><br><br>
                     </p>
 					<hr>
@@ -218,7 +218,7 @@
                   <img src="<?= $assets ?>/images/shellyba.jpg" alt="" class="img-responsive">
                   <br>
                   <sup><img src="<?= $assets ?>/images/cite.png" width="25" height="15"></sup>
-				  <b>Shelly Clarkson Before and After Using <a href="<?= $step1_link ?>"><?= $step1_name ?></a> For 30 Days</b>  
+				  <b>Shelly Clarkson Before and After Using <a href="<?= $step1_link ?>"><?= $step1_name ?></a> For 30 Days</b>
 				  <sup><img src="<?= $assets ?>/images/cite2.png" width="25" height="15"></sup>
                   <br>
                   <h2>"How did I do it?"</h2>
@@ -234,11 +234,11 @@
                   <div style="float: left; width: 154px; height: 250px;">
 					<img src="<?= $assets ?>/images/eyes1.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 1:  </span></h2>
-                  
+
                     <p> After the first day of using <a href="<?= $step1_link ?>"><?= $step1_name ?></a> , I was surprised at how wonderful it
-					made my skin feel. It felt like every little dimple on my legs were being tightened and pulled by a gigantic 
-					vacuum cleaner. I don't know how else to describe it! I could feel a warm tingling sensation on my thighs and 
-					cheeks. I looked in the mirror and saw that my legs looked a bit rosy - the result of revitalizing blood 
+					made my skin feel. It felt like every little dimple on my legs were being tightened and pulled by a gigantic
+					vacuum cleaner. I don't know how else to describe it! I could feel a warm tingling sensation on my thighs and
+					cheeks. I looked in the mirror and saw that my legs looked a bit rosy - the result of revitalizing blood
 					rushing to the surface of my skin to renew the damaged cells. After it absorbed into my skin, my
 					thighs looked firmer and had a beautiful glow to it. </p>
 
@@ -247,21 +247,21 @@
                    <div style="float: left; width: 154px; height: 250px;">
 				   <img src="<?= $assets ?>/images/eyes2.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 7:  </span></h2>
-                    <p> After seven days of using <a href="<?= $step1_link ?>"><?= $step1_name ?></a>, I was shocked at the drastic 
-					results.<br><br><b>The dimples and blemishes - without question - were visibly reduced in size 
-					right before my eyes!</b><br><br>I was astonished by the results, and literally felt 10 years 
+                    <p> After seven days of using <a href="<?= $step1_link ?>"><?= $step1_name ?></a>, I was shocked at the drastic
+					results.<br><br><b>The dimples and blemishes - without question - were visibly reduced in size
+					right before my eyes!</b><br><br>I was astonished by the results, and literally felt 10 years
 					younger again. It was almost like I was watching all my cellulite vanish right before my eyes!
                       <br>
-                    </p>					
+                    </p>
                   </div>
                   <div style="background-color:rgba(94, 94, 94, 0.05); padding:10px; clear:both">
                     <div style="float: left; width: 154px; height: 250px;">
 					<img src="<?= $assets ?>/images/eyes3.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 18:</span></h2>
-                    
-                    <p> 
-					After 18 i am seriously at a loss for words. I've even gotten emotional looking in the mirror. 
-					<br><br><b>Its feels like I've hopped into a time machine and gone 15 years back in time!</b><br><br> 
+
+                    <p>
+					After 18 i am seriously at a loss for words. I've even gotten emotional looking in the mirror.
+					<br><br><b>Its feels like I've hopped into a time machine and gone 15 years back in time!</b><br><br>
 					My skin looks and feels amazing, my cottage cheese legs have faded even more. This stuff really seems like the real deal! <br>
                   </p></div>
 				<br>
@@ -269,27 +269,27 @@
                     <div style="float: left; width: 154px; height: 250px;">
 					<img src="<?= $assets ?>/images/eyes4.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 30:</span></h2>
-                    
-                    <p> 
-					After 30 days, not only had all my doubts and scepticism absolutely vanished - 
-					SO DID MY CELLULITE!<br><br>The dimples and blemishes I've been carrying around for the past 15 years have  
+
+                    <p>
+					After 30 days, not only had all my doubts and scepticism absolutely vanished -
+					SO DID MY CELLULITE!<br><br>The dimples and blemishes I've been carrying around for the past 15 years have
 					disappeared. I've never felt or seen anything do this to my skin before, no matter how expensive the product!<br>
-					<br>After the 4 weeks, my legs not only stayed that way, it actually improved every day until it became as beautiful 
-					and radiant as it was 20 years ago.<br><br><b> By this point, all my friends and family were shocked. They couldn't 
+					<br>After the 4 weeks, my legs not only stayed that way, it actually improved every day until it became as beautiful
+					and radiant as it was 20 years ago.<br><br><b> By this point, all my friends and family were shocked. They couldn't
 					believe the difference, and were convinced I was lying about not getting surgery!</b></p>
-                    
-                  </div>                 
+
+                  </div>
                   <h1 align="center">Will This Work For You?</h1>
                   <p>There are plenty of skincare gimmicks out there, and most of them are ridiculously expensive. With so many options it is
-				  only natural for you to be skeptical about the results, and so I challenge you to do what I did: 
+				  only natural for you to be skeptical about the results, and so I challenge you to do what I did:
 				  <b><a href="<?= $step1_link ?>">try it for yourself!</a></b> Conduct your own study and see the incredible
 				  results in your mirror at home. You won't believe YOUR before and after! And by the way...<br><br>
 				  <a href="<?= $step1_link ?>"><b>Did i mention it was only $4.95 to try?!</b></a></p><p><b>
-				  Once you've experienced this anti-aging skin savior for yourself, please leave your comments below and 
-                  share your success story with others, like Emily did. Document the progression and 
+				  Once you've experienced this anti-aging skin savior for yourself, please leave your comments below and
+                  share your success story with others, like Emily did. Document the progression and
 				  prove to the world that you don't need to spend thousands of dollars to LOOK AND FEEL GREAT.</b>
                  <br>
-				 
+
 				  </p><h2> More User Before And After Pictures</h2>
 				  <br>
 				  <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -313,7 +313,7 @@
     <div class="item">
       <img src="<?= $assets ?>/images/reg7.jpg" class="img-responsive" alt="Chania">
     </div>
-	
+
 	 <div class="item">
       <img src="<?= $assets ?>/images/reg1.jpg" class="img-responsive" alt="Chania">
     </div>
@@ -332,22 +332,22 @@
 	 <div class="item next left">
       <img src="<?= $assets ?>/images/reg2.jpg" class="img-responsive" alt="Chania">
     </div>
-    
+
   </div>
- 
+
 </div>
 
 <div>
        <br>
                   <img src="<?= $assets ?>/images/offer.jpg" alt="" class="img-responsive">
-                  <p>For your convenience, we have provided the links that Jacky &amp; Shelly have used to sign up for her Free Trials 
+                  <p>For your convenience, we have provided the links that Jacky &amp; Shelly have used to sign up for her Free Trials
 				  of <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b>. Use the links below and you will get the lowest possible shipping price as well.</p>
 
                   <h4 align="center" style="color: #ff33cc;">(Free Trials are running out fast. Claim now before stock expires**)</h4>
-                  <p><b>Note:</b> Jacky And Shelly both used <a href="<?= $step1_link ?>"><?= $step1_name ?></a> to tone their bodies and faces, 
+                  <p><b>Note:</b> Jacky And Shelly both used <a href="<?= $step1_link ?>"><?= $step1_name ?></a> to tone their bodies and faces,
 				  we suggest you do the same for best results possible.</p>
                   <div style="border: 1px black dotted;padding: 5px;">
-				  <img src="<?= $assets ?>/images/checkmark-green-sm.png" alt="" align="left" style="margin-right: 10px;"> <b>Update:</b> Only 6 Free 
+				  <img src="<?= $assets ?>/images/checkmark-green-sm.png" alt="" align="left" style="margin-right: 10px;"> <b>Update:</b> Only 6 Free
 				  Trial are Still Available. Promotion expected to end: <span style="background-color: #FFFF00"><strong>
 				  <script language="Javascript">var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
@@ -789,7 +789,7 @@
                   <p>Swedish Bombshell Malin Akerman Reveals Her Sexy Skin Secret To Good Housekeeping! "No Saggy Parts Here,
 				  Thanks to <a href="<?= $step1_link ?>">This Secret Weapon In Skincare</a><br>
                   </p><hr style="color: #219021 !important;"><p></p>
-				  
+
 				  <br>
                   <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/ag2.jpg" width="100%" style="height:320px;" class="img-responsive" alt=""></a><br>
                   <p> This <u>WAS</u> the picture that use to be posted on Jacky's bedroom door by her daughters...MEAN<br>
@@ -797,24 +797,24 @@
                     <br>
                    <h1 style="color: #219021;  margin:auto; display:table" class="h1">Before &amp; After</h1>
 				    <hr style="color: #219021 !important;" <a="" href="base1.php"><img src="<?= $assets ?>/images/sidebarba1.jpg" width="100%" style="height:320px;" class="img-responsive" alt=""><br>
-                  <p>"I love my new arms and I love what I see in the mirror. I've tried dozens of products and treatments but none worked better than 
+                  <p>"I love my new arms and I love what I see in the mirror. I've tried dozens of products and treatments but none worked better than
 				  <a href="<?= $step1_link ?>"><?= $step1_name ?></a> Thank you from the bottom of my heart!"  <br><b> Connie Walker</b><br>
                     Atlanta, GA<br>
                     </p><hr style="color: #219021 !important;">
 					<a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/sidebarba8.jpg" width="100%" style="height:320px;" class="img-responsive" alt=""></a><br>
-					<p> "This is the most AMAZING product out there! I've tried countless toners and serums, 
+					<p> "This is the most AMAZING product out there! I've tried countless toners and serums,
 					but nothing every worked for my mommy tummy. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> is the REAL DEAL!"<br>
                     <b>Serena Vega<br>
                     Los Angeles, CA</b>
 				</p><hr style="color: #219021 !important;">
 			   <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/sidebarba9.jpg" width="100%" style="height:320px;" class="img-responsive" alt=""></a><br>
-                  <p> "The only thing is that I wish I could have watched the Dr. Oz show earlier! The results were so shocking 
+                  <p> "The only thing is that I wish I could have watched the Dr. Oz show earlier! The results were so shocking
 				  I could've believe it is my face. I look 20 years younger and I feel giddy like a school girl."<br>
                     <b>Sandra Michaels <br>
                     Raleigh, NC</b>
                      </p><hr style="color: #219021 !important;">
 			     <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/sidebarba7.jpg" width="100%" style="height:320px;" class="img-responsive" alt=""></a><br>
-                  <p> ""I decided to run a little test of my own and see if you could actually see a difference. Now i 
+                  <p> ""I decided to run a little test of my own and see if you could actually see a difference. Now i
 				  wish i had just done both legs to begin with LOL. Anyways Fantastic product!""<br>
                     <b>Freda Johnson <br>
                     Jefferson City, MO</b><br>
@@ -834,25 +834,25 @@
                           <input id="newsletter_email" type="email" required name="email" size="18">
                         </div>
                         <!-- CSS hidden field used for spam bot detection -->
-                        
+
                         <input type="hidden" name="return" value="">
                         <div class="input_field privacy_link">
                           <input type="checkbox" name="privacy_checkbox" value="priv_chk">
                           <small>Yes, I have read and agreed to the <a href="<?= $step1_link ?>">Privacy Policy</a></small></div>
                         <input type="hidden" name="17bfb4db61395f2214804f8c71f9d864" value="1">
                         <input type="submit" style="padding-top:10px; margin:auto; display:table" name="join_list" class="btn btn-success" value="Join">
-                      
+
 					  <br><br><br><br><br><br>
 					  <br><br><br><br><br><br>
 					  </form>
-					  
+
                     </div>
                   </div>
-				 
-				 
+
+
                   <div class="clear"></div>
-                 
-                   
+
+
                   <br><br><br><br><br><br><br>
                   <div style="z-index: 999;width:270px; float:right; margin-top:170px; " id="scrollingdiv"></div>
                   <br>
@@ -912,11 +912,11 @@
 
                                                 countdown(15);
 
-                                            </script> 
-              
-            
+                                            </script>
+
+
             <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-           <script defer src="<?= $assets ?>/images/jquery.flexslider.js"></script> 
+           <script defer src="<?= $assets ?>/images/jquery.flexslider.js"></script>
           <script type="text/javascript">
 
                                                 $(function() {
@@ -941,7 +941,7 @@
 
                                                 });
 
-                                            </script> 
+                                            </script>
           <script type="text/javascript">
 
                                                 $(function() {
@@ -974,23 +974,23 @@
 
                                                 });
 
-                                            </script> 
-          
-          <!-- jQuery --> 
-          
-          
-          <!-- FlexSlider --> 
-          
-         
+                                            </script>
 
-        
+          <!-- jQuery -->
+
+
+          <!-- FlexSlider -->
+
+
+
+
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.1 -->
     <script src="<?= $assets ?>/images/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="<?= $assets ?>/images/bootstrap.min.js"></script> 
+    <script src="<?= $assets ?>/images/bootstrap.min.js"></script>
 
 
     <?= $scripts ?>
