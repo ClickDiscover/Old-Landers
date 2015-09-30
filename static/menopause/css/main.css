@@ -20,7 +20,9 @@ body {
   background-color: rgb(228,36,77);
   padding: 10px 40px;
 }
-
+.claim-yours {
+  margin-top: 15px;
+}
 div#bottombar {
 	position: fixed;
 	bottom: 0;
