@@ -476,6 +476,9 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
     div#bottombar {
       height: 50px;
     }
+    .claim-yours {
+      margin-top: 4px;
+    }
   }
 @media (max-width: 376px) {
   .expire-text {
@@ -487,6 +490,9 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
   }
   div#bottombar {
     height: 50px;
+  }
+  .claim-yours {
+    margin-top: 4px;
   }
 
 }
