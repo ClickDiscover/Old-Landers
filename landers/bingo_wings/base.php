@@ -784,7 +784,7 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
                     illustrative and may not be the results that you achieve with these products. </small> </p>
                 </div>
                 <div class="clear"></div>
-                <div id="bottombar">
+                <div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
                   <div class="expire-text" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
                 </div>
                                 

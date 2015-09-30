@@ -86,7 +86,7 @@
 </ol>
 		           <div class="col-md-8">
                   <h1 class="h1"> <b>How Jacky Dropped Her Bingo Wings</b></h1>
-                  <h4 class="h4">In this Article: We Bring You An Amazing Story About Jacky Wilson, And Her Success Over Bingo Wings" </h4>
+                  <h4 class="h4">In this Article: We Bring You An Amazing Story About Jacky Wilson, And Her Success Over Bingo Wings </h4>
                   <u>BY SHELLY CLARKSON</u><br>
                   <script language="Javascript">var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
@@ -861,8 +861,8 @@
         <!-- /.row -->
 
     </div>
-	<div id="bottombar">
-                  <div class="expire-text" id="counter"> <span class="glyphicon glyphicon-send"> </span> THIS OFFER EXPIRES IN 14 MINUTES 25 SECONDS</div>
+	<div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
+                  <div class="expire-text" id="counter">THIS OFFER EXPIRES IN 14 MINUTES 25 SECONDS</div>
                 </div>
                 <script>
 
@@ -880,7 +880,7 @@
 
                                                         seconds--;
 
-                                                        counter.innerHTML = " <span class='glyphicon glyphicon-send'> </span> THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+                                                        counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
 
                                                         if (seconds > 0) {
 
