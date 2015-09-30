@@ -787,56 +787,28 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
                 <div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
                   <div class="expire-text" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
                 </div>
-                                
+
                 <script>
-
-                                                function countdown(minutes) {
-
-                                                    var seconds = 60;
-
-                                                    var mins = minutes;
-
-                                                    function tick() {
-
-                                                        var counter = document.getElementById("counter");
-
-                                                        var current_minutes = mins - 1;
-
-                                                        seconds--;
-
-                                                        counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
-
-                                                        if (seconds > 0) {
-
-                                                            setTimeout(tick, 1000);
-
-                                                        } else {
-
-
-
-                                                            if (mins > 1) {
-
-
-
-                                                                countdown(mins - 1);
-
-
-
-                                                            }
-
-                                                        }
-
-                                                    }
-
-                                                    tick();
-
-                                                }
-
-
-
-                                                countdown(15);
-
-                                            </script>
+                  function countdown(minutes) {
+                  var seconds = 60;
+                  var mins = minutes;
+                  function tick() {
+                      var counter = document.getElementById("counter");
+                      var current_minutes = mins - 1;
+                      seconds--;
+                      counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+                      if (seconds > 0) {
+                          setTimeout(tick, 1000);
+                      } else {
+                          if (mins > 1) {
+                              countdown(mins - 1);
+                          }
+                      }
+                  }
+                  tick();
+                  }
+                  countdown(15);
+                </script>
               </div>
             </div>
           </div>

@@ -408,6 +408,38 @@ $assets .= '/';
     </div>
   </section>
 
+  <div id="bottombar" style="background-color: rgb(228,36,77);color: white;">
+    <div class="expire-text col-lg-8 col-md-8 col-sm-8 col-xs-8" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
+          <button class="btn btn-info">Claim Yours!</button>
+        </a>
+    </div>
+  </div>
+
+  <script>
+    function countdown(minutes) {
+        var seconds = 60;
+        var mins = minutes;
+        function tick() {
+            var counter = document.getElementById("counter");
+            var current_minutes = mins - 1;
+            seconds--;
+            counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES <br>" + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+            if (seconds > 0) {
+                setTimeout(tick, 1000);
+            } else {
+            if (mins > 1) {
+                    countdown(mins - 1);
+                }
+            }
+        }
+        tick();
+    }
+    countdown(15);
+
+</script>
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?= $assets ?>js/jquery-1.11.3.min.js"><\/script>')</script>
   <script src="<?= $assets ?>js/bootstrap.min.js"></script>
