@@ -471,16 +471,22 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
     }
     .expire-text {
       font-size: 13px;
-      margin-top: 15px;
+      margin-top: 4px;
+    }
+    div#bottombar {
+      height: 50px;
     }
   }
 @media (max-width: 376px) {
   .expire-text {
     font-size: 13px;
-    margin-top: 15px;
+    margin-top: 4px;
   }
   .breadcrumb{
     padding: 0 15px;
+  }
+  div#bottombar {
+    height: 50px;
   }
 
 }

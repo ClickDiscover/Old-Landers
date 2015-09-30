@@ -37,7 +37,6 @@
            font-size: 13px;
            margin-top: 15px;
          }
-
        }
 	</style>
 
