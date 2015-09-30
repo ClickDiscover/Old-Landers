@@ -861,8 +861,8 @@
         <!-- /.row -->
 
     </div>
-	<div id="bottombar">
-                  <div class="expire-text" id="counter"> <span class="glyphicon glyphicon-send"> </span> THIS OFFER EXPIRES IN 14 MINUTES 25 SECONDS</div>
+	<div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
+                  <div class="expire-text" id="counter">THIS OFFER EXPIRES IN 14 MINUTES 25 SECONDS</div>
                 </div>
                 <script>
 
@@ -880,7 +880,7 @@
 
                                                         seconds--;
 
-                                                        counter.innerHTML = " <span class='glyphicon glyphicon-send'> </span> THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+                                                        counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
 
                                                         if (seconds > 0) {
 
