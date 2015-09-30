@@ -892,7 +892,7 @@
                 var counter = document.getElementById("counter");
                 var current_minutes = mins - 1;
                 seconds--;
-                counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+                counter.innerHTML = "THIS OFFER EXPIRES IN <br>" + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
                 if (seconds > 0) {
                     setTimeout(tick, 1000);
                 } else {
