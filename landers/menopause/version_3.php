@@ -60,7 +60,7 @@ $assets .= '/';
   <div class="facebook-exclusive">
   	<p>Exclusive Free Offer for Facebook Visitors Below</p>
   </div>
-  <section class="topbar versionThree">
+  <section class="versionThree">
     <div class="container">
       <div class="row">
         <div class="col-sm-12"><img src="<?= $assets ?>img/logo.png" class="center-block img-responsive"></div>
