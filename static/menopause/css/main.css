@@ -463,20 +463,26 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 530px) {
   @-ms-viewport {
     width: 320px; }
     .breadcrumb{
       padding: 0 15px;
     }
+    .expire-text {
+      font-size: 13px;
+      margin-top: 15px;
+    }
   }
 @media (max-width: 376px) {
   .expire-text {
     font-size: 13px;
+    margin-top: 15px;
   }
   .breadcrumb{
     padding: 0 15px;
   }
+
 }
 @media (max-width: 767px) {
   .benefits ul {
