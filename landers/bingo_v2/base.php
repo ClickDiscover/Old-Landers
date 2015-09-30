@@ -94,7 +94,7 @@
 
                                                     var now = new Date();
 
-                                                    document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script>Friday, May 8, 2015 
+                                                    document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script> 
                   <img src="<?= $assets ?>/images/feature2.png" width="100%" class="img-responsive" alt="">
 				  <img src="<?= $assets ?>/images/newsarticles.png" width="100%" class="img-responsive" alt=""> <br>
                   <a href="<?= $step1_link ?>"><img style="border-radius:5px;" src="<?= $assets ?>/images/ag1-2.jpg" width="100%" class="img-responsive"></a><br><br>
