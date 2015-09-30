@@ -465,7 +465,11 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
    ========================================================================== */
 @media screen and (max-width: 400px) {
   @-ms-viewport {
-    width: 320px; } }
+    width: 320px; }
+    .breadcrumb{
+      padding: 0 15px;
+    }
+  }
 @media (max-width: 767px) {
   .benefits ul {
     list-style-type: none;

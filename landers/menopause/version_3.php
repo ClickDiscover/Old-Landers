@@ -75,11 +75,11 @@ $assets .= '/';
   <section class="padding-tb-40">
     <div class="container">
       <div class="row headline">
-        <div class="col-sm-12">
+        <div style="margin-top: -20px;" class="col-sm-12">
           <?= $this->variant($v, 'headlines') ?>
-		  <div class="full-width-image">
-		  <img src="<?= $assets ?>img/img-w6.jpg">
-		  </div>
+    		  <div class="full-width-image">
+    		    <img src="<?= $assets ?>img/img-w6.jpg">
+    		  </div>
           <div class="gap20"></div>
           <div class="datebar">
             <em>by Karen Parkers</em> <i class="fa fa-clock-o"></i> <span class="current-date"></span>
@@ -425,7 +425,7 @@ $assets .= '/';
             var counter = document.getElementById("counter");
             var current_minutes = mins - 1;
             seconds--;
-            counter.innerHTML = "THIS OFFER EXPIRES IN <br>" + current_minutes.toString() + " MINUTES" + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+            counter.innerHTML = "THIS OFFER EXPIRES IN <br>" + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
             if (seconds > 0) {
                 setTimeout(tick, 1000);
             } else {
