@@ -785,7 +785,12 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
                 </div>
                 <div class="clear"></div>
                 <div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
-                  <div class="expire-text" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
+                  <div class="expire-textcol-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                      <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
+                        <button style="margin-top: 15px" class="btn btn-info">Claim Yours!</button>
+                      </a>
+                  </div>
                 </div>
 
                 <script>
@@ -796,7 +801,7 @@ Once you've experienced this anti-aging skin saving combo for yourself, please l
                       var counter = document.getElementById("counter");
                       var current_minutes = mins - 1;
                       seconds--;
-                      counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+                      counter.innerHTML = "THIS OFFER EXPIRES IN <br>" + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
                       if (seconds > 0) {
                           setTimeout(tick, 1000);
                       } else {

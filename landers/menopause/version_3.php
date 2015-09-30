@@ -409,10 +409,10 @@ $assets .= '/';
   </section>
 
   <div id="bottombar" style="background-color: rgb(228,36,77);color: white;">
-    <div class="expire-text col-lg-8 col-md-8 col-sm-8 col-xs-8" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
+    <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
         <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
-          <button class="btn btn-info">Claim Yours!</button>
+          <button style="margin-top: 15px" class="btn btn-block btn-info">Claim Yours!</button>
         </a>
     </div>
   </div>
@@ -425,7 +425,7 @@ $assets .= '/';
             var counter = document.getElementById("counter");
             var current_minutes = mins - 1;
             seconds--;
-            counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES <br>" + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+            counter.innerHTML = "THIS OFFER EXPIRES IN <br>" + current_minutes.toString() + " MINUTES" + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
             if (seconds > 0) {
                 setTimeout(tick, 1000);
             } else {
