@@ -17,8 +17,6 @@ $assets .= '/';
 
 <html class="no-js"> <!--<![endif]-->
   <head>
-
-
     <meta charset="utf-8">
     <title>Womens Health</title>
     <meta name="description" content="Womans Health" />
@@ -66,6 +64,14 @@ $assets .= '/';
         <div class="col-sm-12"><img src="<?= $assets ?>img/logo.png" class="center-block img-responsive"></div>
       </div>
     </div>
+  </section>
+  <section class="row">
+    <ol class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Health</a></li>
+      <li class="active">Fitness and Nutrition</li>
+    </ol>
+    <hr>
   </section>
   <section class="padding-tb-40">
     <div class="container">
