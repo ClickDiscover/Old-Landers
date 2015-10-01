@@ -253,7 +253,7 @@ $assets .= '/';
         <div class="col-sm-6">
           <div class="gap40"></div>
           <h2><strong class="text-pink">Week Two</strong></h2>
-          <p>Those first <?= $geo->weight(7) ?> wasn't just water weight! By the end of week two, I lost an additional <?= $geo->weight(5) ?>. I didn't have to change my diet or routine in any way. I was now down a total of <?= $geo->weight(12) ?>. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
+          <p>Those first <?= $geo->weight(7) ?> weren't just water weight! By the end of week two, I lost an additional <?= $geo->weight(5) ?>. I didn't have to change my diet or routine in any way. I was now down a total of <?= $geo->weight(12) ?>. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
 
         </div>
         <div class="col-sm-6">
