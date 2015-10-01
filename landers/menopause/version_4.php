@@ -150,10 +150,10 @@ $assets .= '/';
           <div class="benefits_v4">
             <h3><strong><a href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> has been scientifically proven to:</h3>
             <ul>
-              <li class="text-center">Burn fat by naturally boosting your metabolism</li>
-              <li class="text-center">Remove unwanted cellulite, belly fat and arm fat</li>
-              <li class="text-center">Increase your energy levels during the day</li>
-              <li class="text-center">Increase the quality of your sleep during the night</li>
+              <li>Burn fat by naturally boosting your metabolism</li>
+              <li>Remove unwanted cellulite, belly fat and arm fat</li>
+              <li>Increase your energy levels during the day</li>
+              <li>Increase the quality of your sleep during the night</li>
             </ul>
           </div>
           <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> is when used for weight loss. But we noticed something else remarkable - <strong>many of the problems <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats are problems associated with menopause.</strong></p>
