@@ -106,7 +106,7 @@ $assets .= '/';
           <div class="gap20"></div>
           <p>They are making accusations that it causes people to get lean too quickly and should be regulated, despite the fact that it&rsquo;s clinically proven to be safe and has none of the dangerous side effects that prescription diet pills have.</p>
           <p>Since the products were recently featured on an episode of The Dr. Oz Show, we have been getting 1000&rsquo;s of daily letters from our readers, begging us for more information and asking us how they can get their hands on this new fat-burning supplement. Surprisingly, many people who struggle daily with their weight have yet to hear about this powerful option.</p>
-          <p>In a recent exclusive interview with Women&rsquo;s Health, movie star Scarlett Johansson credits the product with helping her lose nearly <?= $geo->weight(22) ?> of body fat in preparation for her role as the &lsquo;Black Widow&rsquo; in The Avengers. Dozens of other celebrities like Jennifer Hudson, Christina Aguilera, Sandra Bullock and Kelly Osborne have all lost weight and transformed their bodies using this controversial pill. Even Men have gotten in on the weight-loss action and used the same product to make some drastic physical transformations.</p>
+          <p>In a recent exclusive interview with Women&rsquo;s Health, movie star Scarlett Johansson credits the product with helping her lose nearly <?= $geo->weight(22) ?> of body fat in preparation for her role as the &lsquo;Black Widow&rsquo; in The Avengers. Dozens of other celebrities like Jennifer Hudson, Christina Aguilera, Sandra Bullock, and Kelly Osborne have all lost weight and transformed their bodies using this controversial pill. Even Men have gotten in on the weight-loss action and used the same product to make some drastic physical transformations.</p>
         </div>
       </div>
       <div class="gap20"></div>
@@ -123,7 +123,7 @@ $assets .= '/';
         </div>
         <div class="col-sm-7 col-sm-pull-5">
         <div class="gap20"></div>
-        <p>The product we're talking about is called <a href="<?= $step1_link ?>"><?= $step1_name ?></a>. You may have seen it in the news, on TV, or trending online as the safe and powerful "secret diet trick&rdquo; being used by models, celebrities and regular folk all across <?= $geo->name() ?> . <a href="<?= $step1_link ?>"><?= $step1_name ?></a>'s high anti-oxidant content and powerful fat burning properties make it a belly busting machine. Combine it with the detoxifying, cleansing and additional weight loss effect of a <a href="<?= $step2_link ?>"><?= $step2_name ?></a> and you see why this deserves a Special Report. But maybe the most important part is that <?= $step1_name ?> is finally available nationwide WITHOUT a prescription.</p>
+        <p>The product we're talking about is called <a href="<?= $step1_link ?>"><?= $step1_name ?></a>. You may have seen it in the news, on TV, or trending online as the safe and powerful "secret diet trick&rdquo; being used by models, celebrities, and regular folk all across <?= $geo->name() ?> . <a href="<?= $step1_link ?>"><?= $step1_name ?></a>'s high anti-oxidant content and powerful fat burning properties make it a belly busting machine. Combine it with the detoxifying, cleansing and additional weight loss effect of a <a href="<?= $step2_link ?>"><?= $step2_name ?></a> and you see why this deserves a Special Report. But maybe the most important part is that <?= $step1_name ?> is finally available nationwide WITHOUT a prescription.</p>
           <p><strong>If you're interested in losing weight without diet or exercise, <a href="<?= $step1_link ?>"><?= $step1_name ?></a> is something you need to know more about.</strong></p>
 
 
@@ -141,8 +141,8 @@ $assets .= '/';
       <div class="row">
         <div class="col-sm-12">
           <p>&nbsp;</p>
-          <p>If you&rsquo;re feeling skeptical right now, you&rsquo;re not alone. We here at Women&rsquo;s Health have seen many promising products come and go over the last 18 years. When we first learned about &lsquo;yet another&rsquo; fat-burning/body-firming product our fad radar went off right away. Even after pouring through mountains of research. While I had an educated opinion, I still had no personal proof that <a href="<?= $step1_link ?>"><?= $step1_name ?></a> option was worth the time. So, with my editors blessing, I decided to go out and put the product to the test myself. What better way to find out the truth than to conduct my own study?</p>
-          <p>We know that the thought of losing your excess fat often feels like an impossible challenge. We&rsquo;ve evaluated numerous fat-loss programs and it seems like everything, too demanding or doesn&rsquo;t work as claimed. The reason why most programs fail is because they impose unrealistic restrictions on your daily life.</p>
+          <p>If you&rsquo;re feeling skeptical right now, you&rsquo;re not alone. We here at Women&rsquo;s Health have seen many promising products come and go over the last 18 years. When we first learned about &lsquo;yet another&rsquo; fat-burning/body-firming product our fad radar went off right away even after pouring through mountains of research. While I had an educated opinion, I still had no personal proof that <a href="<?= $step1_link ?>"><?= $step1_name ?></a>  was worth the time. So, with my editors blessing, I decided to go out and put the product to the test myself. What better way to find out the truth than to conduct my own study?</p>
+          <p>We know that the thought of losing your excess fat often feels like an impossible challenge. We&rsquo;ve evaluated numerous fat-loss programs and it seems like with everything else - it&rsquo;s too demanding or doesn&rsquo;t work as claimed. The reason why most programs fail is because they impose unrealistic restrictions on your daily life.</p>
           <p>In this special report, I explain exactly how I tested the product and show you the surprising results I achieved. Today, I&rsquo;m leaking the secret to what, we here at Women&rsquo;s Health, call &ldquo;quite possibly the most effective female physique transformation stack the world has ever seen&rdquo;. I&rsquo;ll show you how you too can get a leaner, slimmer sexier body quickly and safely without having to use illegal drugs or paying <?= $geo->money(1000) ?>'s for surgery.</p>
           <h3><strong>The Science behind<a href="<?= $step1_link ?>"> <?= $step1_name ?></a></strong></h3>
           <p><a href="<?= $step1_link ?>"><?= $step1_name ?></a> is a small fruit which looks a bit like a tiny pumpkin. Found in Asia, Australia, Polynesia and parts of Africa, this fruit has long been used by native people because of its amazing and diversified health properties. </p>
@@ -157,7 +157,7 @@ $assets .= '/';
             </ul>
           </div>
           <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> is when used for weight loss. But we noticed something else remarkable - <strong>many of the problems <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats are problems associated with menopause.</strong></p>
-          <p>Menopausal women often experience hot flashes, decreased energy levels, restlessness when sleeping and mood changes. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats every one of these symptoms. Even better, <?= $step1_name ?> is completely natural and safe.</p>
+          <p>Menopausal women often experience hot flashes, decreased energy levels, restlessness while sleeping, and mood changes. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats every one of these symptoms. Even better, <?= $step1_name ?> is completely natural and safe.</p>
           <p>If you’re a woman experiencing menopause, <a href="<?= $step1_link ?>"><?= $step1_name ?> </a>can help lessen the symptoms – and even prevent some of them from occurring in the first place.</p>
           <div class="benefits">
             <h3><strong>For Women Undergoing Menopause,<a href="<?= $step1_link ?>"> <?= $step1_name ?>:</a></strong></h3>
@@ -199,7 +199,7 @@ $assets .= '/';
           <ul>
           <li>The health journal Lipids in Health &amp; Disease  showed that subjects who took <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?> </a> lost an average of <?= $geo->weight(19.3) ?> in four weeks. Subjects did not change their diet or exercise habits during the study.</li>
 
-          <li><?= $step1_name ?> contains <b>no toxins, artificial chemicals or stimulants</b>. It is 100% natural.</li>
+          <li><?= $step1_name ?> contains <b>no toxins, artificial chemicals, or stimulants</b>. It is 100% natural.</li>
 
           <li>Studies show <a href="<?= $step1_link ?>" class="step-link"><?= $step1_name ?></a> increases metabolism. In turn, the increased metabolic functions increase weight loss by more than 640%.</li>
 
@@ -253,7 +253,7 @@ $assets .= '/';
         <div class="col-sm-6">
           <div class="gap40"></div>
           <h2><strong class="text-pink">Week Two</strong></h2>
-          <p>Those first <?= $geo->weight(7) ?>weren't just water weight! By the end of week two, I lost an additional <?= $geo->weight(5) ?>. I didn't have to change my diet or routine in any way. I was now down a total of <?= $geo->weight(12) ?>. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
+          <p>Those first <?= $geo->weight(7) ?> wasn't just water weight! By the end of week two, I lost an additional <?= $geo->weight(5) ?>. I didn't have to change my diet or routine in any way. I was now down a total of <?= $geo->weight(12) ?>. Trust me, I’d never lie to the readers of Women's Health. After all, my daughter works there! </p>
 
         </div>
         <div class="col-sm-6">
