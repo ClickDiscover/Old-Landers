@@ -334,7 +334,13 @@ section.pinkbar_v4 a, section.pinkbar_v4 a:hover, section.pinkbar_v4 a:focus {
   padding: 10px 0px 40px 0px;
   margin: 0; }
 
-.benefits li, .benefits_v4 li {
+.benefits li {
+  padding-left: 1.2em;
+  color: #333333;
+  font-size: 16px;
+  padding: 5px; }
+
+.benefits_v4 li {
   padding-left: 1.2em;
   color: #333333;
   font-size: 16px;
