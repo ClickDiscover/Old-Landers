@@ -61,7 +61,10 @@ $assets .= '/';
   <section class="container versionThree">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12"><img src="<?= $assets ?>img/logo.png" class="center-block img-responsive"></div>
+        <div class="col-sm-12">
+          <i class="fa fa-bars"></i>
+          <img src="<?= $assets ?>img/logo_v4.png" class="center-block img-responsive">
+        </div>
       </div>
     </div>
   </section>
