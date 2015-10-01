@@ -246,7 +246,9 @@ section.graybar a, section.graybar a:hover, section.graybar a:focus {
 section.goldbar {
   background: #e4ba24;
   border-top: 1px #e1e1e1 solid;
-  border-bottom: 1px #e1e1e1 solid; }
+  border-bottom: 8px solid #24e4ba;
+  border-top: 8px solid #24e4ba;
+ }
 
 section.goldbar a, section.goldbar a:hover, section.goldbar a:focus {
   font-weight: bold;
@@ -324,7 +326,7 @@ section.pinkbar_v4 a, section.pinkbar_v4 a:hover, section.pinkbar_v4 a:focus {
 
 .breadcrumb.v4 {
   background-color: rgba(245,245,245, .8);
-  padding: 0; 
+  padding: 0;
 }
 
 .benefits ul {
