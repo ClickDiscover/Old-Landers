@@ -26,6 +26,10 @@
        .claim-yours {
          margin-top: 9px;
        }
+       .expire-text {
+         font-size: 22px;
+         margin-top: 13px;
+       }
        @media screen and (max-width: 530px) {
          @-ms-viewport {
            width: 320px; }
