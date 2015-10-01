@@ -81,7 +81,7 @@ $assets .= '/';
     		    <img src="<?= $assets ?>img/img-w6.jpg">
     		  </div>
           <div class="gap20"></div>
-          <div class="datebar">
+          <div class="datebar_v4">
             <em>by Karen Parkers</em> <i class="fa fa-clock-o"></i> <span class="current-date"></span>
             <img src="<?= $assets ?>img/social.png" class="pull-right hidden-xs">
           </div>
@@ -113,7 +113,7 @@ $assets .= '/';
 
     </div>
   </section>
-  <section class="padding-tb-40 graybar">
+  <section class="padding-tb-40 goldbar">
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7">
@@ -136,7 +136,7 @@ $assets .= '/';
 
 
 
-  <section class="padding-tb-40 pinkbar">
+  <section class="padding-tb-40 pinkbar_v4">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -181,7 +181,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-20 graybar">
+  <section class="padding-tb-20 goldbar">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -230,7 +230,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-40 graybar">
+  <section class="padding-tb-40 goldbar">
     <div class="container">
 
       <div class="row">
@@ -262,7 +262,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-40 graybar">
+  <section class="padding-tb-40 goldbar">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -277,7 +277,7 @@ $assets .= '/';
     </div>
   </section>
 
-  <section class="padding-tb-40 pinkbar">
+  <section class="padding-tb-40 pinkbar_v4">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -300,7 +300,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-40 graybar">
+  <section class="padding-tb-40 goldbar">
     <div class="container">
       <div class="row">
         <div class="col-sm-2"></div>

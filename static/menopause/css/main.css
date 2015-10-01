@@ -225,6 +225,11 @@ section.pinkbar {
   background: url(../img/pinkbg.jpg) 50% 0 no-repeat, #fc6b6c;
   color: #ffffff; }
 
+.pinkbar_v4 {
+  background: #fc6b6c;
+  color: #ffffff;
+}
+
 section.graybar {
   background: #f6f6f6;
   border-top: 1px #e1e1e1 solid;
@@ -234,9 +239,23 @@ section.graybar a, section.graybar a:hover, section.graybar a:focus {
   font-weight: bold;
   color: #fc6b6c; }
 
+section.goldbar {
+  background: #f6f6f6;
+  border-top: 1px #e1e1e1 solid;
+  border-bottom: 1px #e1e1e1 solid; }
+
+section.goldbar a, section.goldbar a:hover, section.goldbar a:focus {
+  font-weight: bold;
+  color: #fc6b6c; }
+
+
 section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
   font-weight: bold;
   color: #703157; }
+
+section.pinkbar_v4 a, section.pinkbar_v4 a:hover, section.pinkbar_v4 a:focus {
+  font-weight: bold;
+  color:#e4ba24; }
 
 .headline h1 {
   color: #333333;
@@ -256,6 +275,13 @@ section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
   color: #ffffff;
   padding: 5px 10px;
   margin-bottom: 20px; }
+
+.datebar_v4 {
+  background: rgb(228,36,77);
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-bottom: 20px; }
+
 
 .benefits {
   background: #ffffff;
