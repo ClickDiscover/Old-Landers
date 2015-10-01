@@ -147,7 +147,7 @@ $assets .= '/';
           <h3><strong>The Science behind<a href="<?= $step1_link ?>"> <?= $step1_name ?></a></strong></h3>
           <p><a href="<?= $step1_link ?>"><?= $step1_name ?></a> is a small fruit which looks a bit like a tiny pumpkin. Found in Asia, Australia, Polynesia and parts of Africa, this fruit has long been used by native people because of its amazing and diversified health properties. </p>
 
-          <div class="benefits">
+          <div class="benefits_v4">
             <h3><strong><a href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> has been scientifically proven to:</h3>
             <ul>
               <li>Burn fat by naturally boosting your metabolism</li>
@@ -159,7 +159,7 @@ $assets .= '/';
           <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> is when used for weight loss. But we noticed something else remarkable - <strong>many of the problems <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats are problems associated with menopause.</strong></p>
           <p>Menopausal women often experience hot flashes, decreased energy levels, restlessness while sleeping, and mood changes. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats every one of these symptoms. Even better, <?= $step1_name ?> is completely natural and safe.</p>
           <p>If you’re a woman experiencing menopause, <a href="<?= $step1_link ?>"><?= $step1_name ?> </a>can help lessen the symptoms – and even prevent some of them from occurring in the first place.</p>
-          <div class="benefits">
+          <div class="benefits_v4">
             <h3><strong>For Women Undergoing Menopause,<a href="<?= $step1_link ?>"> <?= $step1_name ?>:</a></strong></h3>
             <ul>
               <li>Results in <strong>natural weight loss</strong> with no diet or exercise</li>

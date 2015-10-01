@@ -246,7 +246,7 @@ section.goldbar {
 
 section.goldbar a, section.goldbar a:hover, section.goldbar a:focus {
   font-weight: bold;
-  color: #fc6b6c; }
+  color: rgb(228,36,77); }
 
 
 section.pinkbar a, section.pinkbar a:hover, section.pinkbar a:focus {
@@ -299,6 +299,21 @@ section.pinkbar_v4 a, section.pinkbar_v4 a:hover, section.pinkbar_v4 a:focus {
 
 .benefits h3 a, .benefits h3 a:hover, .benefits h3 a:focus {
   color: #ffffff; }
+
+
+
+.benefits_v4 h3 {
+  padding: 15px;
+  margin: 0 0 20px 0;
+  text-align: center;
+  background: #e4ba24;
+  text-transform: uppercase;
+  border-radius: 20px 20px 0 0; }
+
+.benefits_v4 h3 a, .benefits_v4 h3 a:hover, .benefits_v4 h3 a:focus {
+  color: #ffffff; }
+
+
 
 .benefits ul {
   list-style-type: none;
