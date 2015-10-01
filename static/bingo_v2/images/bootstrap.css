@@ -12,7 +12,7 @@ html {
 body {
   margin: 0;
   background-color:#fff;
- 
+
 }
 article,
 aside,
@@ -6567,8 +6567,8 @@ button.close {
 }
 
 .c-img {
-width: 50px; 
-height: 40px; 
+width: 50px;
+height: 40px;
 margin-top: -10px;
 margin-right:40px;
 }
@@ -7277,17 +7277,17 @@ div#bottombar {
 	right: 0;
 	height: 50px;
 	background: #FF7E27;
-	padding: 5px;
+	/*padding: 5px;*/
 	font-size: 22px;
 	text-align:Center;
-	font-weight:bold;
-	padding-top:15px;
+	/*font-weight:bold;*/
+	/*padding-top:15px;*/
 }
 
 .expire-text {
 text-align: center;
 }
-	
+
 @media(max-width:480px){
 .expire-text {
 font-size: 12px;
@@ -7298,14 +7298,14 @@ font-size: 12px;
 }
 
 @media(max-width: 480px){
-.mc { 
+.mc {
 max-width:90%;
 text-align:center;
 padding:10px;
 
 }
 }
-.mc { 
+.mc {
 width:100%;
 padding:10px;
 

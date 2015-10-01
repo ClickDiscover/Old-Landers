@@ -24,20 +24,20 @@
 	       font-family: 'Raleway', sans-serif;
 		   }
        .claim-yours {
-         margin-top: -6px;
+         margin-top: 5px;
        }
        @media screen and (max-width: 530px) {
          @-ms-viewport {
            width: 320px; }
 
            .expire-text {
-             font-size: 13px;
+             font-size: 10px;
              margin-top: -13px;
            }
          }
        @media (max-width: 376px) {
          .expire-text {
-           font-size: 13px;
+           font-size: 10px;
            margin-top: 15px;
          }
        }
@@ -895,7 +895,7 @@
                 var counter = document.getElementById("counter");
                 var current_minutes = mins - 1;
                 seconds--;
-                counter.innerHTML = "THIS OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+                counter.innerHTML = "OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
                 if (seconds > 0) {
                     setTimeout(tick, 1000);
                 } else {
