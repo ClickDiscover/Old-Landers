@@ -104,12 +104,12 @@ ul.jt-menu li li li.sfHover ul {
 /*** DEMO SKIN ***/
 .jt-menu {
     float: left;
-    margin-bottom: 2px; 
+    margin-bottom: 2px;
 }
 .jt-menu a {
     border-left: 1px solid #b9b9b9;
     border-right: 1px solid #b9b9b9;
-    border-top: 1px solid #b9b9b9; 
+    border-top: 1px solid #b9b9b9;
     padding: .75em 1.4em;
     padding-left: 16px \0/;
     padding-right: 16px \0/;
@@ -160,7 +160,7 @@ ul.jt-menu li li li.sfHover ul {
 .jt-menu a:focus, .jt-menu a:hover, .jt-menu a:active {
     background: #9ac15f;
     outline: 0;
-}    
+}
 
 /*** arrows **/
 .jt-menu a.sf-with-ul {
@@ -1098,7 +1098,7 @@ width: 25px;
 }
 
 .whftv-sidebar .newsletter_signup  h2 {
-	margin: 0 0 0 10px; 
+	margin: 0 0 0 10px;
 }
 
 .whftv-sidebar #newsletter_subscribe .button {
@@ -1125,7 +1125,7 @@ div#bottombar {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 50px;
+	height: 80px;
 	background: #FF7E27;
 	padding: 5px;
 	font-size: 22px;
@@ -1136,7 +1136,30 @@ div#bottombar {
 	color: #FFFFFF;
 	text-align: center;
 	}
-	
+  .claim-yours {
+    margin-top: -6px;
+  }
+  @media screen and (max-width: 530px) {
+    @-ms-viewport {
+      width: 320px; }
+
+      .expire-text {
+        font-size: 13px;
+        margin-top: -13px;
+      }
+      div#bottombar {
+        height: 50px;
+      }
+    }
+  @media (max-width: 376px) {
+    .expire-text {
+      font-size: 13px;
+      margin-top: 15px;
+    }
+    div#bottombar {
+      height: 50px;
+    }
+  }
 	/*Responsive mobile menu==============*/
 	.rmm {
 	display:none;
@@ -1384,7 +1407,7 @@ border-bottom-right-radius: 5px;
 	border-bottom:1px solid #3c5779;
 	border-top:1px solid #3c5779;
 }
-.rmm.sapphire .rmm-toggled ul li:first-child a { 
+.rmm.sapphire .rmm-toggled ul li:first-child a {
 	border-top:1px solid #3c5779 !important;
 }
 
@@ -1451,13 +1474,13 @@ border-bottom-right-radius: 5px;
 }
 
 	.fr-mobile{ display:none;}
-	
+
 	@media(max-width:480px){
 	.nav{ display:none}
 	.rmm{ display:block}
 	#divmain{ width:95%}
 	img{ max-width:100%}
-	input[type="text"]{ width:64%;}	
+	input[type="text"]{ width:64%;}
 	.left{ width:100%!Important;}
 	.flexslider{ width:100%!important}
 	#scrollingdiv{ display:none;}
@@ -1474,16 +1497,16 @@ border-bottom-right-radius: 5px;
 .fbcommentscontainer{ display:none;}
 .right{ width:50%;}
 .fb-mobile{ display:block!important;}
-		
-		
+
+
 	}
-	
+
 	@media(max-width:600px){
 	.nav{ display:none}
 	.rmm{ display:block}
 	#divmain{ width:95%}
 	img{ max-width:100%}
-	input[type="text"]{ width:64%;}	
+	input[type="text"]{ width:64%;}
 	.left{ width:100%!Important;}
 	.flexslider{ width:100%!important}
 	#scrollingdiv{ display:none;}
@@ -1491,10 +1514,10 @@ border-bottom-right-radius: 5px;
 	#newsletter_subscribe label{ float:left;}
 	#newsletter_subscribe div.input_field{ width:100%;}
 	.footer p{ color:#000;}
-		
-		
+
+
 	}
-	
+
 		.fb-mobile{
 		display:none;
 	}

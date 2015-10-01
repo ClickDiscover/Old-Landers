@@ -23,6 +23,9 @@
 	     body {
 	       font-family: 'Raleway', sans-serif;
 		   }
+       .claim-yours {
+         margin-top: -6px;
+       }
        @media screen and (max-width: 530px) {
          @-ms-viewport {
            width: 320px; }
