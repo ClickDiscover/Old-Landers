@@ -58,7 +58,7 @@ $assets .= '/';
   <div class="facebook-exclusive">
   	<p>Exclusive Free Offer for Facebook Visitors Below</p>
   </div>
-  <section class="versionThree">
+  <section class="container versionThree">
     <div class="container">
       <div class="row">
         <div class="col-sm-12"><img src="<?= $assets ?>img/logo.png" class="center-block img-responsive"></div>
@@ -66,7 +66,7 @@ $assets .= '/';
     </div>
   </section>
   <section class="row">
-    <ol class="breadcrumb">
+    <ol class="container breadcrumb v4">
       <li><a href="#">Home</a></li>
       <li><a href="#">Health</a></li>
       <li class="active">Fitness and Nutrition</li>
