@@ -173,6 +173,9 @@ h4.text-pink {
 .benefits h3 a, .benefits h3 a:hover, .benefits h3 a:focus {
     color: #fc6b6c !important;
 }
+.benefits_v4 h3 a, .benefits_v4 h3 a:hover, .benefits_v4 h3 a:focus {
+    color: rgb(228,36,77) !important;
+}
 
 .full-width-image img {
 	width: 100%;
