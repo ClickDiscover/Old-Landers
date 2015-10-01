@@ -339,7 +339,7 @@ section.pinkbar_v4 a, section.pinkbar_v4 a:hover, section.pinkbar_v4 a:focus {
   color: #fc6b6c; }
 
 
-.benefits li:before {
+.benefits li:before, .benefits_v4 li:before {
   font-family: 'FontAwesome';
   content: '\f138';
   display: inline-block;
