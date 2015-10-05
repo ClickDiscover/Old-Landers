@@ -58,17 +58,15 @@ $assets .= '/';
   <div class="facebook-exclusive">
   	<p>Exclusive Free Offer for Facebook Visitors Below</p>
   </div>
-  <section class="container versionThree">
-    <div class="">
+  <section class="versionThree">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <img src="<?= $assets ?>img/logo_v4.png" class="center-block img-responsive">
-        </div>
+        <div class="col-sm-12"><img src="<?= $assets ?>img/logo.png" class="center-block img-responsive"></div>
       </div>
     </div>
   </section>
   <section class="row">
-    <ol class="container breadcrumb v4">
+    <ol class="breadcrumb">
       <li><a href="#">Home</a></li>
       <li><a href="#">Health</a></li>
       <li class="active">Fitness and Nutrition</li>
@@ -83,7 +81,7 @@ $assets .= '/';
     		    <img src="<?= $assets ?>img/img-w6.jpg">
     		  </div>
           <div class="gap20"></div>
-          <div class="datebar_v4">
+          <div class="datebar">
             <em>by Karen Parkers</em> <i class="fa fa-clock-o"></i> <span class="current-date"></span>
             <img src="<?= $assets ?>img/social.png" class="pull-right hidden-xs">
           </div>
@@ -115,7 +113,7 @@ $assets .= '/';
 
     </div>
   </section>
-  <section class="padding-tb-40 goldbar">
+  <section class="padding-tb-40 graybar">
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7">
@@ -138,7 +136,7 @@ $assets .= '/';
 
 
 
-  <section class="padding-tb-40 pinkbar_v4">
+  <section class="padding-tb-40 pinkbar">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -149,7 +147,7 @@ $assets .= '/';
           <h3><strong>The Science behind<a href="<?= $step1_link ?>"> <?= $step1_name ?></a></strong></h3>
           <p><a href="<?= $step1_link ?>"><?= $step1_name ?></a> is a small fruit which looks a bit like a tiny pumpkin. Found in Asia, Australia, Polynesia and parts of Africa, this fruit has long been used by native people because of its amazing and diversified health properties. </p>
 
-          <div class="benefits_v4">
+          <div class="benefits">
             <h3><strong><a href="<?= $step1_link ?>"><?= $step1_name ?></a></strong> has been scientifically proven to:</h3>
             <ul>
               <li>Burn fat by naturally boosting your metabolism</li>
@@ -161,12 +159,12 @@ $assets .= '/';
           <p>Here at Women’s Health, we were amazed to learn about how effective<a href="<?= $step1_link ?>"> <?= $step1_name ?></a> is when used for weight loss. But we noticed something else remarkable - <strong>many of the problems <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats are problems associated with menopause.</strong></p>
           <p>Menopausal women often experience hot flashes, decreased energy levels, restlessness while sleeping, and mood changes. <a href="<?= $step1_link ?>"><?= $step1_name ?></a> treats every one of these symptoms. Even better, <?= $step1_name ?> is completely natural and safe.</p>
           <p>If you’re a woman experiencing menopause, <a href="<?= $step1_link ?>"><?= $step1_name ?> </a>can help lessen the symptoms – and even prevent some of them from occurring in the first place.</p>
-          <div class="benefits_v4">
+          <div class="benefits">
             <h3><strong>For Women Undergoing Menopause,<a href="<?= $step1_link ?>"> <?= $step1_name ?>:</a></strong></h3>
             <ul>
               <li>Results in <strong>natural weight loss</strong> with no diet or exercise</li>
               <li>Reduces or even eliminates hot flashes</li>
-              <li >Improves and stabilizes mood</li>
+              <li>Improves and stabilizes mood</li>
               <li>Improves duration and quality of sleep</li>
             </ul>
           </div>
@@ -183,7 +181,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-20 goldbar">
+  <section class="padding-tb-20 graybar">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -232,7 +230,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-40 goldbar">
+  <section class="padding-tb-40 graybar">
     <div class="container">
 
       <div class="row">
@@ -264,7 +262,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-40 goldbar">
+  <section class="padding-tb-40 graybar">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -279,7 +277,7 @@ $assets .= '/';
     </div>
   </section>
 
-  <section class="padding-tb-40 pinkbar_v4">
+  <section class="padding-tb-40 pinkbar">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -302,7 +300,7 @@ $assets .= '/';
       </div>
     </div>
   </section>
-  <section class="padding-tb-40 goldbar">
+  <section class="padding-tb-40 graybar">
     <div class="container">
       <div class="row">
         <div class="col-sm-2"></div>
@@ -410,11 +408,11 @@ $assets .= '/';
     </div>
   </section>
 
-  <div id="bottombar" style="background-color: #24e4ba;color: white;">
+  <div id="bottombar" style="background-color: rgb(228,36,77);color: white;">
     <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
         <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
-          <button style="background-color: #3b5998; font-size:large;font-weight:600; color:white" class="btn btn-block claim-yours">Claim Yours!</button>
+          <button style="font-size:large; font-weight:600; color:white background-color:#3b5998;" class="btn btn-block claim-yours">Claim Yours!</button>
         </a>
     </div>
   </div>
