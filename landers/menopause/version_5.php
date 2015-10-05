@@ -412,7 +412,7 @@ $assets .= '/';
     <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">THIS OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
         <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
-          <button style="font-size:large; font-weight:600; color:white background-color:#3b5998;" class="btn btn-block claim-yours">Claim Yours!</button>
+          <button style="font-size:large; font-weight:600; color:white; background-color:#3b5998;" class="btn btn-block claim-yours">Claim Yours!</button>
         </a>
     </div>
   </div>
