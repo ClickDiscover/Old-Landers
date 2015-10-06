@@ -16,6 +16,9 @@ body {
     text-align: center;
     margin-bottom: -25px;
 }
+.breadcrumb.thin-bread {
+  padding: 0 20px;
+}
 .versionThree {
   background-color: rgb(228,36,77);
   padding: 10px 40px;
