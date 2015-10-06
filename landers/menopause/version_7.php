@@ -55,19 +55,15 @@ $assets .= '/';
   <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
+  <div class="facebook-exclusive">
+    <p>Exclusive Free Offer for Facebook Visitors Below</p>
+  </div>
   <section class="topbar">
     <div class="container">
       <div class="row">
         <div class="col-sm-12"><img src="<?= $assets ?>img/logo.png" class="center-block img-responsive"></div>
       </div>
     </div>
-  </section>
-  <section class="row">
-    <ol class="breadcrumb thin-bread">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Health</a></li>
-      <li class="active">Fitness and Nutrition</li>
-    </ol>
   </section>
   <section class="padding-tb-40">
     <div class="container">
@@ -115,7 +111,7 @@ $assets .= '/';
       <div class="row">
         <div class="col-sm-5 col-sm-push-7">
           <div class="gap20"></div>
-          <img src="<?= $assets ?>img/beforeAfter2.png" class="img-responsive center-block img-thumbnail">
+          <img src="<?= $assets ?>img/img-2.jpg" class="img-responsive center-block img-thumbnail">
 
         </div>
         <div class="col-sm-7 col-sm-pull-5">
@@ -404,6 +400,39 @@ $assets .= '/';
       </div>
     </div>
   </section>
+
+  <div id="bottombar" style="background-color: rgb(228,36,77);color: white;">
+    <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">THIS FREE OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
+          <button style="font-size:large; font-weight:600; color:white; background-color:#3b5998;" class="btn btn-block claim-yours">Claim Yours!</button>
+        </a>
+    </div>
+  </div>
+
+  <script>
+    function countdown(minutes) {
+        var seconds = 60;
+        var mins = minutes;
+        function tick() {
+            var counter = document.getElementById("counter");
+            var current_minutes = mins - 1;
+            seconds--;
+            counter.innerHTML = "THIS FREE OFFER EXPIRES IN <br>" + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+            if (seconds > 0) {
+                setTimeout(tick, 1000);
+            } else {
+            if (mins > 1) {
+                    countdown(mins - 1);
+                }
+            }
+        }
+        tick();
+    }
+    countdown(15);
+
+</script>
+
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?= $assets ?>js/jquery-1.11.3.min.js"><\/script>')</script>
