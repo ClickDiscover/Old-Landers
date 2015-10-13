@@ -402,7 +402,7 @@ forever.
                     </p>
                     <div class="coupon">
                         <div class="bottle-wrap">
-                            <img class="bottle" style="float: left;" src="<?= $assets ?>/assets/<?= $step1_image ?>.png" height="125px"><span>
+                            <img class="bottle" style="float: left;" src="<?= $step1_image ?>" height="125px"><span>
                             <br><br>
                             <img class="alignleft" style="padding-bottom:10px;padding-left:10px" alt="" src="<?= $assets ?>/assets/iconRedArrow.png" height="40" width="35"></span>
                             <span class="step1"></span>
