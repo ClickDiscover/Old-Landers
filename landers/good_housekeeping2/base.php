@@ -9,7 +9,7 @@
 <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link href="style.css" rel="stylesheet" type="text/css" media="all">
+<link href="<?= $assets ?>/style.css" rel="stylesheet" type="text/css" media="all">
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
