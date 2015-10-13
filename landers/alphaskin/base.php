@@ -37,7 +37,6 @@
 
               .expire-text {
                 font-size: 13px;
-                margin-top: -13px;
               }
               div#bottombar {
                 height: 50px;
@@ -46,7 +45,7 @@
             @media (max-width: 376px) {
               .expire-text {
                 font-size: 13px;
-                margin-top: 15px;
+                margin-top: 1%;
               }
               div#bottombar {
                 height: 50px;
