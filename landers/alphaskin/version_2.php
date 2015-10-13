@@ -20,6 +20,40 @@
                 document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
             }
         </script>
+        <style>
+          div#bottombar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background: #FF7E27;
+            padding-top: 2%;
+            font-size: 22px;
+          }
+          @media screen and (max-width: 530px) {
+            @-ms-viewport {
+              width: 320px; }
+
+              .expire-text {
+                font-size: 13px;
+              }
+              div#bottombar {
+                height: 50px;
+              }
+            }
+            @media (max-width: 376px) {
+              .expire-text {
+                font-size: 13px;
+                margin-top: 1%;
+              }
+              div#bottombar {
+                height: 50px;
+              }
+            }
+        </style>
+
+
         <!-- Today's date Script End -->
     </head>
     <body class="ng-scope" ng-app="App" ng-controller="MainCtrl">
@@ -725,7 +759,43 @@ services.
                     </p><p>&nbsp;</p>
                 </div>
             </div>
+
         </div>
+
+        <div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
+          <section class="container text-center col-lg-offset-2 col-md-offset-2">
+            <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
+                  <button class="btn btn-info claim-yours">Claim Yours!</button>
+                </a>
+            </div>
+          </section>
+        </div>
+
+        <script>
+          function countdown(minutes) {
+          var seconds = 60;
+          var mins = minutes;
+          function tick() {
+              var counter = document.getElementById("counter");
+              var current_minutes = mins - 1;
+              seconds--;
+              counter.innerHTML = "OFFER EXPIRES IN " + current_minutes.toString() + " MINUTES " + (seconds < 10 ? "0" : "") + String(seconds) + " SECONDS";
+              if (seconds > 0) {
+                  setTimeout(tick, 1000);
+              } else {
+                  if (mins > 1) {
+                      countdown(mins - 1);
+                  }
+              }
+          }
+          tick();
+          }
+          countdown(15);
+        </script>
+
+
 
         <script type="text/javascript" src="<?= $assets ?>/assets/sticky.js"></script>
         <script>
@@ -734,9 +804,5 @@ services.
                 $(".stickySocial").sticky({ topSpacing: 30 });
             });
         </script>
-
-
-
-
 
     </body></html>
