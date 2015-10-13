@@ -28,7 +28,7 @@
             right: 0;
             height: 80px;
             background: #FF7E27;
-            padding: 5px;
+            padding-top: 2%;
             font-size: 22px;
           }
           @media screen and (max-width: 530px) {
@@ -764,12 +764,14 @@ services.
         </div>
 
         <div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
-          <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-              <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
-                <button class="btn btn-info claim-yours">Claim Yours!</button>
-              </a>
-          </div>
+          <section class="container">
+            <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
+                  <button class="btn btn-info claim-yours">Claim Yours!</button>
+                </a>
+            </div>
+          </section>
         </div>
 
         <script>
