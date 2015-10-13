@@ -3,20 +3,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>70 Year Old Grandmas Look 40 Again: You Will Not Believe Their Transformations!</title>
-        <?php
-        $step1_link ='http://google.com';
-        $assets = '';
-        $step1_name = 'PRODUCT1';
-        $step1_image = 'ba1.jpg';
 
-        $step2_link ='http://google.com';
-        $step2_name = 'PRODUCT2';
-        $step2_image = 'INSERT_IMAGE_IN_DIRECTORY';
-        ?>
-
-        <link href="<?= $assets ?>/bootstrap.css" rel="stylesheet">
-        <link href="<?= $assets ?>/app.css" rel="stylesheet">
-        <script src="<?= $assets ?>/jquery-1.js"></script>
+        <link href="<?= $assets ?>/assets/bootstrap.css" rel="stylesheet">
+        <link href="<?= $assets ?>/assets/app.css" rel="stylesheet">
+        <script src="<?= $assets ?>/assets/jquery-1.js"></script>
         <!-- Add the script that calculates today's date as function so it can be re-used without copying the same code over and over -->
         <script type="text/javascript">
             function calculateDate () {
@@ -42,11 +32,11 @@
                     <div style="font-size:8px;color:black;align:c" align="center"></div>
                 </div>
                 <div class="col-md-3" id="logo" style="text-align:center;">
-                    <img src="<?= $assets ?>/logo.png" height="80" width="257"></div>
+                    <img src="<?= $assets ?>/assets/logo.png" height="80" width="257"></div>
                 <div class="col-md-3 hidden-xs" style="color:#CCC;text-align:center;"></div>
                 <div class="col-md-6 hidden-xs hidden-sm" id="banner">
                     <div align="right">
-                        <a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/banner-468-60.jpg" style="max-width:468px;" class="img-responsive hidden-xs"></a></div>
+                        <a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/assets/banner-468-60.jpg" style="max-width:468px;" class="img-responsive hidden-xs"></a></div>
                     <div>
                         <div class="hidden-xs" align="right">
                             <a href="<?= $step1_link ?>" target="_blank">REGISTER</a>
@@ -115,17 +105,17 @@
                     <div style="height: 303px;" class="sticky-wrapper" id="sidebar-sticky-wrapper"><div style="height: 12px;" class="sticky-wrapper" id="sidebar-sticky-wrapper"><div style="" id="sidebar" class="stickySocial">
                         </div></div></div>
                     <p style="alignment:center;padding:10px 0;">
-                        <img style="max-width:100%" src="<?= $assets ?>/feature2.png" height="" width="">
-                        <img style="max-width:100%" src="<?= $assets ?>/newsarticles.png" height="" width="">
+                        <img style="max-width:100%" src="<?= $assets ?>/assets/feature2.png" height="" width="">
+                        <img style="max-width:100%" src="<?= $assets ?>/assets/newsarticles.png" height="" width="">
                     </p>
                     <p>
-                        <img style="max-width:100%" src="<?= $assets ?>/transformations_alt.jpg" height="" width="">
-                        <img style="width:15px;height:15px;verticle-align:middle;" src="<?= $assets ?>/pageviews.jpg" alt="views" title="views" height="15" width="15">
+                        <img style="max-width:100%" src="<?= $assets ?>/assets/transformations_alt.jpg" height="" width="">
+                        <img style="width:15px;height:15px;verticle-align:middle;" src="<?= $assets ?>/assets/pageviews.jpg" alt="views" title="views" height="15" width="15">
                         <span style="color:#ff0000;vertical-align:middle;">
                             <a href="<?= $step1_link ?>" id="link" target="_blank" style="color:#ff0000;">2,391,558</a>
                         </span>
                         |
-                        <img style="width:15px;height:15px;verticle-align:middle;" src="<?= $assets ?>/comments.jpg" alt="comments" title="comments" height="15" width="15">
+                        <img style="width:15px;height:15px;verticle-align:middle;" src="<?= $assets ?>/assets/comments.jpg" alt="comments" title="comments" height="15" width="15">
                         <span style="color:#124878;vertical-align:middle;">
                             <a href="<?= $step1_link ?>" id="link" target="_blank" style="color:#124878;">656</a>
                         </span>
@@ -143,7 +133,7 @@ it's one that clever women around the world have been secretly using
 too.
                     </p>
                     <p>
-                        <img style="max-width:100%" src="<?= $assets ?>/ozskin.jpg" height="" width="">
+                        <img style="max-width:100%" src="<?= $assets ?>/assets/ozskin.jpg" height="" width="">
                     </p><p style="text-align: center; font-size: 12px;">
                     "The Miracle Anti-Aging Breakthrough - Because It Works!"
                     </p>
@@ -153,7 +143,7 @@ expensive anti-aging skin Serums that make big promises and don't work,
 one reader has discovered a skin product that erases years off her face
 for only a few pounds. Read on to find out how it works!
                     </p>
-                    <img style="max-width:100%" src="<?= $assets ?>/skin-transformation02.jpg" height="" width="">
+                    <img style="max-width:100%" src="<?= $assets ?>/assets/skin-transformation02.jpg" height="" width="">
                     <p style="text-align: center; font-size: 12px;">
                         "Lauren di Fiores was able to remove over 20 years of aging from her face with just 2 simple products!"
                     </p>
@@ -259,10 +249,10 @@ list of A-list celebrities that appear to be ditching their expensive
 Botox treatments for <?= $step1_name ?>
 include: Kim Kardashian and Kate Middleton:
                     </p>
-                    <img class="contentImage" style="max-width:100%;" alt="" src="<?= $assets ?>/kimbotox.jpg" width="550px">
-                    <img class="contentImage" style="max-width:100%;" alt="" src="<?= $assets ?>/kateeye.jpg" width="550px">
+                    <img class="contentImage" style="max-width:100%;" alt="" src="<?= $assets ?>/assets/kimbotox.jpg" width="550px">
+                    <img class="contentImage" style="max-width:100%;" alt="" src="<?= $assets ?>/assets/kateeye.jpg" width="550px">
                     <h1>People Everywhere Are Talking</h1>
-                    <img alt="" src="<?= $assets ?>/ba1.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="" width="70%">
+                    <img alt="" src="<?= $assets ?>/assets/ba1.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="" width="70%">
                     <p style="text-align: center;">
                         "I'm 48 yrs old and my face has unfortunately
 been showing signs of age, dark spots and wrinkles. I decided to give
@@ -274,7 +264,7 @@ the difference in the size of my pores, my skin tone was more even, and
 my face was smoother and not so bumpy looking. I definitely would
 continue to use this product." <strong>Lannie Semira from Lakewood, New York</strong>
                     </p>
-                    <img alt="" src="<?= $assets ?>/ba2.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="" width="70%">
+                    <img alt="" src="<?= $assets ?>/assets/ba2.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="" width="70%">
                     <p style="text-align: center;">
                         "I am 57 years old and I do NOT expect any
 lotion or Serum to make me look as I did in my 20's; however if I use
@@ -287,7 +277,7 @@ properly so that the beneficial ingredients are not exposed to the
 light, air, &amp; bacteria that destroys them. The free trial was great,
  it allowed me to try them before I bought them.."	<strong>Zoe Clara from Miami, Florida</strong>
                     </p>
-                    <img alt="" src="<?= $assets ?>/ba3.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="" width="70%">
+                    <img alt="" src="<?= $assets ?>/assets/ba3.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="" width="70%">
                     <p style="text-align: center;">
                         "Better than ANY other face Serum I have ever
 tried. Don't spend your money on expensive department store crap. Your
@@ -296,7 +286,7 @@ cheapest. Have been using it ever day for the past year and I'll keep
 using it. I Wish I could give them 10 stars."
                         <strong>June Witwicky from Los Angeles, California</strong>
                     </p><p>
-                    <img alt="" src="<?= $assets ?>/drtrust.jpg" style="float:left;padding-right: 20px" height="" width="">Dr.
+                    <img alt="" src="<?= $assets ?>/assets/drtrust.jpg" style="float:left;padding-right: 20px" height="" width="">Dr.
  Richard Peters, a prominent dermatologist based in Beverly Hills,
 California, revealed to us that <?= $step1_name ?> is the celebrity secret to youthful skin because both products
 contain the purest and most powerful forms of Retinol and Tripeptide-10.
@@ -330,7 +320,7 @@ looked how I used to look 20 years ago!" - <strong>Lauren</strong>
                     </strong>
                     <p></p>
                     <p>
-                        <img alt="" src="<?= $assets ?>/eyes1.jpg" style="float:left;padding-right: 20px" height="150px" width="">After
+                        <img alt="" src="<?= $assets ?>/assets/eyes1.jpg" style="float:left;padding-right: 20px" height="150px" width="">After
  the first day of using <?= $step1_name ?>, I
  was surprised at how wonderful they both made my skin feel. It felt
 like every last pore on my face was being tightened and pulled by a
@@ -351,7 +341,7 @@ absorbed into my skin, my face looked firmer and had a beautiful glow to
                         </strong>
                     </p>
                     <p>
-                        <img alt="" src="<?= $assets ?>/eyes2.jpg" style="float:left;padding-right: 20px" height="150px" width="">After five days of using <?= $step1_name ?>, I was shocked at the drastic results.
+                        <img alt="" src="<?= $assets ?>/assets/eyes2.jpg" style="float:left;padding-right: 20px" height="150px" width="">After five days of using <?= $step1_name ?>, I was shocked at the drastic results.
                     </p>
                     <p>
                         <strong>
@@ -370,7 +360,7 @@ fine lines vanish right off!
                             <span class="step1">Day 14:</span>
                         </strong>
                     </p><p>
-                    <img alt="" src="<?= $assets ?>/eyes3.jpg" style="float:left;padding-right: 20px" height="150px" width="">After 14 days, not only had all my doubts and skepticism absolutely vanished - SO DID MY WRINKLES!
+                    <img alt="" src="<?= $assets ?>/assets/eyes3.jpg" style="float:left;padding-right: 20px" height="150px" width="">After 14 days, not only had all my doubts and skepticism absolutely vanished - SO DID MY WRINKLES!
                     </p>
                     <p>
                         The lines on my forehead, the loose, sagging
@@ -412,9 +402,9 @@ forever.
                     </p>
                     <div class="coupon">
                         <div class="bottle-wrap">
-                            <img class="bottle" style="float: left;" src="<?= $assets ?>/<?= $step1_image ?>.png" height="125px"><span>
+                            <img class="bottle" style="float: left;" src="<?= $assets ?>/assets/<?= $step1_image ?>.png" height="125px"><span>
                             <br><br>
-                            <img class="alignleft" style="padding-bottom:10px;padding-left:10px" alt="" src="<?= $assets ?>/iconRedArrow.png" height="40" width="35"></span>
+                            <img class="alignleft" style="padding-bottom:10px;padding-left:10px" alt="" src="<?= $assets ?>/assets/iconRedArrow.png" height="40" width="35"></span>
                             <span class="step1"></span>
 
 
@@ -480,7 +470,7 @@ away from the public.
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-5364.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-5364.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Diane</h4>
                                 My friends and I have all been waiting
@@ -494,7 +484,7 @@ advantage of this wonderful opportunity.
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-1290.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-1290.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Michelle</h4>
                                 Helen, i saw these products on oprah and rachael&nbsp;rays
@@ -510,7 +500,7 @@ advantage of this wonderful opportunity.
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-1295.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-1295.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Cara</h4>
                                 I have not been able to find this in
@@ -522,7 +512,7 @@ stock for 2 months! Thanks for the free trial, that will save me. Thanks
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-5242.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-5242.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Michael</h4>
                                 Hey, Helen, I saw the report on TV and
@@ -538,7 +528,7 @@ time. LOL!
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-1945.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-1945.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Laura</h4>
                                 There is a big stir going on these days.
@@ -552,7 +542,7 @@ Thanks for the links.
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-1332.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-1332.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Dorothee</h4>
                                 My daughter and I have wrinkle issues. I
@@ -563,7 +553,7 @@ Thanks for the links.
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-7263.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-7263.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Rhia</h4>
                                 My husband and I both need to look
@@ -578,7 +568,7 @@ family
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-1313.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-1313.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Stephen</h4>
                                 I’ve been seeing <?= $step1_name ?>&nbsp; all
@@ -593,7 +583,7 @@ family
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-1873.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-1873.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Nancy</h4>
                                 This stuff is amazing! My best friend
@@ -611,7 +601,7 @@ to it. This is a godsend,&nbsp;&nbsp;thanks so much!!
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-9876.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-9876.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Amy</h4>
                                 I was a bit skeptical when I first read
@@ -628,7 +618,7 @@ surprised many
 
                         <div class="media">
                             <a class="pull-left" href="<?= $step1_link ?>" id="link">
-                                <img class="media-object" src="<?= $assets ?>/img-user-1345.jpg" alt="user comment" height="75" width="75"></a>
+                                <img class="media-object" src="<?= $assets ?>/assets/img-user-1345.jpg" alt="user comment" height="75" width="75"></a>
                             <div class="media-body">
                                 <h4 class="media-heading">Posted by Nicole</h4>
                                 This is an absolutely amazing breakthrough. I can’t thank
@@ -642,7 +632,7 @@ surprised many
 
                 <div class="right-container">
                     <div style="height: 911px;" class="sticky-wrapper" id="StickyBox-sticky-wrapper"><div style="height: 911px;" class="sticky-wrapper" id="StickyBox-sticky-wrapper"><div style="" id="StickyBox" class="right-sidebar">
-                        <img class="mag1" style="width:190px;" src="<?= $assets ?>/wd_may_cover.jpg">
+                        <img class="mag1" style="width:190px;" src="<?= $assets ?>/assets/wd_may_cover.jpg">
                         <p>
                             <?= $step1_name ?> was recently featured <strong>Woman's Day</strong> as The Secret Wrinkle Buster they don't want you to know about!
                         </p>
@@ -657,7 +647,7 @@ surprised many
                             <strong><?= $step1_name ?> 100% Free!</strong>
                         </p>
                         <div class="bottle-wrap">
-                            <img class="bottle" src="<?= $assets ?>/<?= $step1_image ?>.png" height="150px">
+                            <img class="bottle" src="<?= $assets ?>/assets/<?= $step1_image ?>.png" height="150px">
                             <br>
                             <br>
                             <p class="step">
@@ -743,7 +733,7 @@ services.
 
 
 
-        <script type="text/javascript" src="<?= $assets ?>/sticky.js"></script>
+        <script type="text/javascript" src="<?= $assets ?>/assets/sticky.js"></script>
         <script>
             $(window).load(function(){
                 $("#StickyBox").sticky({ topSpacing: 0 });

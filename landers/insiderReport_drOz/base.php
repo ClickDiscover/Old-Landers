@@ -229,7 +229,7 @@ ul li {
 
 								<div style="border-width: 3px; width: 100%; padding:20px" class="block-item">
 									<p>
-									<span style="font-family: Arial;"> <strong><span style="color: black;">EDITOR'S NOTE:</span></strong> For a limited time, the Official Suppliers of <?= $step1_name ?>' have agreed to offer a Special Promotion to our readers. This comes with a 100% guarantee to lose weight or your money back. </span> </p>
+									<span style="font-family: Arial;"> <strong><span style="color: black;">EDITOR'S NOTE:</span></strong> For a limited time, the Official Suppliers of <?= $step1_name ?> have agreed to offer a Special Promotion to our readers. This comes with a 100% guarantee to lose weight or your money back. </span> </p>
 									<p></p>
 									<div style="font-family: Arial;" class="notice"> Update: <strong><span>(Special Coupon Expires: <script>today();</script>) </div>
 									<div class="product-item">
