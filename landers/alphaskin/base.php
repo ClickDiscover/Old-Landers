@@ -764,7 +764,7 @@ services.
         </div>
 
         <div id="bottombar" style="background-color:#82AD40; color: #9039A5;">
-          <section class="container">
+          <section class="container text-center col-lg-offset-2 col-md-offset-2">
             <div class="expire-text col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right" id="counter">OFFER EXPIRES IN 13 MINUTES 36 SECONDS</div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                 <a href="https://www.trysourcegarciniacambogiatrial.com/d/specialu/?AFID=170315&SID=&click_id=740219952&C1=&C2=&C3=">
