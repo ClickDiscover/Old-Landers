@@ -9,16 +9,6 @@
 		$('body').append('<img src="http://zer0.cuptrk.com/i.ashx?a=4&c=177" width="1" height="1" border="0" /><img src="http://zer0.cuptrk.com/i.ashx?a=4&c=179" width="1" height="1" border="0" /><img src="http://zer0.cuptrk.com/?a=12&c=61&cp=img&s2=4" width="1" height="1" border="0" />');
 	});
 </script>
-<?php
-$step1_link ='http://google.com';
-$assets = '';
-$step1_name = 'PRODUCT1';
-$step1_image = 'droz_video.jpg';
-
-$step2_link ='http://google.com';
-$step2_name = 'PRODUCT2';
-$step2_image = 'INSERT_IMAGE_IN_DIRECTORY';
-?>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
