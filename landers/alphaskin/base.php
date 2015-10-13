@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-md-12" style="margin-top:10px;margin-bottom:10px;border-bottom:#ff0000 solid 4px;">
-                    <h2 class="main-title" style="margin-top:0;margin-bottom:0;padding:0;">Canadian Women Are Skipping the Botox for this $5 Wrinkle Solution!</h2>
+                    <h2 class="main-title" style="margin-top:0;margin-bottom:0;padding:0;"><?= $geo->name() ?> Women Are Skipping the Botox for this $5 Wrinkle Solution!</h2>
                 </div>
             </div>
             <div class="row last-row">
