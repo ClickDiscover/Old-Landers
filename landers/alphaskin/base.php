@@ -647,7 +647,7 @@ surprised many
                             <strong><?= $step1_name ?> 100% Free!</strong>
                         </p>
                         <div class="bottle-wrap">
-                            <img class="bottle" src="<?= $assets ?>/assets/<?= $step1_image ?>.png" height="150px">
+                            <img class="bottle" src="<?= $step1_image ?>" height="150px">
                             <br>
                             <br>
                             <p class="step">
