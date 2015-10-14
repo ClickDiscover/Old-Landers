@@ -1,0 +1,41 @@
+typeof _cb_rqr6kemoq9u4ygb9 === 'function' && _cb_rqr6kemoq9u4ygb9({
+  "aabp": "BbsS0YG2PUrylW3MQZmQNCyIva8Wmak8ARuxxwSMSFjTT9BQFF7HnVU98kwjs7iG",
+  "aabr": "rqoxbad6LjTI5TwOxu7QAkeQNxm0Mrut5UeFwI1u9fWu3VWZ1pw02l7EqGuIDaW3",
+  "cs": true,
+  "test": [
+    {
+      "_id": "5603fb8d5e672a064c029dfd",
+      "type": "multi_fragment",
+      "traffic": {
+        "type": "actual",
+        "country": "DE",
+        "language": "de",
+        "ac": "",
+        "aid": "",
+        "campaign": "mu",
+        "redirectSite": "http://de.men-solution-plus.com"
+      },
+      "variants": [
+        {
+          "uuid": "izgopm1ve0wl8frfkfyq7a7f9vhd7vixfeh4qaw4we9udihyth8w12lh7u8fr",
+          "value_type": "nothing",
+          "value": "http://de.men-solution-plus.com"
+        },
+        {
+          "value_type": "redirect",
+          "uuid": "vfufd55w8j16ecdiw9w0s2k225ut0529bpczsm9id6uhaorrdg55ytxmie8kt9",
+          "value": "http://de.men-solution-plus.com/ib2"
+        }
+      ],
+      "apply": [
+        {
+          "uuid": "izgopm1ve0wl8frfkfyq7a7f9vhd7vixfeh4qaw4we9udihyth8w12lh7u8fr",
+          "value_type": "nothing",
+          "value": "http://de.men-solution-plus.com"
+        }
+      ],
+      "variant_id": "izgopm1ve0wl8frfkfyq7a7f9vhd7vixfeh4qaw4we9udihyth8w12lh7u8fr"
+    }
+  ],
+  "bind": []
+});
