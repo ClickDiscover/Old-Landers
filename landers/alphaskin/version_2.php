@@ -202,7 +202,7 @@ instructions to the letter, she saw no real results.
                         Frustrated and let down, she considered going so
  far as to take out a substantial loan for Botox injections, and even
 contemplated a highly risky and very expensive facelift procedure. But
-the high cost (ranging anywhere from £4000 - £12,000+) and the horror
+the high cost (ranging anywhere from <?= $geo->money(4000, 0) ?> - <?= $geo->money(12000, 0) ?>+) and the horror
 stories of unfixable botched procedures convinced her that cosmetic
 treatments were not the solution she was looking for. She was determined
  to find a safe and affordable anti-aging solution that would give her
@@ -225,7 +225,7 @@ was giving her real results.
                     <p>
                         Using the <a href="<?= $step1_link ?>" id="link" target="_blank"><?= $step1_name ?></a>,
  Lauren's results were noticeably better than what you'd find at
-medi-spas for £5,000 or more. This removed virtually 90% of all her
+ medi-spas for <?= $geo->money(5000, 0) ?> or more. This removed virtually 90% of all her
 wrinkles and problem areas. It tightened her face and neck, removing all
  signs of sagging, aging, and dehydrated skin. Lauren was able to see
 these dramatic anti-aging results simply by using <strong>free samples of both products for only 14 days</strong>.
@@ -277,8 +277,7 @@ stresses, or irritation.
                     <p>
                         After seeing Lauren on the Dr Oz show a growing
 list of A-list celebrities that appear to be ditching their expensive
-Botox treatments for <?= $step1_name ?>
-include: Kim Kardashian and Kate Middleton:
+Botox treatments for <?= $step1_name ?> include: Kim Kardashian and Kate Middleton:
                     </p>
                     <img class="contentImage" style="max-width:100%;" alt="" src="<?= $assets ?>/assets/kimbotox.jpg" width="550px">
                     <img class="contentImage" style="max-width:100%;" alt="" src="<?= $assets ?>/assets/kateeye.jpg" width="550px">
@@ -428,7 +427,7 @@ the lowest possible shipping price as well.
                     <p>
                         Remember, <?= $step1_name ?> comes with a 100% satisfaction guarantee or full money back.
 With the discounted shipping costs you will be on your way to smooth
-skin for under £5. But hurry, these incredible free trials won't last
+skin for under <?= $geo->money(5, 0) ?>. But hurry, these incredible free trials won't last
 forever.
                     </p>
                     <div class="coupon">
@@ -453,7 +452,7 @@ forever.
                     <p></p>
                     <p>
                         We rarely do these write ups because the reality
- is that there is just a bunch of rubbish out there claiming to be that
+                        is that there is just a bunch of <?= $geo->v('trash') ?> out there claiming to be that
 next big anti-aging breakthrough. But this was just too good to keep
 away from the public.
                     </p>
@@ -690,14 +689,14 @@ surprised many
                                         Click Here To Claim Your FreeTrial of <?= $step1_name ?></a>
                                 </strong></p>
                             <p>
-                                <strong class="yellow">GET YOUR FREE TRIAL FOR $4.95 S/H</strong>
+                            <strong class="yellow">GET YOUR FREE TRIAL FOR <?= $geo->money(4.95) ?> S/H</strong>
                             </p>
                             <p class="t-small">&nbsp;</p>
                             <div class="clearfix"></div>
                         </div>
                         <p>
                             <strong>
-                                Get your FREE TRIAL for just $4.95 shipping on <?= $step1_name ?> through this
+                                Get your FREE TRIAL for just <?= $geo->money(4.95) ?> shipping on <?= $step1_name ?> through this
                                 <a href="<?= $step1_link ?>" id="link" target="_blank">SPECIAL PROMO LINK</a>.
                             </strong>
                         </p>
