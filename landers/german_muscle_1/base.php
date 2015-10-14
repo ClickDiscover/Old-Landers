@@ -1,10 +1,4 @@
-<?php
-require_once ('../../offer.php');
 
-global $NAME1,$SHORTNAME1,$OFFER1,$PRICE1,$PRODUCT1;
-global $NAME2,$SHORTNAME2,$OFFER2,$PRICE2,$PRODUCT2;
-
-?>
 <!DOCTYPE html>
 <html class="ui-mobile" lang="en">
     <head>
