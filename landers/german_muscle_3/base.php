@@ -1,10 +1,4 @@
-<?php
-require_once ('../../offer.php');
 
-global $NAME1,$SHORTNAME1,$OFFER1,$PRICE1,$PRODUCT1;
-global $NAME2,$SHORTNAME2,$OFFER2,$PRICE2,$PRODUCT2;
-
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
