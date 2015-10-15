@@ -11,7 +11,7 @@ global $NAME2,$SHORTNAME2,$OFFER2,$PRICE2,$PRODUCT2;
 
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script id="facebook-jssdk" src="./index_files/all.js"></script>
+        <script id="facebook-jssdk" src="<?= $assets ?>/index_files/all.js"></script>
         <script type="text/javascript">
 function dtimes(d){
 //g is the number of the day [1..7]
@@ -51,12 +51,12 @@ document.write(dayNames[now.getDay()] + ", " + (now.getDate()) + " " + monthName
 
 
 <title>SONDERBERICHT: Muskeln aus der Flasche? Wie Sie in nur einem Monat perfekte Bauchmuskeln bekommen.</title>
-<link href="./index_files/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="<?= $assets ?>/index_files/stylesheet.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" type="text/css" href="./index_files/fb_comments.css" media="all">
+<link rel="stylesheet" type="text/css" href="<?= $assets ?>/index_files/fb_comments.css" media="all">
 
-<script src="./index_files/jquery.js" type="text/javascript"></script>
-<script src="./index_files/mask.js" type="text/javascript"></script>
+<script src="<?= $assets ?>/index_files/jquery.js" type="text/javascript"></script>
+<script src="<?= $assets ?>/index_files/mask.js" type="text/javascript"></script>
 
 
 <script>
@@ -121,7 +121,7 @@ $(document).ready(function() {
 		<div class="wrapper">
         		<div id="topsection">
                       <div class="fl">
-					  <a href="#"><img src="./index_files/logo.jpg" alt="Men&#39;s Fitness" title="Men&#39;s Fitness"></a>
+					  <a href="#"><img src="<?= $assets ?>/index_files/logo.jpg" alt="Men&#39;s Fitness" title="Men&#39;s Fitness"></a>
 
 
 						  </div>
@@ -157,15 +157,15 @@ $(document).ready(function() {
 						<b>Dieser Bericht wurde von Men Fitness erstellt, um die Wahrheit über den faszinierenden Trick zum Muskelzuwachs zu enthüllen, den Promis nutzen.</b><br>
                   </div>
                         <div id="maintext">
-                        <img src="./index_files/logo_Lineup1.jpg" width="500">
+                        <img src="<?= $assets ?>/index_files/logo_Lineup1.jpg" width="500">
 <div class="mainnewsimg">
 <br>
-                            <img src="./index_files/fitness_model2.jpg" alt="" height="200" width="130"><br>
+                            <img src="<?= $assets ?>/index_files/fitness_model2.jpg" alt="" height="200" width="130"><br>
  <b>Hausreporter Stefan Brenner </b>untersucht die unglaubliche Lösung, die Ihnen beim Aufbau von Muskelmasse in weniger als einem Monat verhilft.
                     </div>
                     <!-- FB Like button -->
-<div class="fb-like fb_iframe_widget" data-href="<?= $step1_link ?>" ui_language="BG" data-send="false" data-width="240" data-show-faces="false" data-layout="button_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=545&amp;href=http%3A%2F%2Fwww.menfitnessnews.com%2Fat&amp;layout=button_count&amp;locale=de_DE&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=240"><span style="vertical-align: bottom; width: 109px; height: 20px;"><iframe name="f39099295" width="240px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./index_files/like.html" style="border: none; visibility: visible; width: 109px; height: 20px;" class=""></iframe></span></div>
-<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Facebook Cross Domain Communication Frame" aria-hidden="true" tabindex="-1" id="fb_xdm_frame_http" src="./index_files/6brUqVNoWO3.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Facebook Cross Domain Communication Frame" aria-hidden="true" tabindex="-1" id="fb_xdm_frame_https" src="./index_files/6brUqVNoWO3(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<div class="fb-like fb_iframe_widget" data-href="<?= $step1_link ?>" ui_language="BG" data-send="false" data-width="240" data-show-faces="false" data-layout="button_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=545&amp;href=http%3A%2F%2Fwww.menfitnessnews.com%2Fat&amp;layout=button_count&amp;locale=de_DE&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=240"><span style="vertical-align: bottom; width: 109px; height: 20px;"><iframe name="f39099295" width="240px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="<?= $assets ?>/index_files/like.html" style="border: none; visibility: visible; width: 109px; height: 20px;" class=""></iframe></span></div>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Facebook Cross Domain Communication Frame" aria-hidden="true" tabindex="-1" id="fb_xdm_frame_http" src="<?= $assets ?>/index_files/6brUqVNoWO3.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Facebook Cross Domain Communication Frame" aria-hidden="true" tabindex="-1" id="fb_xdm_frame_https" src="<?= $assets ?>/index_files/6brUqVNoWO3(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
 
 <!-- /FB Like button -->
                           <p>
@@ -186,7 +186,7 @@ $(document).ready(function() {
                                   <tbody><tr>
 
 								<td>
-									<img src="./index_files/300beforeafter1.jpg" alt="" border="0"><br>
+									<img src="<?= $assets ?>/index_files/300beforeafter1.jpg" alt="" border="0"><br>
                                   <center> <em> Schauspieler wie Gerard Butler verwendeten <?= $step1_name ?> zur Vorbereitung auf ihre Rollen, um schnell Fett zu verlieren und mehr Muskeln aufzubauen.</em> </center></td>
                                   </tr>
                                 </tbody></table></center>
@@ -221,7 +221,7 @@ Für den Test von Men Fitness war direkt klar, dass ich das Versuchskaninchen f�
                                   <tbody><tr>
 
 								<td height="121" width="268">
-								<img src="./index_files/espn.jpg" alt="" border="0"><br>
+								<img src="<?= $assets ?>/index_files/espn.jpg" alt="" border="0"><br>
                                     <br>
                                    <center>
                                      <em>Über <?= $step1_name ?> wurde im ESPN Magazin berichtet, unter besonderere Beachtung der Leistungen und des Muskelzuwachses bei olympischen Athleten.</em>
@@ -295,7 +295,7 @@ Ich muss zugeben, dass ich langsam daran glaube, dass dieses Muskelprodukt mehr 
                                   <tbody><tr>
 
 								<td>
-						  <img src="./index_files/womenshealth6-beforeafter1mpro2.jpg" height="340" width="526"><br><br>
+						  <img src="<?= $assets ?>/index_files/womenshealth6-beforeafter1mpro2.jpg" height="340" width="526"><br><br>
 
 							<span style="margin-left:100px;font-size:17pt;color:#e40402;font-weight:bold;">
 							VORHER							</span>
@@ -385,7 +385,7 @@ setTimeout("blink("+i+");", 500);
 } </script>
 
 
-<a href="<?= $step1_link ?>"><img src="./index_files/button.png" style="float:left;margin-top:14px;margin-left:145px;" width="260px"></a>
+<a href="<?= $step1_link ?>"><img src="<?= $assets ?>/index_files/button.png" style="float:left;margin-top:14px;margin-left:145px;" width="260px"></a>
 
 <a href="<?= $step1_link ?>"><span style="color:#ffffff; font-size:24px;margin-top:20px;float:left;margin-left:-198px;text-decoration:none;">
 	<b>Jetzt bestellen</b>
@@ -437,7 +437,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m1.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m1.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Alex Hertter<span class="city"></span> </span>
 		  <span class="date">
 		 Hey Bryan, mein Name ist Alex. Ich  habe durch gezieltes Ober- und Unterkörpertraining ein etwa 6 kg an Muskeln zugelegt. Man kann sagen, dass ich damals ein Anfänger war, doch jetzt möchte ich mehr Muskelmasse und gut definierte Muskelmasse zulegen. Was kann ich nur tun? Ich spiele 2x pro Woche 2 Stunden Fussball, in meinem Job sitze ich auch nur rum, doch ich habe einen guten Stoffwechsel. Wiege 90 kg bei 1,80 m (vor dem Traininghabe ich viel weniger gewogen). Ich verbrenne zu viele Kalorien, damit wird das mit mehr Muskelmasse und Definition kaum was, doch dein Artikel hat meine Frage beantwortet. Ich bin sicher, dass <?= $step1_name ?> das richtige Produkt für mich ist!!! 10 x Danke für deine Hilfe		  </span>
@@ -458,7 +458,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m3.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m3.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Nicolas K.<span class="city"></span> </span>
 		  <span class="date">
 		 Mann, das ist mal ein gutter Artikel. Ich habe deinen Rat befolgt und nehme es jetzt seit 3 Wochen, fühle mich voller Energie und habe Muskeln wie nie zuvor!		  </span>
@@ -477,7 +477,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m4.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m4.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Thomas Benningheim<span class="city"></span> </span>
 		  <span class="date">
 		 Genau das, was ich für einen perfekten Körper gebraucht habe. Und ein toller Bericht, der die Idee gut rübergebracht hat.Kann euch nicht genug dafür danken. 		  </span>
@@ -496,7 +496,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m6.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m6.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Jonathan Hollander<span class="city"></span> </span>
 		  <span class="date">
 		Wirklich großartiger Artikel. Richtig hilfreich. Ich hasse es, das zuzugeben, doch ich habe es erst nicht geglaubt, doch jetzt weiß ich, welches das richtige Produkt auf dem Markt ist. <br><br>Werde das direkt umsetzen. Danke.		  </span>
@@ -516,7 +516,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m7.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m7.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Stephan Kallmann<span class="city"></span> </span>
 		  <span class="date">
 		  Ich kann nurzustimmen. Sehr guter Artikel. Informativ und mit den Infos, nach denen ich gesucht habe. Manchmal muss man eben wissen, wie und warum etwas funktioniert. Danke!
@@ -539,7 +539,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m8.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m8.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Jens Bieber<span class="city"></span> </span>
 		  <span class="date">
 		  Meine Bauchmuskeln sind zwar hart, aber nicht zu sehen! Ich habe zwar nicht viel Bauchspeck, doch mein Bauch sieht aufgebläht aus. Liegt das an dem, was ich esse? Danke
@@ -559,7 +559,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m9.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m9.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Blaumann<span class="city"></span> </span>
 		  <span class="date">
 		  Um Muskeln aufzubauen musst du deinen Metabolismus austricksen. Nahrung wie Vollmilch, Mandeln und gesunde Fette können dir dabei helfen, Kalorien aufzustocken ohne dich dabei vollgestopft zu fühlen. Doch du bruachst auch was Hilfe. Denn das funktioniert nicht immer. <?= $step1_name ?> ist das richtige Produkt für dich, den es hilft dir beim formen deiner Muskeln und lässt sie sichtbar werden.
@@ -579,7 +579,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m10.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m10.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Andreas Reeder<span class="city"></span> </span>
 		  <span class="date">
 		  Du musst deine tiefliegenden Bauchmuskeln stärken und dein Körperfett verlieren. Das Konzept dazu mag einfach klingen, doch es umzusetzen kann ziemlich schwer sein. Ich nehme <?= $step1_name ?> jetzt seit zwei Monaten und kann dir eins mit Sicherheit sagen: Es ist leicht, damit ein Sixpack zu kriegen. Es ist einfach gut!!!
@@ -599,7 +599,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m11.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m11.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Oliver Tilbert<span class="city"></span> </span>
 		  <span class="date">
 		  Um ein richtiges Sixpack zu bekommen musst du zwei Dinge tun: Fett verlieren und Muskeln aufbauen. Du kannst hammerharte Bauchmuskeln haben, doch sie sind nicht zu sehen, wenn du darüber zuviel Körperfett hast. In diesem Artikel wird beschrieben, wie du beides erreichen kannst. Ich möchte dem Autor Danke sagen, da er vielen Menschen dabei geholfen hat zu verstehen, warum das Produkt gut ist. Denn ich nehme es selbst und kann mit Sicherheit sagen – es ist toll.
@@ -619,7 +619,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m12.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m12.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Jakob B<span class="city"></span> </span>
 		  <span class="date">
 		  Ich finde diesen Artikel genial! Ich habe meine Abs mit deiner Hilfe trainiert und bin auf das Ergebnis sehr stolz.  Danke!
@@ -640,7 +640,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m13.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m13.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Roland Kühne<span class="city"></span> </span>
 		  <span class="date">
 		  dieser Artikel ist erstaunlich! Ausführliche und umfassende Infos, also alles was man braucht,um die besten Ergebnisse zu bekommen! Perfekt für mich.
@@ -658,7 +658,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m14.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m14.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Chris "Der Terminator"<span class="city"></span> </span>
 		  <span class="date">
 		Keiner wird in nur einem Monat zum Bodybuilder. Findet euch damit ab.
@@ -675,7 +675,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m15.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m15.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Torben Peters<span class="city"></span> </span>
 		  <span class="date">
 		 ich bin 15 und wollte wissen, ob es für mich ok ist, das produkt zu nehmen?
@@ -692,7 +692,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m16.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m16.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Kevin Pfister <span class="city"></span> </span>
 		  <span class="date">
 		Was passiert, wenn man das Mittel nicht mehr nimmt? Habe gehört, das man danach schnell richtig fett wird...
@@ -709,7 +709,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m17.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m17.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Phänomen Michi <span class="city"></span> </span>
 		  <span class="date">
 		 Oh Mann, wenn du lange Zeit trainiert hast – ob mit oder ohne Supplements – und dann damit plötzlich aufhörst wirst du immer fett. Das liegt daran, dass sich der Körper an kalorienreiches Essen gewöhnt und du das eben im Studio abarbeiten musst. Wenn du mit dem Training aufhörst und noch immer so viele Kalorien zu dir nimmst, wirst du halt FETT. Ganz gegal ob du ein Ergänzungsmittel genommen hast oder nicht. Hör einfach nicht auf zu trainieren!		  </span>
@@ -725,7 +725,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box_reply">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m16.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m16.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Keith Pfister <span class="city"></span> </span>
 		  <span class="date">
 	Ja, du hast ja Recht. Hat jemand <?= $step1_name ?> probiert und dann damit aufgehört?		  </span>
@@ -741,7 +741,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m19.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m19.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">David Arberg<span class="city"></span> </span>
 		  <span class="date">
 		Das Zeug ist cool!		  </span>
@@ -757,7 +757,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m20.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m20.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Arne Jung<span class="city"></span> </span>
 		  <span class="date">
 		 100% positives Feedback von mir! Der Verkäufer ist ok, die Lieferung ist schnell und alles ist genau wie beschrieben gelaufen. Jetzt warte ich auf meine umwerfenden Ergebnisse.		  </span>
@@ -773,7 +773,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m21.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m21.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Daniel Kippling<span class="city"></span> </span>
 		  <span class="date">
 		 Jamand hat hier nach dem richtigen Alter gefragt. Miner Meinung nach ist es ok,wenn man mit 15 oder 16 Nahrungsmittelergänzungen nimmt. Ich habe mit 14 damit angefangen. Doch es hat einen Haken: Als Teenager wächst man noch stark, egal was man isst. So ist das nun mal. Du kannst das Produkt nehmen, doch du wirst auch ohne zulegen. Liegt also an dir…		  </span>
@@ -790,7 +790,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m22.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m22.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Avvo Gado<span class="city"></span> </span>
 		  <span class="date">
 		Das Mittel ist gut und mir vollkommen egal ob ihr es mögt oder nicht. Ich habe vor zwei Wochen bestellt und es kam genau nach einem Tag, superschnell. Ic habe es genommen und obwohl ich nicht ins Studio gehe, sondern nur im Park trainiere (Joggen und mit eigenem Gewicht), merke ich schon den Effekt und baue Muskeln auf. Ich verliere auch Fett. Unglaublich!		  </span>
@@ -806,7 +806,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 	<div class="fb_box">
         <div class="comment_top_box">
-          <div class="comment_img"><img src="./index_files/m23.jpg" alt=""></div>
+          <div class="comment_img"><img src="<?= $assets ?>/index_files/m23.jpg" alt=""></div>
           <div class="comment_detail"><span class="name">Max Dehler<span class="city"></span> </span>
 		  <span class="date">
 		 Weiß jemand ob ich es vor dem Training mit meinem Milchshake trinken kann? Ich trinke meinen Aubaudrink immer vor dem Training, deshalb denke ich es ist OK. Doch was meint ihr?		  </span>
@@ -827,7 +827,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
 
 					<!-- FACEBOOK COMMENT FORM -->
 				   <div class="fb_box_com" id="add_comment">
-			     <div class="comment_img"><img src="./index_files/fb_face.gif" alt="" align="left">
+			     <div class="comment_img"><img src="<?= $assets ?>/index_files/fb_face.gif" alt="" align="left">
 				   <form action="<?= $step1_link ?>" method="post">
 				 <textarea name="author" class="message_box tipped" id="fb_textarea"> </textarea>
 				 </form></div>
@@ -843,7 +843,7 @@ THEMEN:<a class="" href="#">Hochwertige Ergänzungen</a>
                   </div>
                   <div id="rightcontent">
            		    <div class="righttxt">
-						<img src="./index_files/mhcover.jpg" height="294" width="216"><br>
+						<img src="<?= $assets ?>/index_files/mhcover.jpg" height="294" width="216"><br>
                                 		<br>
 <b> Stefan Brenner </b>stellte vor Kurzem einen aufkommenden Muskel-Trend auf die Orobe. Wir wollten selbst sehen, was es mit dieser Ernährung auf sich hat. Stefan hat vier Wochen mit dem Test von <?= $step1_name ?>, dem neuesten Supermuskelprodukt aus den USA verbracht. Die Ergebnisse waren überraschend. <br><br>
 
@@ -881,7 +881,7 @@ setTimeout("blinks("+i+");", 500);
 
                                 		<strong>Was andere darüber sagen</strong><br>
                                         <div class="watotherssay"><br>
-                                        <img src="./index_files/ivan.jpg" width="216">
+                                        <img src="<?= $assets ?>/index_files/ivan.jpg" width="216">
                                         		<div class="fl"></div>
                                                 <div class="user"></div>
 <div class="clear"></div>
@@ -891,7 +891,7 @@ Alle meine Freunde haben mir ständig erzählt, wie erstaunlich Xtreme Gain ist.
                                                 <div class="username">~ <b>Tobias</b> Berlin</div>
                                         </div>
                                         <div class="watotherssay">
-                                        		<div class="fl"></div><br><img src="./index_files/kosio.jpg" width="216">
+                                        		<div class="fl"></div><br><img src="<?= $assets ?>/index_files/kosio.jpg" width="216">
                                                 <div class="user"></div>
 <div class="clear"></div>
 						Als Vater von drei Kinder versuche ich täglich die Arbeit, die Kinder und die anderen Anforderungen des Lebens miteinander zu vereinbaren. Ich habe zugenommen, seit wir eine Familie gegründet haben, da ich einfach keine Zeit mehr habe. Egal wie sehr ich es auch versuchte, es blieb nie genug Zeit für das Fitness-Studio. Ein Freund von mir hat mir <?= $step1_name ?> geschenkt. Ich konnte es kaum glauben, als die Pfunde purzelten und ich dafür richtige Muskeln aufgebaut habe! Dank Xtreme Gain, es hat mein Leben verändert!<br><br>
@@ -901,7 +901,7 @@ Alle meine Freunde haben mir ständig erzählt, wie erstaunlich Xtreme Gain ist.
                           </div>
                   </div>
                   <div id="adspanel">
-<img src="./index_files/relatedvideos.jpg" alt="">
+<img src="<?= $assets ?>/index_files/relatedvideos.jpg" alt="">
 
 
 <p><strong>Workouts sind wichtig für Ihre Gesundheit und Ernährung</strong></p>
@@ -939,7 +939,7 @@ xmlhttp.send();
 </script>
 
 </span></span></p><div id="poll" style="background-color:#fff;padding:3px; padding-bottom:10px; font-family:Arial, Helvetica, sans-serif; font-size:14px; width:170px;">
-<img src="./index_files/poll.jpg"><p></p>
+<img src="<?= $assets ?>/index_files/poll.jpg"><p></p>
 <strong><p style="color:#000;margin-top:-5px;margin-left:15px; font-size:14px;">Welche Sportlerin ist die sexyste? </p></strong>
 <form>
 
