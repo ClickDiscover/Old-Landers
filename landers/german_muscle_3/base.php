@@ -2,27 +2,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <?php
-  $step1_link ='http://google.com';
-  $assets = '';
-  $step1_name = 'PRODUCT1';
-  $step1_image = 'http://static1.squarespace.com/static/54cfb281e4b0f7ee4c646797/55a56091e4b01f72a1ce9648/55ad8413e4b0fae1c07ca686/1437510671280/?format=1500w';
-
-  $step2_link ='http://google.com';
-  $step2_name = 'PRODUCT2';
-  $step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-  ?>
-
-
 <meta name="viewport" content="initial-scale=1">
 <title>Kraftsportler verblüfft von der blitzschnellen Wirkung neuer Kapseln für den Muskelaufbau</title>
 
 
-<link rel="stylesheet" type="text/css" href="./index_files/style.css">
-<link rel="stylesheet" type="text/css" href="./index_files/adrek.css">
-<link rel="stylesheet" type="text/css" href="./index_files/font.css">
+<link rel="stylesheet" type="text/css" href="<?= $assets ?>/index_files/style.css">
+<link rel="stylesheet" type="text/css" href="<?= $assets ?>/index_files/adrek.css">
+<link rel="stylesheet" type="text/css" href="<?= $assets ?>/index_files/font.css">
 
-    <script src="./index_files/jquery.min.js"></script>
+    <script src="<?= $assets ?>/index_files/jquery.min.js"></script>
 <script language="Javascript" type="text/javascript">
 
 function dtime(d,type)
@@ -90,7 +78,7 @@ function addcomm()
 #footer ul {margin-top:10px;}
 </style>
 <![endif]-->
-  <script type="text/javascript" src="./index_files/jquery-1.9.1.min.js"></script><link id="aw-widget-css-0" rel="stylesheet" type="text/css" href="./index_files/widgets-20150116.css"></head>
+  <script type="text/javascript" src="<?= $assets ?>/index_files/jquery-1.9.1.min.js"></script><link id="aw-widget-css-0" rel="stylesheet" type="text/css" href="<?= $assets ?>/index_files/widgets-20150116.css"></head>
 
 <body style="visibility: visible;">
 <div id="container">
@@ -123,7 +111,7 @@ function addcomm()
 	<p style="font-style: italic;">Herr Rafael Gorsky ist einer von hunderten von Männern, welcher im Expresstempo seine Muskeln aufgebaut hat bei der Anwendung neuer Muskelaufbaukapseln.*</p>
 	<center>
 
-	<img class="main-img" src="./index_files/main.jpg">
+	<img class="main-img" src="<?= $assets ?>/index_files/main.jpg">
 	<table class="table-main" border="0" align="center" cellpadding="10" cellspacing="0">
 			<tbody><tr>
 				<td>
