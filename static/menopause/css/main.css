@@ -531,6 +531,17 @@ section.pinkbar_v4 a, section.pinkbar_v4 a:hover, section.pinkbar_v4 a:focus {
   margin-top: 10px;
   margin-bottom: 10px; }
 
+  h1.logo-text {
+    color: white;
+    /*font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;*/
+    font-family: ‘Arial Narrow’, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
