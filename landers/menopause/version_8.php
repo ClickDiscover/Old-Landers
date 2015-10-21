@@ -412,6 +412,7 @@ $assets .= '/';
   <script src="<?= $assets ?>js/modernizr-2.8.3.min.js"></script>
  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
  <link rel="stylesheet" href="<?= $assets ?>css/font-awesome.min.css">
+ <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <?= $scripts ?>
 
 </body>
