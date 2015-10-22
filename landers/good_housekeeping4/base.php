@@ -9,22 +9,10 @@
           <meta name="CNNNVevoHelper:beacon" content="14A00605-7DB5-4492-B67B-CB2093BD89DD">
           <title>"All NATURAL RECIPE FOR THE IDEAL SHAPE"</title>
           <link rel="shortcut icon" href="http://www.cnn.com/favicon.ico">
-          <link rel="stylesheet" id="news-stylesheet-css" href="images/style.css" type="text/css" media="all">
-          <link rel="stylesheet" id="news-stylesheet-css" href="images/style2.css" type="text/css" media="all">
+          <link rel="stylesheet" id="news-stylesheet-css" href="<?= $assets ?>/images/style.css" type="text/css" media="all">
+          <link rel="stylesheet" id="news-stylesheet-css" href="<?= $assets ?>/images/style2.css" type="text/css" media="all">
 
   <style type="text/css"></style>
-
-  <?php
-$step1_link ='http://google.com';
-$assets = '';
-$step1_name = 'PRODUCT1';
-$step1_image = 'http://static1.squarespace.com/static/54cfb281e4b0f7ee4c646797/55a56091e4b01f72a1ce9648/55ad8413e4b0fae1c07ca686/1437510671280/?format=1500w';
-
-$step2_link ='http://google.com';
-$step2_name = 'PRODUCT2';
-$step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-?>
-
 
 </head>
 
@@ -300,7 +288,7 @@ $step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Spor
                                                                 </div>
                                                                 <div class="clearfix"></div>
                                                             </div>
-                                                            
+
 
                     <div class="comment-system">
                         <div class="comment-left">
