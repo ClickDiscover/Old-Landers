@@ -102,7 +102,7 @@ include dirname(__DIR__) . "/vars.php";
 
 <p>Since the products were recently featured on an episode of The Dr. Oz Show, we have been getting 1000’s of daily letters from our readers, begging us for more information and asking us how they can get their hands on this new fat-burning supplement.  Surprisingly, many people who struggle daily with their weight have yet to hear about this powerful option.</p>
 
-<p>In a recent exclusive interview with Women’s Health, movie star Scarlett Johansson credits the product with helping her lose nearly 22-lbs of body fat in preparation for her role as the ‘Black Widow’ in The Avengers.  Dozens of other celebrities like Jennifer Hudson, Christina Aguilera, Sandra Bullock and Kelly Osborne have all lost weight and transformed their bodies using this controversial pill.  Even Men have gotten in on the weight-loss action and used the same product to make some drastic physical transformations. </p>
+<p>In a recent exclusive interview with Women’s Health, movie star Scarlett Johansson credits the product with helping her lose nearly 22 <?= $geo->unit('weight') ?> of body fat in preparation for her role as the ‘Black Widow’ in The Avengers.  Dozens of other celebrities like Jennifer Hudson, Christina Aguilera, Sandra Bullock and Kelly Osborne have all lost weight and transformed their bodies using this controversial pill.  Even Men have gotten in on the weight-loss action and used the same product to make some drastic physical transformations. </p>
 
 <div class="aside-container">
   <aside>
@@ -147,7 +147,7 @@ include dirname(__DIR__) . "/vars.php";
   <h3 id="Slendera-clinical-studies"><?= $step1_name ?> Clinical Studies</h3>
 
   <ul>
-    <li>In a study published in the journal Lipids in Health &amp; Disease, subjects taking <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a> lost an average of 19.3 pounds in 28 days (4 weeks) without any changes to their diet or exercise.</li>
+  <li>In a study published in the journal Lipids in Health &amp; Disease, subjects taking <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a> lost an average of 19.3 <?= $geo->unit('weight') ?> in 28 days (4 weeks) without any changes to their diet or exercise.</li>
     <li><?= $step1_name ?> contains no stimulants, no artificial chemicals and is 100% Natural.</li>
     <li><?= $step1_name ?> has been found to increase metabolism, boosting weight loss by more than 640%.</li>
     <li>Studies have shown a 39% reduction in cholesterol and an average 2 inch reduction in belly fat within 28 days (4 weeks)</li>
@@ -160,7 +160,7 @@ include dirname(__DIR__) . "/vars.php";
   <h3 id="the-proof-is-in-the-real-world-results">The Proof is in the Real-World Results</h3>
 
   <ul>
-    <li>Subjects lost more weight – an average of 17 pounds – while supplementing with <?= $step1_name ?> compared to a placebo.</li>
+    <li>Subjects lost more weight – an average of 17 <?= $geo->unit('weight') ?> – while supplementing with <?= $step1_name ?> compared to a placebo.</li>
     <li>On average, subjects experienced a 7.2% reduction in body weight.</li>
     <li>Subject also experienced a 16% reduction in body fat.</li>
     <li>When <?= $step1_name ?> was combined with <?= $step2_name ?>, the subjects saw an additional 49% reduction in fat loss along with a further 4.6% reduction in overall bodyweight.</li>
@@ -204,7 +204,7 @@ include dirname(__DIR__) . "/vars.php";
 
   <p>I honestly felt fantastic.</p>
 
-  <p>And I didn’t even change anything about my daily routine.  On Day 7 I got on the scale and had to do a double-take.  I had lost 7-lbs, really?!  But skeptical me, I still wasn’t convinced as they say you lose a lot of water at the beginning of any diet.  I wanted to take a “wait &amp; see” approach.  But it sure was looking up!  I now weighed under 130-lbs. for the first time since my 20’s.</p>
+  <p>And I didn’t even change anything about my daily routine.  On Day 7 I got on the scale and had to do a double-take.  I had lost 7 <?= $geo->unit('weight') ?>, really?!  But skeptical me, I still wasn’t convinced as they say you lose a lot of water at the beginning of any diet.  I wanted to take a “wait &amp; see” approach.  But it sure was looking up!  I now weighed under 130 <?= $geo->unit('weight') ?>. for the first time since my 20’s.</p>
 
 </div>
 
@@ -213,7 +213,7 @@ include dirname(__DIR__) . "/vars.php";
     <p>Week Two:</p>
   </div>
 
-  <p>After two weeks of using <?= $step1_name ?> and <?= $step2_name ?>, I started the week off with even more energy and was actually sleeping more soundly than before.  I was no longer waking up during the night and tossing and turning because my body was actually able to relax (I believe this is a result of getting rid of the toxins).  Plus I still managed to lose another 5-lbs, putting me at an unbelievable 12-lbs of weight loss, in just 2 weeks.</p>
+  <p>After two weeks of using <?= $step1_name ?> and <?= $step2_name ?>, I started the week off with even more energy and was actually sleeping more soundly than before.  I was no longer waking up during the night and tossing and turning because my body was actually able to relax (I believe this is a result of getting rid of the toxins).  Plus I still managed to lose another 5 <?= $geo->unit('weight') ?>, putting me at an unbelievable 12 <?= $geo->unit('weight') ?> of weight loss, in just 2 weeks.</p>
 
   <div class="journey-container">
     <p><a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/journey2.jpg"></a></p>
@@ -232,7 +232,7 @@ include dirname(__DIR__) . "/vars.php";
     <p><a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/journey3.jpg"></a></p>
   </div>
 
-  <p>After 3 weeks all my doubts and skepticism had absolutely vanished!  I am down, 2 full dress sizes, after losing another 5-lbs.  And I still have a ton of energy.  Quite often, around the third week of other diets, you tend to run out of steam.  But with the <?= $step1_name ?> &amp; <?= $step2_name ?>, my energy levels don’t dip, but remain steady throughout the day.  I no longer need that cat nap around 3pm in the afternoon!  And I am even noticing that my stomach is digesting food so much better.  No bloating or embarrassing gas after I eat!</p>
+  <p>After 3 weeks all my doubts and skepticism had absolutely vanished!  I am down, 2 full dress sizes, after losing another 5 <?= $geo->unit('weight') ?>.  And I still have a ton of energy.  Quite often, around the third week of other diets, you tend to run out of steam.  But with the <?= $step1_name ?> &amp; <?= $step2_name ?>, my energy levels don’t dip, but remain steady throughout the day.  I no longer need that cat nap around 3pm in the afternoon!  And I am even noticing that my stomach is digesting food so much better.  No bloating or embarrassing gas after I eat!</p>
 
 </div>
 
@@ -241,13 +241,13 @@ include dirname(__DIR__) . "/vars.php";
     <p>Week Four:</p>
   </div>
 
-  <p>After the fourth week, my final results were shocking.  I lost an unbelievable 21-lbs since starting the <?= $step1_name ?> &amp; <?= $step2_name ?> diet!   Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig.  Using the <?= $step1_name ?> &amp; <?= $step2_name ?> in week 4 I lost 4 more pounds.  But to be honest I really didn’t have much more left to lose.  I am definitely going to continue taking the <?= $step1_name ?> afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable.  A pretty sweet side-effect. </p>
+  <p>After the fourth week, my final results were shocking.  I lost an unbelievable 21 <?= $geo->unit('weight') ?> since starting the <?= $step1_name ?> &amp; <?= $step2_name ?> diet!   Actually everyone at Women’s Health is kicking themselves for not having volunteered to be the guinea pig.  Using the <?= $step1_name ?> &amp; <?= $step2_name ?> in week 4 I lost 4 more <?= $geo->unit('weight') ?>.  But to be honest I really didn’t have much more left to lose.  I am definitely going to continue taking the <?= $step1_name ?> afterwards because it has so many antioxidants and vitamins that it makes my skin look unbelievable.  A pretty sweet side-effect. </p>
 
   <div class="journey-container">
     <p><a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/journey4.jpg"></a></p>
   </div>
 
-  <h2 id="i-couldnt-be-any-happier-with-the-resultsi-lost-21-lbs-in-4-weeks-no-special-diet-no-intense-exercise">“I couldn’t be any happier with the results. I Lost 21-lbs in 4 Weeks, No Special Diet, No Intense Exercise”</h2>
+  <h2 id="i-couldnt-be-any-happier-with-the-resultsi-lost-21-lbs-in-4-weeks-no-special-diet-no-intense-exercise">“I couldn’t be any happier with the results. I Lost 21 <?= $geo->unit('weight') ?> in 4 Weeks, No Special Diet, No Intense Exercise”</h2>
 </div>
 
 <div class="journey-container">
@@ -557,7 +557,7 @@ include dirname(__DIR__) . "/vars.php";
 					</div>
 					<div class="right-container">
 						<span class="name">Tohloria Lewis</span>
-						<span class="comment-body"><p>I have been using this Diet trial for 3 weeks now, and I seriously lost 11 lbs! Not quite as good as Michele, but I will take it when it was less than 5 bucks for each! Thank you so much for reporting on this!</p>
+                        <span class="comment-body"><p>I have been using this Diet trial for 3 weeks now, and I seriously lost  <?= $geo->unit('weight') ?>! Not quite as good as Michele, but I will take it when it was less than 5 bucks for each! Thank you so much for reporting on this!</p>
 </span>
 						<div class="comment-social">
 							<a href="<?= $step1_link ?>" target="_blank">Like</a> · <a href="<?= $step1_link ?>" target="_blank">Reply</a> · <a href="<?= $step1_link ?>" class="likes" target="_blank">0</a> · <span class="time">yesterday</span>
