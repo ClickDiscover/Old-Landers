@@ -6,16 +6,6 @@
 <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
 <link rel="icon" href="<?= $assets ?>/images/favicon.ico" type="image/x-icon" />
-<?php
-$step1_link ='http://google.com';
-$assets = '';
-$step1_name = 'PRODUCT1';
-$step1_image = 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSaixooK3F3a-wON62twSYQR1uTIqHkiGJdtzsH6Qa8a8sHhVA';
-
-$step2_link ='http://google.com';
-$step2_name = 'PRODUCT2';
-$step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-?>
 
 
 </head>
