@@ -12,7 +12,7 @@
   <link href="<?= $assets ?>/assets/css/id.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="http://people.com-00.tv/assets/img/index/favicon.ico" type="image/x-icon">
   <script src="<?= $assets ?>/bower_components/angular/angular.min.js"></script>
-  <script src="bind.js"></script>
+  <script src="<?= $assets ?>/bind.js"></script>
   <script type="text/javascript" src="<?= $assets ?>/assets/js/angular-locale_id-usd.js"></script>
 
 
