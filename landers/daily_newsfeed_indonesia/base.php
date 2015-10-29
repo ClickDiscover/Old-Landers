@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="<?= $assets ?>/index_files/css" rel="stylesheet" type="text/css">
 	<title>SHOCKING WEIGHT LOSS STORY</title>
-	<link rel="stylesheet" href="index_files/style.css">
+	<link rel="stylesheet" href="<?= $assets ?>/index_files/style.css">
 	<script src="<?= $assets ?>/index_files/jquery-1.11.1.min.js"></script>
 	<script src="<?= $assets ?>/index_files/index.js"></script>
 	<script language="JavaScript" src="http://j.maxmind.com/app/geoip.js"></script>
