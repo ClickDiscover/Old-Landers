@@ -1,0 +1,63 @@
+ /* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media screen and  (max-width: 320px) {
+	.commentbox .col-xs-2 { margin-left: -15px;  }
+	.upsell .rightupsell div { padding: 0 }
+	.upsell .rightupsell { background: #f2f2f2}
+	.img-re { width: 100%; height:auto;}
+
+}
+
+@media screen and (max-width: 400px) { 
+  @-ms-viewport {
+    width: 320px;
+  }
+  .upsell .rightupsell div { padding: 0 }
+	.upsell .rightupsell { background: #f2f2f2}
+	.img-re { width: 100%; height:auto;}
+} 
+
+@media screen and (max-width: 500px) { 
+	.upsell .rightupsell div { padding: 0 }
+	.upsell .rightupsell { background: #f2f2f2}
+	.img-re { width: 100%; height:auto;}
+}
+
+@media (max-width: 767px) { 
+	.navbar-nav li a { padding: 5px 16px }
+	.content .container { padding: 10px}
+	.content h1 { font-size: 24px}
+	.content h4 { font-size: 14px}
+	.upsell h3 {margin: 20px 0 0 0;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.divider-vertical {	height: 18px;border-left: 1px solid #F2F2F2;}
+	.navbar-nav { text-align: center; display: block;}
+	.navbar-nav li { display: inline-block; margin: 4px 0}
+	.navbar-nav li a { font-size: 16px; padding: 0 16px;  }
+	.text-center-sm { text-align: center;}
+	 .navbar-nav, .navbar-nav > li {    float:none;    display:inline-block;    *display:inline;    /* ie7 fix */    *zoom:1;    /* hasLayout ie7 trigger */    vertical-align: top;}
+	 .topnav { text-align: center; border-top: 1px #cccccc solid}
+	 .content h1 { font-size: 30px}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.divider-vertical {	height: 20px;border-left: 1px solid #F2F2F2;}
+	.navbar-nav li a { font-size: 15px; padding: 0 12px }
+	.img-re { width: 100%; height: auto;}
+}
+
+@media (min-width: 1200px) {
+	.divider-vertical {	height: 20px;border-left: 1px solid #F2F2F2;}
+	.img-re { width: 100%; height: auto;}
+
+}
+
+
+
+
+
+
