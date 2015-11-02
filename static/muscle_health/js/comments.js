@@ -6,7 +6,7 @@ var json = {
         "numberoflikes":"53",
         "posted":"a few seconds ago",
         "avatar":"comments-1.jpg"
-        }, 
+        },
         {
         "name":"Zac P.",
         "comments":"bro, Im serious... I´ve been 2 months using this product and the results are really amazing. my routine pretty much remained the same but i've consistently been losing body fat and adding muscle mass. highly recommend.",
@@ -65,13 +65,13 @@ for(var key in json.forum) {
     var obj = json.forum[key];
     $('.commentbox').append(
         '<div class="row">' +
-            '<div class="col-xs-3 col-sm-2 text-center"><img src="img/' + obj.avatar + '"></div>' +
+            '<div class="col-xs-3 col-sm-2 text-center"><img src="<?= $assets ?>/img/' + obj.avatar + '"></div>' +
             '<div class="col-xs-9 col-sm-10"><p><strong>' + obj.name + '</strong> &bullet; <span>' + obj.posted +' </span></p>' +
-        '<p>' + obj.comments + '</p>' +       
+        '<p>' + obj.comments + '</p>' +
            '</div>' +
         '</div>'  +
 
         '<hr>'
-    
+
     );
 }
