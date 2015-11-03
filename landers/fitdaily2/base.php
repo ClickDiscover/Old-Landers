@@ -8,10 +8,10 @@
 <title>70 Year Old Grandmas Look 40 Again: You Will Not Believe Their Transformations!</title>
 <meta name="description" content="">
 <meta name="author" content="">
-<link href="<?= $assets ?>css/bootstrap.css" rel="stylesheet">
-<link href="<?= $assets ?>css/app.css" rel="stylesheet">
-<link href="<?= $assets ?>css/css.css" rel="stylesheet" type="text/css">
-<script src="<?= $assets ?>js/angular.js"></script>
+<link href="<?= $assets ?>/css/bootstrap.css" rel="stylesheet">
+<link href="<?= $assets ?>/css/app.css" rel="stylesheet">
+<link href="<?= $assets ?>/css/css.css" rel="stylesheet" type="text/css">
+<script src="<?= $assets ?>/js/angular.js"></script>
 
 </head>
 <body class="ng-scope" ng-app="App" ng-controller="MainCtrl">
