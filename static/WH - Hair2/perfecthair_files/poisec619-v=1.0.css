@@ -717,6 +717,11 @@ textarea:focus:invalid:focus {
   transition: all 300ms ease; }
 
 .banner.featured-image {
+  background :url(hairbanner.jpg) no-repeat center center;
+  -o-background-size:cover;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  background-size:cover;
   height: 480px; }
 
 .banner.headline {
@@ -2549,6 +2554,12 @@ body.admin-bar #global-header {
     border-radius: 44px; }
 
   .banner.featured-image {
+      background:url(hairbanner.jpg) no-repeat center center;
+      -o-background-size:cover;
+      -moz-background-size:cover;
+      -webkit-background-size:cover;
+      background-size:cover;
+
     height: 250px; }
 
   #front-page-banner {
@@ -2827,6 +2838,11 @@ body.admin-bar #global-header {
     display: none; }
 
   .banner.featured-image {
+      background:url(hairbanner.jpg) no-repeat center center;
+      -o-background-size:cover;
+      -moz-background-size:cover;
+      -webkit-background-size:cover;
+      background-size:cover;
     height: 150px; }
 
   #main h1 {
