@@ -21,18 +21,6 @@
 <![endif]-->
 <link rel='stylesheet' id='googlefonts-css'  href='http://fonts.googleapis.com/css?family=Quicksand%3A300%2C400%7CVidaloka%7CPlayfair+Display%3A400%2C700%2C900%7COpen+Sans+Condensed%3A300%2C700%7COswald%3A300%2C400%2C700%7CRaleway%3A200%2C300%2C400%2C500%2C600%2C700%2C800&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;ver=3.7.3' type='text/css' media='all' />
 
-<?php
-$step1_link ='http://google.com';
-$assets = '';
-$step1_name = 'PRODUCT1';
-$step1_image = 'http://static1.squarespace.com/static/54cfb281e4b0f7ee4c646797/55a56091e4b01f72a1ce9648/55ad8413e4b0fae1c07ca686/1437510671280/?format=1500w';
-
-$step2_link ='http://google.com';
-$step2_name = 'PRODUCT2';
-$step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-?>
-
-
 <meta name="description" content="Are you looking for best Anti-aging cream? Betty&#039;s Beauty Blog provides the best Anti Aging Cream &amp; Skin Care Products online. Buy now and get discount!"/>
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
