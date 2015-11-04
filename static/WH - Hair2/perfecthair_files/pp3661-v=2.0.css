@@ -1,0 +1,362 @@
+@charset "UTF-8";
+.zodiac-icon {
+  margin-right: 10px; }
+
+.h3 {
+  font: 100 26px/36px "Roboto","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+
+.h4 {
+  font: 100 24px/30px "Roboto","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+
+.h5 {
+  font: 100 20px/26px "Roboto","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+
+.banner.featured-image {
+  height: 400px; }
+
+.fixed-nav {
+  line-height: 20px; }
+
+.product-button {
+  font-weight: 300; }
+
+hr {
+  clear: both; }
+
+figure {
+  margin-bottom: 20px; }
+  figure a:active {
+    top: 0; }
+
+.quote:before {
+  content: "“";
+  position: relative;
+  display: inline-block; }
+.quote:after {
+  content: "”";
+  position: relative;
+  display: inline-block; }
+
+#main ul {
+  margin-bottom: 24px; }
+
+#main.single-offers .img-link:active {
+  top: 0; }
+#main.single-offers figure {
+  margin-top: 12px;
+  position: relative; }
+#main.single-offers figcaption p {
+  font-size: 16px; }
+#main.single-offers blockquote a {
+  color: #58595B; }
+  #main.single-offers blockquote a:hover {
+    text-decoration: none; }
+  #main.single-offers blockquote a:active {
+    top: 0; }
+
+#main h1 {
+  margin-bottom: 20px; }
+
+#article-author {
+  color: #bcbec0;
+  font-style: italic; }
+
+#post-meta {
+  border-bottom: 0; }
+
+#upsell {
+  margin-top: 0; }
+
+#main.single-offers #testimonials {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #e1e2e3; }
+  #main.single-offers #testimonials h4 {
+    color: #f48c7f;
+    font: 100 24px/30px "Roboto","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-style: italic;
+    margin: 0 0 16px; }
+  #main.single-offers #testimonials ul {
+    list-style-type: none; }
+  #main.single-offers #testimonials .testimonial {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 12px; }
+  #main.single-offers #testimonials figure {
+    margin: 0 30px;
+    text-align: center; }
+  #main.single-offers #testimonials span.testimony {
+    padding-top: 20px;
+    position: relative;
+    display: block; }
+    #main.single-offers #testimonials span.testimony:before {
+      content: "“";
+      position: relative;
+      display: inline-block; }
+    #main.single-offers #testimonials span.testimony:after {
+      content: "”";
+      position: relative;
+      display: inline-block; }
+
+#suggestions {
+  background: #f48c7f;
+  position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 99999;
+  -o-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1); }
+  #suggestions .suggestion {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-size: 28px;
+    line-height: 30px; }
+    #suggestions .suggestion span {
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      display: block;
+      padding-bottom: 8px; }
+    #suggestions .suggestion a {
+      background: rgba(244, 140, 127, 0.8);
+      display: block;
+      padding: 50px 8%;
+      width: 84%; }
+      #suggestions .suggestion a:hover {
+        color: white; }
+      #suggestions .suggestion a:active {
+        top: 0; }
+
+#suggestion-dismiss {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("http://womenshealthsource.net/images/close.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer; }
+
+#upsell a {
+  border: 1px solid #ccc;
+  width: auto;
+  padding: 20px;
+  margin-bottom: 24px; }
+#upsell p {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 100;
+  margin-bottom: 0;
+  margin-top: 5px; }
+
+#sidebar #sidebar-offers li {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 6px;
+  clear: both; }
+#sidebar #sidebar-offers img {
+  width: 40%;
+  float: left; }
+#sidebar #sidebar-offers .overlay {
+  top: 0;
+  opacity: 1;
+  background: transparent;
+  position: relative;
+  float: left;
+  width: 56%;
+  padding: 0 2%;
+  color: #bcbec0; }
+  #sidebar #sidebar-offers .overlay h6 {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 300;
+    -ms-transform: none;
+    -o-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none; }
+
+.button {
+  background-color: #2a3c46;
+  border-color: #2a3c46; }
+  .button:hover {
+    background-color: #3d5766;
+    border-color: #3d5766; }
+
+#urgency-message {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 60px;
+  text-align: center;
+  margin: 0 12%;
+  left: 0;
+  right: 0; }
+  #urgency-message a {
+    background: #f48c7f;
+    border: 2px solid white;
+    padding: 6px 18px;
+    display: block;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease; }
+    #urgency-message a:hover {
+      color: white;
+      background: #f69d92; }
+
+#interest-confirmation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: #f48c7f;
+  background-color: rgba(244, 140, 127, 0.97);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -ms-background-cover: cover;
+  -o-background-cover: cover;
+  -moz-background-cover: cover;
+  -webkit-background-cover: cover;
+  background-size: cover;
+  padding-top: 16px;
+  padding-bottom: 38px;
+  display: none;
+  -ms-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1); }
+  #interest-confirmation .overlay {
+    background-color: rgba(244, 140, 127, 0.85);
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 0; }
+  #interest-confirmation p {
+    text-transform: uppercase;
+    padding: 0 16% 0 8%;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 12px 0 22px;
+    z-index: 100;
+    position: relative; }
+  #interest-confirmation ul {
+    z-index: 100;
+    width: 80%;
+    max-width: 460px;
+    margin: 0 auto;
+    position: relative; }
+    #interest-confirmation ul li {
+      text-align: center;
+      float: left;
+      width: 50%; }
+      #interest-confirmation ul li a {
+        width: 90px;
+        height: 90px;
+        display: block;
+        margin: 0 auto; }
+      #interest-confirmation ul li span {
+        width: 90px;
+        height: 90px;
+        display: block;
+        cursor: pointer;
+        margin: 0 auto; }
+  #interest-confirmation path {
+    fill: white; }
+
+#interest-dismiss {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("http://womenshealthsource.net/images/close.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 200; }
+
+@media (min-width: 2200px) {
+  .banner.featured-image {
+    height: 540px; } }
+@media (min-width: 1600px) {
+  .banner.featured-image {
+    height: 480px; } }
+@media (max-width: 767px) {
+  .banner.featured-image {
+    height: 250px; }
+
+  #main h1 {
+    margin-bottom: 10px; }
+
+  #main figure {
+    display: block;
+    text-align: center;
+    width: 100%; }
+
+  #main.single-offers #testimonials h4 {
+    text-align: center; }
+  #main.single-offers #testimonials figure {
+    margin: 0 auto; }
+  #main.single-offers #testimonials .testimonial {
+    text-align: center; }
+    #main.single-offers #testimonials .testimonial p a:before {
+      content: "-";
+      position: relative;
+      display: inline-block;
+      padding-right: 4px; }
+
+  #article-author {
+    text-align: center;
+    margin-bottom: 8px; } }
+@media (max-width: 480px) {
+  .banner.featured-image {
+    height: 150px; }
+
+  #upsell a {
+    padding: 20px;
+    margin-bottom: 30px; }
+  #upsell p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px; }
+  #upsell li:last-child a {
+    margin-bottom: 0; } }
