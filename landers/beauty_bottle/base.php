@@ -15,17 +15,6 @@
 	<link rel="stylesheet" id="primary-style-css" href="<?= $assets ?>/css/poisec619-v=1.0.css" type="text/css" media="all">
 	<link rel="stylesheet" id="secondary-style-css" href="<?= $assets ?>/css/pp3661-v=2.0.css" type="text/css" media="all">
 
-	<?php
-	$step1_link ='http://google.com';
-	$assets = '';
-	$step1_name = 'PRODUCT1';
-	$step1_image = 'http://static1.squarespace.com/static/54cfb281e4b0f7ee4c646797/55a56091e4b01f72a1ce9648/55ad8413e4b0fae1c07ca686/1437510671280/?format=1500w';
-
-	$step2_link ='http://google.com';
-	$step2_name = 'PRODUCT2';
-	$step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-	?>
-
 
 	<script type="text/javascript" src="jquery/jquery.min.js"></script>
         <!-- <script type="text/javascript">
