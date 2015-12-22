@@ -1,0 +1,399 @@
+@media only screen and (max-width:1000px){
+    .btm_bar p{
+        font-size: 19px;
+        padding: 12px 0 12px 1%;
+    }
+}
+@media only screen and (max-width:960px)
+{
+.row
+{padding:0 15px}
+.news-right-txt
+{
+width:52%;
+}
+h1
+{
+font-size: 27px;
+}
+.pink-button,.green-button
+{
+font-size:34px;
+max-width: 450px;
+}
+.research-proof
+{
+margin-left: 2%;
+}
+h4
+{
+font-size:23px;
+}
+.lead
+{
+font-size:17px;
+}
+.free-trial-text
+{
+font-size:13px;
+}
+.trial-button
+{
+font-size: 19px;
+}
+.summary
+{
+font-size: 15px;
+}
+.time{
+   margin: 8px 0 0 5px;
+}
+.btm_bar p {
+  font-size: 17px;
+  padding: 12px 0 12px 1%;
+}
+span#more_options{
+    font-size: 22px;
+}
+
+}
+@media only screen and (max-width:900px){
+.btm_bar p {
+  font-size: 16px;
+  padding: 12px 0 12px 1%;
+}
+span#more_options{
+    font-size: 19px;
+}
+.time {
+  margin: 9px 0 0 5px;
+}
+
+}
+@media only screen and (max-width:860px)
+{
+h1
+{
+font-size: 25px;
+}
+.news-right-txt
+{
+width: 49%;
+font-size: 14px;
+}
+h4 {
+    font-size: 21px;
+}
+.exclusive-report span
+{
+padding-left:8px;
+padding-right:8px;
+}
+.trial-button
+{
+font-size: 18px;
+}
+.lead
+{
+font-size: 16px;
+line-height: 23px;
+}
+.pink-button, .green-button
+{
+font-size: 31px;
+max-width: 400px;
+}
+.clinically-proven
+{
+background:none;
+}
+.research-proof
+{
+width:23%;
+}
+.clinical-research
+{
+width:auto;
+}
+.free-trial-text
+{
+font-size:11px;
+
+}
+.time_center{
+    width: 100%;
+}
+
+}
+@media only screen and (max-width:800px){
+ .btm_bar p {
+  font-size: 15px;
+  padding: 12px 0 12px 1%;
+}
+.time {
+  margin: 10px 0 0 5px;
+  width: 7%;
+}
+
+}
+@media only screen and (max-width:768px)
+{
+
+.exclusive-report
+{
+margin-top:-50px;
+text-align:center;
+}
+.logo
+{
+  text-align:center;
+  position:relative;
+  top:-54px;
+  max-width:284px;
+  margin:0px auto;
+}
+.content-left
+{
+float:none;
+width:auto;
+text-align:center;
+}
+#sidebar
+{
+float: none;
+width: auto;
+text-align:center;
+}
+.clinical-research h4
+{
+margin-bottom:20px;
+}
+.using-list
+{
+text-align:left;
+}
+.free-trial-text
+{
+font-size:15px;
+}
+.trial-button
+{
+font-size:20px;
+}
+.woman-health-img
+{
+background:none;
+}
+.news-right-txt
+{
+font-size: 17px;
+width: 75%;
+}
+.trial-button
+{
+max-width:430px;
+}
+
+.medicine-img,.medicine-right-text
+{
+float:none;
+width:auto;
+}
+.pink-button, .green-button
+{
+font-size:27px;
+max-width: 350px;
+}
+.button-group span
+{
+font-size: 19px;
+}
+.left-img
+{
+width: 22%;
+}
+span#more_options {
+  font-size: 17px;
+}
+.btm_bar p {
+  font-size: 14px;
+  padding: 12px 0 12px 1%;
+}
+
+}
+
+@media only screen and (max-width:680px)
+{
+h1
+{
+font-size:21px;
+}
+h4
+{
+font-size: 19px;
+}
+.lead
+{
+font-size: 15px;
+}
+.news-right-txt
+{
+font-size: 15px;
+}
+span#more_options {
+  font-size: 16px;
+}
+.btm_bar p {
+  font-size: 13px;
+  padding: 12px 0 12px 1%;
+}
+.time {
+  margin: 11px 0 0 5px;
+  width: 7%;
+}
+
+}
+@media only screen and (max-width:650px){
+   span#more_options {
+  font-size: 15px;
+}
+.btm_bar p {
+  font-size: 12px;
+  padding: 12px 0;
+}
+.time {
+  margin: 11px 0 0 5px;
+  width: 7%;
+}
+
+}
+@media only screen and (max-width:580px)
+{
+h1 {
+font-size: 18px;
+}
+.exclusive-report span
+{
+font-size:15px;
+}
+.pink-button, .green-button
+{
+ font-size: 22px;
+ line-height:24px;
+ padding-bottom: 27px;
+padding-top: 14px;
+}
+.button-group span
+{
+font-size: 15px;
+}
+.green-button
+{
+padding-bottom: 27px;
+padding-top: 14px;
+}
+   span#more_options {
+  font-size: 13px;
+}
+.btm_bar p {
+  font-size: 11px;
+  padding:12px 0;
+}
+.time {
+  margin: 11px 0 0 4px;
+  width: 7%;
+}
+
+}
+@media only screen and (max-width:550px){
+   span#more_options {
+  font-size: 12px;
+}
+.btm_bar p {
+  font-size: 10px;
+  padding:12px 0;
+}
+.time {
+  margin: 11px 0 0 4px;
+  width: 8%;
+}
+
+}
+@media only screen and (max-width:500px){
+     span#more_options {
+  font-size: 11px;
+}
+.btm_bar p {
+  font-size: 9px;
+  padding: 12px 0;
+}
+
+}
+
+@media only screen and (max-width:480px)
+{
+.research-proof{margin:0 auto; width:auto;float:none;margin-bottom:15px;}
+.clinically-proven{ padding-bottom:0px; }
+.pink-button, .green-button{ max-width:inherit;}
+h2{ font-size:22px;}
+
+}
+@media only screen and (max-width:450px){
+.btm_bar p {
+  font-size: 11px;
+  padding-left: 0%;
+  text-align: center;
+  float: none;
+}
+.time {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+span#more_options {
+  font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width:420px)
+{
+.proveness
+{
+width: 44%;
+}
+
+.left-header, .right-header
+{
+float:none;
+text-align:center;
+}
+.right-header
+{
+padding-top:10px;
+}
+.pink-button, .green-button
+{
+max-width:auto;
+}
+h2 {font-size: 29px;}
+}
+@media only screen and (max-width:380px)
+{
+.pink-button, .green-button
+{
+font-size: 20px;
+}
+.left-img{width:30%;}
+.news-right-txt{width:66%;}
+ h2 {font-size: 26px;}
+ .exclusive-img {
+    margin-top: 10px;
+    }
+.trial-button {
+    font-size: 16px;
+}
+#test-text {
+margin-bottom: 15px;
+}
+}
