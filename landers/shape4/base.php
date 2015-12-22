@@ -11,24 +11,11 @@
 <link href="https://s3.amazonaws.com/shwr/bootstrap-theme.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/shwr/font-awesome.min.css">
 
-
-<?php
-$step1_link ='http://google.com';
-$assets = '';
-$step1_name = 'PRODUCT1';
-$step1_image = 'http://static1.squarespace.com/static/54cfb281e4b0f7ee4c646797/55a56091e4b01f72a1ce9648/55ad8413e4b0fae1c07ca686/1437510671280/?format=1500w';
-
-$step2_link ='http://google.com';
-$step2_name = 'PRODUCT2';
-$step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-?>
-
-
 <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
   <script src="js/respond.min.js"></script>
 <![endif]-->
-<link rel="stylesheet" href="images/style.css" type="text/css"/>
+<link rel="stylesheet" href="<?= $assets ?>/images/style.css" type="text/css"/>
 <title>Total Wrinkle Miracle</title>
 </head>
 <body>
