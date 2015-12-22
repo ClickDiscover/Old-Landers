@@ -101,12 +101,12 @@
                     <p>
                         Here at 'FitDaily' we have been receiving <strong>so many wrinkle transformation submissions</strong> from our readers that we decided to write a feature article reporting on Ashley's results! Read on...
                     </p>
-                    <!-- <h4>Watch This Reader's Submission: Is This A Wrinkle Miracle? You have to see it to believe it!</h4>
-                             <div align="center">
-                               <video controls autoplay>
-                                 <source src="<?= $assets ?>/images/wrinkle_vid.mp4" type="video/mp4">
-                               </video>
-                             </div> -->
+                    <h4>Watch This Reader's Submission: Is This A Wrinkle Miracle? You have to see it to believe it!</h4>
+                     <div align="center">
+                       <video controls autoplay>
+                         <source src="<?= $assets ?>/images/wrinkle_vid.mp4" type="video/mp4">
+                       </video>
+                     </div>
                     <p>
                     </p><p>Dr Oz had always kept this wrinkle secret reserved for his high paying private clients...until now. </p>
                     <img src="<?= $assets ?>/images/reg1.jpg" class="img-responsive">
