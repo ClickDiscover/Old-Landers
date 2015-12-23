@@ -9,17 +9,6 @@
   <meta name="author" content="">
   <link href="<?= $assets ?>/index_files/bootstrap.css" rel="stylesheet">
 
-  <?php
-$step1_link ='http://google.com';
-$assets = '';
-$step1_name = 'PRODUCT1';
-$step1_image = 'http://static1.squarespace.com/static/54cfb281e4b0f7ee4c646797/55a56091e4b01f72a1ce9648/55ad8413e4b0fae1c07ca686/1437510671280/?format=1500w';
-
-$step2_link ='http://google.com';
-$step2_name = 'PRODUCT2';
-$step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-?>
-
   <style type="text/css">
   .responsiveimg{max-width:100%; height:auto; margin:0 auto;}
   .flgimg{margin-left:-5px; margin-right:5px;}
