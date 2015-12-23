@@ -25,7 +25,7 @@ a {
 body {
 	font-family: sans-serif;
 	color: #252525;
-	
+
 }
 p {
 		font-family: Verdana, Geneva, sans-serif;
@@ -75,7 +75,7 @@ padding: 0;
 .padbottom {
 	padding-bttom:10px;
 	margin-bottom:5px;
-	}	
+	}
 .text_center {
 text-align: center !important;
 }
@@ -160,7 +160,7 @@ display:block;
 }
 
 #logoImg {
-	background: url(logoGH.png)/*tpa=http://preventionmagazineonline.com/antiaging_reviews/202/images/layout/logoGH.png*/ no-repeat bottom;
+	background: url(logoGH.png) no-repeat bottom;
 	height: 180px;
 	width: 200px;
 	margin-top: 10px;
@@ -274,7 +274,7 @@ display:block;
 	border: thin solid #CCC;
 	margin-top: 15px;
 	background-image: url(step1.jpg)/*tpa=http://preventionmagazineonline.com/antiaging_reviews/202/images/layout/step1.jpg*/;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 	padding-left:70px;
 	height:250px;
 	padding-top:20px;
@@ -549,7 +549,7 @@ margin-bottom:50px;
 }
 
 .offerbox {
-	
+
 	width: 630px;
 	height: 385px;
 	padding-left: 15px;
