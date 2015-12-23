@@ -378,7 +378,7 @@ the comment as well as a permanent ban to the user who posted it.</p>
        <!-- user comment -->
        <div class="media">
         <a class="pull-left" href="<?= $step1_link ?>">
-          <img class="media-object" src="<?= $assets ?>/<?= $assets ?>/index_files/img-user-5364.jpg" alt="user comment" height="75" width="75">
+          <img class="media-object" src="<?= $assets ?>/index_files/img-user-5364.jpg" alt="user comment" height="75" width="75">
         </a>
         <div class="media-body">
           <h4 class="media-heading">Posted by Diane</h4>
@@ -394,7 +394,7 @@ of this wonderful opportunity.
       <!-- user comment -->
       <div class="media">
         <a class="pull-left" href="<?= $step1_link ?>">
-          <img class="media-object" src="<?= $assets ?>/<?= $assets ?>/index_files/img-user-1290.jpg" alt="user comment" height="75" width="75">
+          <img class="media-object" src="<?= $assets ?>/index_files/img-user-1290.jpg" alt="user comment" height="75" width="75">
         </a>
         <div class="media-body">
           <h4 class="media-heading">Posted by Michelle</h4>
@@ -411,7 +411,7 @@ stuff works and my results&nbsp;&nbsp;are unbelieveable&nbsp;&nbsp;thank
       <!-- user comment -->
       <div class="media">
         <a class="pull-left" href="<?= $step1_link ?>">
-          <img class="media-object" src="<?= $assets ?>/<?= $assets ?>/index_files/img-user-1295.jpg" alt="user comment" height="75" width="75">
+          <img class="media-object" src="<?= $assets ?>/index_files/img-user-1295.jpg" alt="user comment" height="75" width="75">
         </a>
         <div class="media-body">
           <h4 class="media-heading">Posted by Cara</h4>
@@ -426,7 +426,7 @@ Daily&nbsp;for the&nbsp;motivation for get me started! Love, Cara
       <!-- user comment -->
       <div class="media">
         <a class="pull-left" href="<?= $step1_link ?>">
-          <img class="media-object" src="<?= $assets ?>/<?= $assets ?>/index_files/img-user-5242.jpg" alt="user comment" height="75" width="75">
+          <img class="media-object" src="<?= $assets ?>/index_files/img-user-5242.jpg" alt="user comment" height="75" width="75">
         </a>
         <div class="media-body">
           <h4 class="media-heading">Posted by Michael</h4>
@@ -443,7 +443,7 @@ and you should mention&nbsp;how great this diet is for us men too, don’t
       <!-- user comment -->
       <div class="media">
         <a class="pull-left" href="<?= $step1_link ?>">
-          <img class="media-object" src="<?= $assets ?>/<?= $assets ?>/index_files/img-user-1945.jpg" alt="user comment" height="75" width="75">
+          <img class="media-object" src="<?= $assets ?>/index_files/img-user-1945.jpg" alt="user comment" height="75" width="75">
         </a>
         <div class="media-body">
           <h4 class="media-heading">Posted by Laura</h4>
