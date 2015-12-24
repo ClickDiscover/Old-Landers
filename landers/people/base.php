@@ -104,7 +104,7 @@
                     <p>Proprietary Bisophere penetrates deep into damaged skin and stimulates new collagen – a protein which makes skin appear plump and firm. It's all the rage in beauty circles, much in part because of a 2009 study stating, applying non-prescription Proprietary Bisophere to your skin caused a <strong>60% reduction in fine lines and wrinkles</strong>. Dr. Oz said this is why <a href="<?= $step1_link ?>"><?= $step1_name ?></a> is so effective. It was one of the few products on the market that had Proprietary Bisophere in the right consistency and dosage.</p>
                     <img src="<?= $assets ?>/images/test1.jpg" width="318" height="129" class="img-responsive">
                   <p class="m-t-25"><strong>QuSome:</strong> <br>
-                  He said the second piece, when combined properly with Proprietary Bisophere, literally makes your face <strong> look two decades younger in weeks! </strong> QuSome works by binding to moisture. It can hold up to 1,000 times its weight in water, making it an excellent natural skin plumper. QuSome helps your skin repair and regenerate itself after suffering from dryness, environmental stresses, or irritation. He said one of, if not the only products you can buy over the counter with an effective concentration of QuSome was found in <a href="http://boom.smashclick.net/click/1" target="_blank"><?= $step1_name ?></a>.</p>
+                  He said the second piece, when combined properly with Proprietary Bisophere, literally makes your face <strong> look two decades younger in weeks! </strong> QuSome works by binding to moisture. It can hold up to 1,000 times its weight in water, making it an excellent natural skin plumper. QuSome helps your skin repair and regenerate itself after suffering from dryness, environmental stresses, or irritation. He said one of, if not the only products you can buy over the counter with an effective concentration of QuSome was found in <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a>.</p>
                     <img src="<?= $assets ?>/images/test2.jpg" width="325" height="86" class="img-responsive m-b-30">
                     <p class="small-text">"What <strong>Proprietary Bisophere &amp; QuSome</strong> do is get rid of all the old, dead layers of skin and help your skin generate fresh new ones. Our tests show that you can erase almost 10 to 20 years off your face in less than 14 days. But the key is to choose the creams and serums that contain the highest and purest quality ingredients, since they’re not all the same. The only one we found during our research was <a href="<?= $step1_link ?>"><?= $step1_name ?></a>. This is what Christie Brinkley uses. This is what I recommend to all my celebrity clients." - Dr. Oz</p>
                     <h4>"How do I use it?"</h4>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-md-4">
                   <h5 class="m-b-0 pink-border-bottom">READER RESULTS</h5>
-                    <a href="http://boom.smashclick.net/click/1" target="_blank">
+                    <a href="<?= $step1_link ?>" target="_blank">
                         <img src="<?= $assets ?>/images/garcinia-cambogia-results-before-and-after-pictures-9242_670.jpg" class="img-responsive">
                         <p class="m-b-5"><strong>Lacey Johnson, age 53 submitted this photo of her results with <?= $step1_name ?>. You look great, Lacey!</strong></p>
                     </a>
@@ -223,14 +223,14 @@
 
                     </div>
                     <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
-                    <a href="http://boom.smashclick.net/click/1" target="_blank">
+                    <a href="<?= $step1_link ?>" target="_blank">
                         <img src="<?= $assets ?>/images/commonright2.jpg" class="img-responsive">
                     </a>
                     <p class="m-b-5"><i>"I've been trying to get rid of my eye wrinkles for almost 10 years. L'Amour got rid of them in a week. Thanks so much!" </i></p>
                     <p><strong><i>Andrea Spender <br>
                     Chapel Hill, NC</i></strong></p>
                   <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
-                    <a href="http://boom.smashclick.net/click/1" target="_blank">
+                    <a href="<?= $step1_link ?>" target="_blank">
                         <img src="<?= $assets ?>/images/commonright3.jpg" height="151" class="img-responsive">
                     </a>
                     <p class="m-b-5"><i>"For the first time in forever I am finally happy when I look in the mirror every morning. I haven't felt this confident in decades!" </i></p>
