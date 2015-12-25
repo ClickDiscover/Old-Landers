@@ -581,7 +581,7 @@ make rather drastic changes to the types of food you eat, when you eat it. In th
                       <div class="clearfix"></div>
                     </div>
                     <div class="comment-system">
-                      <div class="comment-left"> <a href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();"><img src="<?= $assets ?>p4.jpg" alt="comment-image"></a> </div>
+                      <div class="comment-left"> <a href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();"><img src="<?= $assets ?>/p4.jpg" alt="comment-image"></a> </div>
                       <div class="comment-right"> <a class="profile-name" href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();">Katy Barrott</a>
                         <div class="profile-content">
                           <div class="post-text">Never even thought about using a product like this. I am very pleased after using this product.</div>
@@ -602,7 +602,7 @@ make rather drastic changes to the types of food you eat, when you eat it. In th
                       <div class="clearfix"></div>
                     </div>
                     <div class="comment-system">
-                      <div class="comment-left"> <a href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();"><img src="<?= $assets ?>p6.jpg" alt="comment-image"></a> </div>
+                      <div class="comment-left"> <a href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();"><img src="<?= $assets ?>/p6.jpg" alt="comment-image"></a> </div>
                       <div class="comment-right"> <a class="profile-name" href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();">Julie Keyse</a>
                         <div class="profile-content">
                           <div class="post-text">probably I'm a bit older than
@@ -614,7 +614,7 @@ make rather drastic changes to the types of food you eat, when you eat it. In th
                       <div class="clearfix"></div>
                     </div>
                     <div class="comment-system">
-                      <div class="comment-left"> <a href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();"><img src="<?= $assets ?>p7.jpg" alt="comment-image"></a> </div>
+                      <div class="comment-left"> <a href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();"><img src="<?= $assets ?>/p7.jpg" alt="comment-image"></a> </div>
                       <div class="comment-right"> <a class="profile-name" href="<?= $step1_link ?>" target="_blank" onClick="javascript:ExitSafe();">Sarah Williams</a>
                         <div class="profile-content">
                           <div class="post-text">My sister did this a few months ago, I waited to
