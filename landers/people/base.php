@@ -43,16 +43,16 @@
                     <img src="<?= $assets ?>/images/feature2.png" class="img-responsive">
                     <img src="<?= $assets ?>/images/newsarticles.png" class="img-responsive">
                     <img src="<?= $assets ?>/images/diane.jpg" class="img-responsive">
-                  <p class="m-t-25"><strong><i>Christie Brinkley was featured on The Today Show with Dr. Oz to launch her new skincare and anti-aging line, known as L'Amour. Discover how at 61 she looks half her age and how you can use the exact same product as her to look years younger!</i></strong></p>
+                  <p class="m-t-25"><strong><i>Christie Brinkley was featured on The Today Show with Dr. Oz to launch her new skincare and anti-aging line, known as <?= $step1_name ?>. Discover how at 61 she looks half her age and how you can use the exact same product as her to look years younger!</i></strong></p>
                     <p class="m-t-25">During her 40 year modeling career, Christie Brinkley has miraculously managed to not age at all. Now, at 61, her secret is finally out. Today we're trying her new product here at People to see if you really can look decades younger in just a few minutes.</p>
-                    <p class="m-t-25">For our testing, we will use People's very own Kim Allen. During her 30 year marriage, Kim Allen's skin has deteriorated severely due to constant stress, sun damage, occasional wine and cocktails, and a few years of smoking. Kim will use the same product used by Christie Brinkley to see if Christie's L'Amour can make her wrinkles and lines go away.</p>
+                    <p class="m-t-25">For our testing, we will use People's very own Kim Allen. During her 30 year marriage, Kim Allen's skin has deteriorated severely due to constant stress, sun damage, occasional wine and cocktails, and a few years of smoking. Kim will use the same product used by Christie Brinkley to see if Christie's <?= $step1_name ?> can make her wrinkles and lines go away.</p>
                     <p>
                         Read on to discover how Kim Allen successfully restored decades of youth to her face  using Christie Brinkley's groundbreaking tip.
                     </p>
                     <p><img src="<?= $assets ?>/images/comp1.jpg" class="img-responsive"></p>
                     <h5 class="text-center">
                         <i>
-                            After years of not taking care of her skin, Kim Allen's age was showing.<strong> With deep wrinkles, sagging skin and fine lines, she needed help. L'Amour from Christie Brinkley has taken at least 20 years off her face and restored her confidence.</strong></i></h5>
+                            After years of not taking care of her skin, Kim Allen's age was showing.<strong> With deep wrinkles, sagging skin and fine lines, she needed help. <?= $step1_name ?> from Christie Brinkley has taken at least 20 years off her face and restored her confidence.</strong></i></h5>
                     <p>
                     </p>
                     <p>
@@ -64,29 +64,29 @@
                     <p>
                     Over the past decade I have spent countless amounts of money on anti aging products like I'm sure a lot of readers have, only to find that the results were either nonexistent or very poor. </p>
                     <p>
-                        Today, I am delighted about Christie Brinkley's new anti aging product, L'Amour. I've been really wanting to get my face and skin healthy for me, and me alone. Had I not taken action, I am certain I was on my way to looking like an old, dried-up prune forever."
+                        Today, I am delighted about Christie Brinkley's new anti aging product, <?= $step1_name ?>. I've been really wanting to get my face and skin healthy for me, and me alone. Had I not taken action, I am certain I was on my way to looking like an old, dried-up prune forever."
                     </p>
 
                     <p>
-                        Kim tried one method after another with little or no results. She even considered plastic surgery but was hesitant to go under the knife. Things were looking hopeless until a few weeks ago, while watching The Today Show, <strong> Kim saw Christie Brinkley's decades of anti aging secrets revealed as she launched L'Amour to the world.</strong>
+                        Kim tried one method after another with little or no results. She even considered plastic surgery but was hesitant to go under the knife. Things were looking hopeless until a few weeks ago, while watching The Today Show, <strong> Kim saw Christie Brinkley's decades of anti aging secrets revealed as she launched <?= $step1_name ?> to the world.</strong>
                     </p>
                     <p><img src="<?= $assets ?>/images/comp2.png" class="img-responsive">
                     </p>
                     <p>
-                    Dr. Oz has known about Christie's secret for years and has reserved it for only private celebrity clients that need to look 10 to 15 youngers quickly, until Christie Brinkley revealed L'Amour on The Today Show. Even for Christie Brinkley to tell others about her secret and launch her own line of anti aging products, she couldn't help but start crying on The Today Show about her biggest secret being exposed and in the open.                    </p>
+                    Dr. Oz has known about Christie's secret for years and has reserved it for only private celebrity clients that need to look 10 to 15 youngers quickly, until Christie Brinkley revealed <?= $step1_name ?> on The Today Show. Even for Christie Brinkley to tell others about her secret and launch her own line of anti aging products, she couldn't help but start crying on The Today Show about her biggest secret being exposed and in the open.                    </p>
                     <p>
                         When Kim found out about it, she was so surprised by how shockingly simple, cheap, and effective this technique was, that she had to test it herself.
                     </p>
                     <p>
-                        Here at People, we have been receiving <strong>so many emails</strong> from our readers asking about L'Amour that we decided to write a feature article testing it for ourselves and reporting on Kim's results! Read on...
+                        Here at People, we have been receiving <strong>so many emails</strong> from our readers asking about <?= $step1_name ?> that we decided to write a feature article testing it for ourselves and reporting on Kim's results! Read on...
                     </p>
-                    <h4>Watch Christie Brinkley talk about L'Amour, her breakthrough new anti-aging weapon.</h4>
+                    <h4>Watch Christie Brinkley talk about <?= $step1_name ?>, her breakthrough new anti-aging weapon.</h4>
                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/Fu70gf106mw?rel=0" frameborder="0" allowfullscreen></iframe>
                     <p>
                     </p><p>Dr Oz had always kept this wrinkle secret reserved for his high paying celebrity clients...until now. </p>
                     <img src="<?= $assets ?>/images/fgh.jpg" class="img-responsive">
-                    <h5 class="text-center"><i>"L'Amour is the best, most effective and cheapest alternative to sugery<strong>" - Dr. Oz </strong> </i></h5>
-                    <p>Christie Brinkley said she felt that it was time for her to finally put her decades of knowledge into a product that actually worked.  She was tired of hearing countless stories of her fans losing $1000's on expensive anti aging products, or dangerous plastic surgeries. As a result, a few weeks ago with Christie on The Today Show, <strong>she revealed her secret and began offering L'Amour to the world.</strong></p>
+                    <h5 class="text-center"><i>"<?= $step1_name ?> is the best, most effective and cheapest alternative to sugery<strong>" - Dr. Oz </strong> </i></h5>
+                    <p>Christie Brinkley said she felt that it was time for her to finally put her decades of knowledge into a product that actually worked.  She was tired of hearing countless stories of her fans losing $1000's on expensive anti aging products, or dangerous plastic surgeries. As a result, a few weeks ago with Christie on The Today Show, <strong>she revealed her secret and began offering <?= $step1_name ?> to the world.</strong></p>
                     <img src="<?= $assets ?>/images/imageedit_5_3750071626.jpg" class="img-responsive">
                     <h5 class="text-center"><i> "Countless aging celebs admit they avoided surgery and look 10 years younger using Christie Brinkley's <?= $step1_name ?>."</i></h5>
                     <p>Christie Brinkley's big skincare secret is that after years and years of pain staking tests and research, her Doctor, while working with a team of anti-aging researchers discovered a breakthrough product that <strong> literally took 10 to 20 years off women’s appearance in just a month. The shocking part is that it is 100% safe, and costs next to nothing!</strong> Christie's "miracle" age reversal solution is a duo combination of key ingredients found in <a href="<?= $step1_link ?>"><?= $step1_name ?></a>.</p>
@@ -156,7 +156,7 @@
                     </div>
 
                     <p>
-                    "I couldn't believe my transformation, after feeling "too old". I honestly had almost given up on hoping that there was a cheap and effective solution out there that could really remove wrinkles. There's hype everywhere surrounding products that simply don't work, but to my amazement, L'Amour did exactly what Christie said it would do.</p>
+                    "I couldn't believe my transformation, after feeling "too old". I honestly had almost given up on hoping that there was a cheap and effective solution out there that could really remove wrinkles. There's hype everywhere surrounding products that simply don't work, but to my amazement, <?= $step1_name ?> did exactly what Christie said it would do.</p>
                     <p>
                         I couldn't believe how much my confidence was boosted and how much attention from men I was getting. I'm married of course, but it still feels good to have others find you beautiful and attractive."
                     </p>
@@ -171,7 +171,7 @@
                     <h3>Will This Work For You?</h3>
                     <p>There is plenty of skincare hype out there, and most of those products are ridiculously expensive. With so many options it’s only natural to be skeptical about the results, and so we don't want to promise our readers anything - instead we simply want to challenge you to do what Christie Brinkley recommends to her fans and friends: <strong>try it for yourself!</strong></p>
                     <p><strong>Please remember, you want to use <a href="<?= $step1_link ?>"><?= $step1_name ?></a> daily for best results. </strong></p>
-                    <p>For your convenience, we have provided the link to Christie Brinkley's L'Amour. As of the writing of this article they are offering <strong>Free Test Trials</strong> of <a href="<?= $step1_link ?>"><?= $step1_name ?></a> for the holidays season. Use the links below and you will get the lowest possible shipping price as well.</p>
+                    <p>For your convenience, we have provided the link to Christie Brinkley's <?= $step1_name ?>. As of the writing of this article they are offering <strong>Free Test Trials</strong> of <a href="<?= $step1_link ?>"><?= $step1_name ?></a> for the holidays season. Use the links below and you will get the lowest possible shipping price as well.</p>
                     <h4 class="m-b-5">Holiday Free Trial Links:</h4>
                     <p class="m-b-5"><a href="<?= $step1_link ?>"><?= $step1_name ?></a></p>
                 </div>
@@ -226,7 +226,7 @@
                     <a href="<?= $step1_link ?>" target="_blank">
                         <img src="<?= $assets ?>/images/commonright2.jpg" class="img-responsive">
                     </a>
-                    <p class="m-b-5"><i>"I've been trying to get rid of my eye wrinkles for almost 10 years. L'Amour got rid of them in a week. Thanks so much!" </i></p>
+                    <p class="m-b-5"><i>"I've been trying to get rid of my eye wrinkles for almost 10 years. <?= $step1_name ?> got rid of them in a week. Thanks so much!" </i></p>
                     <p><strong><i>Andrea Spender <br>
                     Chapel Hill, NC</i></strong></p>
                   <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
