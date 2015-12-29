@@ -68,31 +68,31 @@ var tbScrollHighlight = {"fixedHeaderSelector":"","scrollOffset":"0"};
 </script>
 <script type='text/javascript' src='../wp-content/themes/basic/themify/themify-builder/js/themify.scroll-highlight.js'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.jovenskincareserum.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.jovenskincareserum.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.jovenskincareserum.com/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 4.2.5" />
 <link rel='shortlink' href='http://www.jovenskincareserum.com/?p=6' />
 
 
 
 
-<link rel="icon" 
-      type="image/png" 
+<link rel="icon"
+      type="image/png"
       href="http://www.jovenskincareserum.com/images/favicon.ico">
 	<!-- media-queries.js -->
 	<!--[if lt IE 9]>
 		<script src="http://www.jovenskincareserum.com/wp-content/themes/basic/js/respond.js"></script>
 	<![endif]-->
-	
+
 	<!-- html5.js -->
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
 	<!--[if lt IE 9]>
 	<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script> 
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
 	<![endif]-->
 	<script>			function isSupportTransition() {
 				var b = document.body || document.documentElement,
@@ -111,20 +111,20 @@ var tbScrollHighlight = {"fixedHeaderSelector":"","scrollOffset":"0"};
 				return false;
 			}
 			if ( isSupportTransition() ) {
-				document.documentElement.className += " csstransitions";	
+				document.documentElement.className += " csstransitions";
 			}
 			</script>			<!--Themify Styling-->
 			<style type="text/css">
 body {
  		font-size:17px;
 	line-height:1.5em;
- 
+
 }
 
 a {
- 	
+
 	color: #357ad4;
-	color: rgba(53,122,212,1.00); 
+	color: rgba(53,122,212,1.00);
 }
 
 #pagewrap {
@@ -132,77 +132,77 @@ a {
 	background-repeat: repeat-x;
 	background-position: center top;
 	background-color: #e4f5fd;
-	background-color: rgba(228,245,253,1); 
+	background-color: rgba(228,245,253,1);
 }
 
 #content {
- 	width: auto;	
+ 	width: auto;
 	background-color: #ffffff;
-	background-color: rgba(255,255,255,1.00);	
-	padding: 25px;	margin: auto; 
+	background-color: rgba(255,255,255,1.00);
+	padding: 25px;	margin: auto;
 }
 
 #headerwrap {
  	background-image: url(../wp-content/uploads/2015/04/jovenheader12.png);
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-color: transparent;	
-	margin-top: 10px; 
+	background-color: transparent;
+	margin-top: 10px;
 }
 
 #site-logo {
- 	display: none; 
+ 	display: none;
 }
 
 #site-description {
- 	display: none; 
+ 	display: none;
 }
 
 .page-title {
  		font-size:27px;
- 
+
 }
 
 #footer {
- 	
+
 	background-color: #ffffff;
-	background-color: rgba(255,255,255,1.00);	
-	padding: 25px; 
+	background-color: rgba(255,255,255,1.00);
+	padding: 25px;
 }
 </style>
 			<!--/Themify Styling-->
-		
+
 </head>
 
 <body class="single single-post postid-6 single-format-standard skin-default not-ie default_width sidebar1 no-home no-touch">
 <div id="pagewrap" class="hfeed site">
 
 	<div id="headerwrap">
-    
+
 				<header id="header" class="pagewidth">
         			<hgroup>
-				<div id="site-logo"><a href="http://www.jovenskincareserum.com/go/Joven" title="Joven Skin Cream Anti-Aging Serum"><span>Joven Skin Cream Anti-Aging Serum</span></a></div>	
+				<div id="site-logo"><a href="http://www.jovenskincareserum.com/go/Joven" title="Joven Skin Cream Anti-Aging Serum"><span>Joven Skin Cream Anti-Aging Serum</span></a></div>
 														<div id="site-description" class="site-description"><span>Beautiful, Glowing Skin Can Be Yours</span></div>
 							</hgroup>
-	
+
 			<nav>
 				<div id="menu-icon" class="mobile-button"></div>
-				
+
 			</nav>
-	
-				
+
+
 			<div class="social-widget">
-					
+
 							</div>
 			<!-- /.social-widget -->
 				</header>
 		<!-- /#header -->
-        				
+
 	</div>
 	<!-- /#headerwrap -->
-	
+
 	<div id="body" class="clearfix">
-    
+
 
 
 <!-- layout-container -->
@@ -210,26 +210,26 @@ a {
 
 		<!-- content -->
 	<div id="content" class="list-post">
-    			
-		
+
+
 
 
 <article itemscope itemtype="http://schema.org/Article" id="post-6" class="post clearfix cat-1 post-6 type-post status-publish format-standard hentry category-uncategorized has-post-title no-post-date has-post-category has-post-tag has-post-comment has-post-author">
-	
-		
-	
-	<div class="post-content">
-	
-		
-												<h1 class="post-title entry-title" itemprop="name"><a href="index.html" title="Herbal Skin Care Treatments for Wrinkles">Herbal Skin Care Treatments for Wrinkles</a></h1>
-						 
-		    
 
-		    
-		
+
+
+	<div class="post-content">
+
+
+												<h1 class="post-title entry-title" itemprop="name"><a href="index.html" title="Herbal Skin Care Treatments for Wrinkles">Herbal Skin Care Treatments for Wrinkles</a></h1>
+
+
+
+
+
 		<div class="entry-content" itemprop="articleBody">
 
-		
+
 			<p><a href="../wp-content/uploads/2015/04/wrinkles.jpg"><img class="alignleft  wp-image-2442" src="../wp-content/uploads/2015/04/wrinkles.jpg" alt="wrinkles" width="416" height="277" /></a>Wrinkles are an inherent part of the aging process. Over the years, toxins accumulate in skin cells and more free radicals are produced and are capable of damaging cells, breaking down collagen, and causing skin inflammation. The skin becomes thinner and less elastic and what were at one time temporary creases develop into fine lines and wrinkles.</p>
 <p>While there are many available treatments for wrinkles, herbal skin care remedies offer an effective and natural solution to aging skin. Instead of the expense and risk of cosmetic surgery and collagen injections consider anti-wrinkle skin care with herbal facials and the nourishing and cleansing benefits of herbal teas for beautiful skin.</p>
 <h3>Herbal Skin Treatment Recipes for Aging Skin</h3>
@@ -245,51 +245,51 @@ a {
 <p>Choosing natural treatments for wrinkles you have the ability to take control of your aging skin without depending on more invasive procedures. Making herbal skin care a part of your life may be a commitment, but it will also be rewarding.</p>
 <div id="themify_builder_content-6" data-postid="6" class="themify_builder_content themify_builder_content-6 themify_builder themify_builder_front">
 	</div>
-<!-- /themify_builder_content -->		
-		
+<!-- /themify_builder_content -->
+
 		</div><!-- /.entry-content -->
-		
-				
+
+
 	</div>
 	<!-- /.post-content -->
-		
+
 </article>
 
 <!-- /.post -->
-				
-		
-		
+
+
+
 		<div class="post-nav clearfix">
 						<span class="next"><a href="http://www.jovenskincareserum.com/finding-the-best-skin-care-moisturizer/" rel="next"><span class="arrow">&raquo;</span> Finding the Best Skin Care Moisturizer</a></span>		</div>
 		<!-- /.post-nav -->
 
-	
-		
-        
-			
+
+
+
+
 	</div>
 	<!-- /content -->
-    
+
 
 <aside id="sidebar">
-	    
-	    
+
+
 	</aside>
 <!-- /#sidebar -->
 
 </div>
 <!-- /layout-container -->
-	
+
 
 	    </div>
 	<!-- /body -->
-		
-	<div id="footerwrap">
-    
-    			<footer id="footer" class="pagewidth clearfix">
-				
 
-				
+	<div id="footerwrap">
+
+    			<footer id="footer" class="pagewidth clearfix">
+
+
+
 	<div class="footer-widgets clearfix">
 
 								<div class="col3-1 first">
@@ -346,23 +346,23 @@ a {
 								<a href="https://about.me/jovenskincareserum" title="About.me" target="_blank"><i class="fa fa-cloud" ></i>  </a>
 							</li>
 							<!-- /themify-link-item --></ul></div>			</div>
-		
+
 	</div>
 	<!-- /.footer-widgets -->
 
-	
+
 			<p class="back-top"><a href="index.html#header">&uarr;</a></p>
-		
-				
+
+
 			<div class="footer-text clearfix">
 				<div class="one">© 2015 JovenSkinCareSerum.com</p></div>				<div class="two">Representations regarding the efficacy and safety of Joven Skin Care have not been evaluated by the Food and Drug Administration. The FDA only evaluates foods and drugs, not supplements like these products. These products are not intended to diagnose, prevent, treat, or cure any disease. Click here <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/18717861"><u>"STUDY 1"</u></a>, <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2699641/"><u>"STUDY 2"</u></a>, <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/18025807"><u>"STUDY 3"</u></a> and <a target="_blank" href="http://www.sciencedaily.com/releases/2003/12/031203075525.htm"><u>"STUDY 4"</u></a> to find evidence of a test, analysis, research, or study describing the benefits, performance or efficacy of Joven Skin Care based on the expertise of relevant professionals." Max 250 trials per day is part of company policy.
 </div>			</div>
-			<!-- /footer-text --> 
+			<!-- /footer-text -->
 					</footer>
-		<!-- /#footer --> 
+		<!-- /#footer -->
         	</div>
 	<!-- /#footerwrap -->
-	
+
 </div>
 <!-- /#pagewrap -->
 
