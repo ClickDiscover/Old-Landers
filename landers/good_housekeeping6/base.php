@@ -77,12 +77,7 @@ comments
 <style>
 h2.mp_title { line-height: 1.0; margin-bottom: 11px; }
 </style>
-<!-- Masthead? -->
-<div class="header-container">
-    <div class="header" data-beacon="{&quot;p&quot;:{&quot;mlid&quot;:&quot;navbar&quot;}}" style="">
-      <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/header-bg" /></a>
-    </div>
-  </div>
+
 <div class="masthead" data-beacon="{&quot;p&quot;:{&quot;mlid&quot;:&quot;masthead&quot;}}">
 <!-- Logo -->
 <div class="logo" data-beacon="{&quot;p&quot;:{&quot;mnid&quot;:&quot;logo&quot;}}">
