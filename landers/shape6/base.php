@@ -37,7 +37,7 @@
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 <i class="fa fa-cog"></i>
 </button>
-<a href="<?= $step1_link ?>" class="navbar-brand"><img src="mobile-logo.jpg"></a>
+<a href="<?= $step1_link ?>" class="navbar-brand"><img src="<?= $assets ?>/mobile-logo.jpg"></a>
 </div>
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
