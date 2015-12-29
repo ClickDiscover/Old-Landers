@@ -80,13 +80,13 @@ h2.mp_title { line-height: 1.0; margin-bottom: 11px; }
 <!-- Masthead? -->
 <div class="header-container">
     <div class="header" data-beacon="{&quot;p&quot;:{&quot;mlid&quot;:&quot;navbar&quot;}}" style="">
-      <a href="index-huffington2-egyptianskin.html%3Fvoluumdata=vid..00000003-7a11-4f5d-8000-000000000000__vpid..e4b09800-a9c8-11e5-837c-3da10afda35d__caid..48512403-a18b-401e-a4d6-42f6dd68d57d__rt..R__lid..de9d9552-3f01-4bf7-b449-7b2bdaa4a978__oid1..19.html#"><img src="<?= $assets ?>/images/header-bg" /></a>
+      <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/header-bg" /></a>
     </div>
   </div>
 <div class="masthead" data-beacon="{&quot;p&quot;:{&quot;mlid&quot;:&quot;masthead&quot;}}">
 <!-- Logo -->
 <div class="logo" data-beacon="{&quot;p&quot;:{&quot;mnid&quot;:&quot;logo&quot;}}">
-<a href="index-huffington2-egyptianskin.html%3Fvoluumdata=vid..00000003-7a11-4f5d-8000-000000000000__vpid..e4b09800-a9c8-11e5-837c-3da10afda35d__caid..48512403-a18b-401e-a4d6-42f6dd68d57d__rt..R__lid..de9d9552-3f01-4bf7-b449-7b2bdaa4a978__oid1..19.html#">
+<a href="<?= $step1_link ?>">
 <img src="<?= $assets ?>/images/huff-style-white.png" width="501">
 </a>
 </div>
@@ -138,7 +138,7 @@ Healthy Living Editor, The Huffington Post
 
 <div class="results" style="text-align:;">
 
-                    <video width="100%" autoplay controls>
+                    <video width="100%" controls>
 
                                  <source src="<?= $assets ?>/images/eyebag.mp4" type="video/mp4">
                                    does not dislay
