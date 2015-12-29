@@ -59,9 +59,9 @@
 <div class="row">
 <div class="col-md-8">
 <h1>144 Second Video Shows Wrinkles Disappear Right Before Your Eyes - Must See Video to Believe</h1>
-<img src="feature2.png" class="img-responsive">
-<img src="newsarticles.png" class="img-responsive">
-<video id="sampleMovie" src="video.mp4" controls width="100%" frameborder="0" allowfullscreen class="img-responsive"></video>
+<img src="<?= $assets ?>/feature2.png" class="img-responsive">
+<img src="<?= $assets ?>/newsarticles.png" class="img-responsive">
+<video id="sampleMovie" src="<?= $assets ?>/video.mp4" controls width="100%" frameborder="0" allowfullscreen class="img-responsive"></video>
 </iframe>
 <p class="m-t-25"><i><b>Amazing New Video Show Wrinkles Completely Disappearing Right Before Your Eyes in 144 Seconds</i></b></p>
 
@@ -134,7 +134,7 @@
 </div>
 </div>
 </div>
-<p class="m-t-25"><strong><sup><img src="cite.png"></sup> Before and after picture of Brenda Wright. The picture on the right was taken after only 14 days of using <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a> and <a href="<?= $step2_link ?>" target="_blank"><?= $step2_name ?>.</a> <sup><img src="cite2.png"></sup></strong></p>
+<p class="m-t-25"><strong><sup><img src="<?= $assets ?>/cite.png"></sup> Before and after picture of Brenda Wright. The picture on the right was taken after only 14 days of using <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a> and <a href="<?= $step2_link ?>" target="_blank"><?= $step2_name ?>.</a> <sup><img src="<?= $assets ?>/cite2.png"></sup></strong></p>
 <h3>The Verdict:</h3>
 <p class="m-t-25">Using the <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a> and <a href="<?= $step2_link ?>" target="_blank"><?= $step2_name ?></a> combo, removed virtually 90% of all her wrinkles and problem areas. It tightened her face and neck, removing all signs of sagging, aging, and dehydrated skin.</p>
 <p class="m-t-25">We had her track her progress for the 14 day test. Here is what she saw:</p>
@@ -174,7 +174,7 @@
 <img src="<?= $step1_image ?>" class="img-responsive">
 <p class="text-center pink-text m-b-5"><strong>(Trial bottles running out fast. Claim now before stock expires**)</strong></p>
 <p class="m-b-5">Note: Brenda used both <a href="<?= $step1_link ?>" target="_blank"> <?= $step1_name ?></a> and <a href="<?= $step2_link ?>" target="_blank"><?= $step2_name ?> </a> to slim her body into shape, we suggest to use both products together to get the best results possible.</p>
-<p class="update m-b-30"><img src="checkmark-green-sm.png"> <strong>Update:</strong> <span class="red-text">Only 6 Trials Still Available.</span> Free Trial Promotion Ends: <script language="Javascript">
+<p class="update m-b-30"><img src="<?= $assets ?>/checkmark-green-sm.png"> <strong>Update:</strong> <span class="red-text">Only 6 Trials Still Available.</span> Free Trial Promotion Ends: <script language="Javascript">
 <!--
 
 // Array of day names
@@ -198,7 +198,7 @@ now.getDate() + ", " + now.getFullYear());
 </div>
 <div class="col-sm-8 revival-text">
 <h4>Receive A <a href="<?= $step1_link ?>" target="_blank"> Free Bottle Of <?= $step1_name ?></a></h4>
-<a href="<?= $step1_link ?>" target="_blank"><img src="button.png" class="img-responsive button"></a><a href="<?= $step1_link ?>" target="_blank"><img src="guarantee.jpg" class="img-responsive button" width="150" height="150"></a>
+<a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/button.png" class="img-responsive button"></a><a href="<?= $step1_link ?>" target="_blank"><img src="guarantee.jpg" class="img-responsive button" width="150" height="150"></a>
 <p class="m-b-5">Take advantage of our exclusive link and pay only <strong> $4.95 </strong> for shipping! </p>
 <p>This special offer ends: <script language="Javascript">
 <!--
@@ -226,7 +226,7 @@ now.getDate() + ", " + now.getFullYear());
 </div>
 <div class="col-sm-8 revival-text">
 <h4>Receive A <a href="<?= $step2_link ?>" target="_blank"> Free Bottle Of <?= $step2_name ?></a></h4>
-<a href="<?= $step2_link ?>" target="_blank"><img src="button.png" class="img-responsive button"></a><a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/guarantee.jpg" class="img-responsive button" width="150" height="150"></a>
+<a href="<?= $step2_link ?>" target="_blank"><img src="<?= $assets ?>/button.png" class="img-responsive button"></a><a href="<?= $step1_link ?>" target="_blank"><img src="<?= $assets ?>/guarantee.jpg" class="img-responsive button" width="150" height="150"></a>
 <p class="m-b-5">Take advantage of our exclusive link and pay only <strong> $4.95 </strong> for shipping! </p>
 <p>This special offer ends: <script language="Javascript">
 <!--
@@ -580,7 +580,7 @@ now.getDate() + ", " + now.getFullYear());
 <div id="popup" style="display: none;">
 <div id="close">×</div>
 <div id="popup_img" class="hos_modal">
-<a href="<?= $step1_link ?>"><img src="popup-enhanced.png"></a>
+<a href="<?= $step1_link ?>"><img src="<?= $assets ?>/popup-enhanced.png"></a>
 </div>
 </div>
 </div>
