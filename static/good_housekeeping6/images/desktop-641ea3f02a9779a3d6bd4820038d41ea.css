@@ -52,6 +52,11 @@ img{height:auto !important;}
   .share-bar { left:2%;}
 
  }
+ @media screen and (max-width: 1050px) {
+   .col-third {
+     display: none;
+   }
+ }
  @media screen and (max-width: 481px) {
 .healthy-living, .masthead, .share-bar {display:none;}
 html {
