@@ -56,6 +56,9 @@ img{height:auto !important;}
    .col-third {
      display: none;
    }
+   .col-two-thirds {
+     width: auto;
+   }
  }
  @media screen and (max-width: 481px) {
 .healthy-living, .masthead, .share-bar {display:none;}
