@@ -38,7 +38,7 @@
 .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style>
 </head>
 <body class="desktop b-page" data-locale="en_US">
-<div class="share-bar" data-beacon="{&quot;p&quot;:{&quot;mnid&quot;:&quot;floating_share&quot;,&quot;mlid&quot;:&quot;bpage_share_bar&quot;}}" id="share-bar">
+<!-- <div class="share-bar" data-beacon="{&quot;p&quot;:{&quot;mnid&quot;:&quot;floating_share&quot;,&quot;mlid&quot;:&quot;bpage_share_bar&quot;}}" id="share-bar">
 <ul class="share-bar__list sticky" data-mobilepath="/us/entry/567578c9e4b014efe0d5b323" data-sharingimage="http://img.huffingtonpost.com/asset/360_216/5675b10e1f0000dd00e9c396.jpeg?cache=ko5dkctdw9" data-sharingtitle="Kendall Is The Best Dressed Kardashian/Jenner. See For Yourself." data-sharingtweetname="HPLifestyle" data-sharingtweettext="Kendall Jenner took her modeling chops to the streets in these 13 best looks of the year" data-sharingurl="http://www.huffingtonpost.com/entry/kendall-jenner-best-outfits-2015_567578c9e4b014efe0d5b323" data-socialmessaging="{}">
   <li class="share-bar__item-total-count">7836</li>
   <li class="bN pinterest share-bar__item" data-beacon="{&quot;p&quot;:{&quot;lnid&quot;:&quot;pinterest&quot;,&quot;mpid&quot;:0}}" type="pinterest">
@@ -68,7 +68,7 @@ comments
 <div class="share-bar__item-count">1488 </div>
 </li>
 </ul>
-</div>
+</div> -->
 
 <div class="main">
 
