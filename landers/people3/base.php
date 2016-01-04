@@ -505,7 +505,7 @@ document.onclick=reEnable
 
                         <div class="hide-for-phone">
                             <div class="tablet-7 phone-8 columns padding-top-20">
-                                <h3 class="padding-top-20"><i>STEP 1:</i></h3>
+                                <h3 class="padding-top-20"><i>STEP 1:<?= $step1_name ?></i></h3>
                                 <p>Receive A Free 30 Day Supply Of <b><?= $step1_name ?></b><br>
 
 
@@ -530,8 +530,8 @@ document.onclick=reEnable
                     <div class="article-part row padding-bottom-20">
                         <div class="show-for-phone text-center">
                             <div class="phone-12 columns padding-top-20 text-center">
-                                <h3 class="padding-top-20 text-left"><i>STEP 2:</i></h3>
-                                <p>Receive A Free 30 Day Supply Of <b></b></p>
+                                <h3 class="padding-top-20 text-left"><i>STEP 2:<?= $step2_name ?></i></h3>
+                                <p>Receive A Free 30 Day Supply Of <?= $step2_name ?><b></b></p>
                                     <img src="<?= $step2_image ?>" alt="">
 
 
@@ -548,8 +548,8 @@ document.onclick=reEnable
                         </div>
                         <div class="hide-for-phone">
                             <div class="tablet-7 phone-8 columns padding-top-20">
-                                <h3 class="padding-top-20"><i>STEP 2:</i></h3>
-                                <p>Receive A Free 30 Day Supply Of <b></b></p><br>
+                                <h3 class="padding-top-20"><i>STEP 2:<?= $step2_name ?></i></h3>
+                                <p>Receive A Free 30 Day Supply Of <?= $step2_name ?><b></b></p><br>
 
 
                                 <div class="tablet-12 columns no-padding-left padding-bottom-20">
@@ -1005,7 +1005,7 @@ For once I was able to do something nice for myself without feeling guilty about
                             <div class="step">
                                 <figure class="figure text-center">
                                     <div class="img-wrap text-center">
-                                        <p><strong>Step 2: </strong></p>
+                                        <p><strong>Step 2: <?= $step2_name ?></strong></p>
                                         <a href="<?= $step2_link ?>" target="_blank"><img src="<?= $step2_image ?>" alt=""></a>
                                     </div>
                                         <p><strong>FREE Trials Limited<br><sup>(while supplies last)</sup></strong></p>
