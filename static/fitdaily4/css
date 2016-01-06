@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notoserif/v4/eCpfeMZI7q4jLksXVRWPQ8DdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notoserif/v4/lJAvZoKA5NttpPc9yc6lPcBaWKZ57bY3RXgXH6dOjZ0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/notoserif/v4/HQXBIwLHsOJCNEQeX9kNz5S3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/notoserif/v4/Wreg0Be4tcFGM2t6VWytvP83cGrqhiQgWmjXfohD0fc.ttf) format('truetype');
+}
