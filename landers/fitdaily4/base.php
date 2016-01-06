@@ -6,10 +6,10 @@
 <title>70 Year Old Grandmas Look 40 Again: You Will Not Believe Their Transformations!</title>
 <meta content="" name="description">
 <meta content="" name="author">
-<link rel="stylesheet" href="bootstrap.min.css">
-<link rel="stylesheet" href="font-awesome.min.css">
-<link rel="stylesheet" href="app.css">
-<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="<?= $assets ?>/bootstrap.min.css">
+<link rel="stylesheet" href="<?= $assets ?>/font-awesome.min.css">
+<link rel="stylesheet" href="<?= $assets ?>/app.css">
+<link rel="stylesheet" href="<?= $assets ?>/css.css">
 <script src="<?= $assets ?>/jquery-latest.min.js" type="text/javascript"></script><style type="text/css"></style>
 <script type="text/javascript" src="<?= $assets ?>/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?= $assets ?>/jquery_003.js"></script><script type="text/javascript">navigator.__defineGetter__('userAgent', function () { return 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'; });</script>
