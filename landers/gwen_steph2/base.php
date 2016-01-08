@@ -18,16 +18,6 @@
 <link rel="stylesheet" href="<?= $assets ?>/css/main.css"/>
 <link rel="stylesheet" href="<?= $assets ?>/css/main-v2-v=0.5.css"  />
 <!-- including /people/static/h/inc/global-integration.txt for future 3rd party integration without RIP site -->
-<?php
-$step1_link ='http://google.com';
-$assets = '';
-$step1_name = 'PRODUCT1';
-$step1_image = 'http://static1.squarespace.com/static/54cfb281e4b0f7ee4c646797/55a56091e4b01f72a1ce9648/55ad8413e4b0fae1c07ca686/1437510671280/?format=1500w';
-
-$step2_link ='http://google.com';
-$step2_name = 'PRODUCT2';
-$step2_image = 'http://i00.i.aliimg.com/photo/v30/126431776_1/Gold_Standard_Sports_Nutrition_Supplement_Whey_Protein.jpg';
-?>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
