@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-	     <link rel="shortcut icon" href="<? $assets ?>/images/icon.png">
+	     <link rel="shortcut icon" href="<?= $assets ?>/images/icon.png">
 
  <title>Is This The Answer To All Our Aging Problems? You have to see it to believe it.</title>
     <!-- Bootstrap Core CSS -->
-    <link href="<? $assets ?>/css/bootstrap.css" rel="stylesheet">
+    <link href="<?= $assets ?>/css/bootstrap.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -45,7 +45,7 @@
             }
 
         </script>
-		<script type="text/javascript" src="<? $assets ?>/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="<?= $assets ?>/jquery/1.10.2/jquery.min.js"></script>
         <style type='text/css'>
 </style>
 </head>
@@ -53,7 +53,7 @@
 <div class="container">
 <div class="row">
 <div style="padding:10px;" class="col-md-4">
-<img class="img-responsive"src="<? $assets ?>/images/logo.png" alt=""/>
+<img class="img-responsive"src="<?= $assets ?>/images/logo.png" alt=""/>
 </div>
 <div class="col-md-4">
 </div>
@@ -75,7 +75,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?= $step1_link ?>"><img class="c-img" src="<? $assets ?>/images/icon.png"  alt="icon"></a>
+      <a class="navbar-brand" href="<?= $step1_link ?>"><img class="c-img" src="<?= $assets ?>/images/icon.png"  alt="icon"></a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -119,9 +119,9 @@
                                                     var now = new Date();
 
                                                     document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());</script>
-                  <!--<span class="none"><img src="<? $assets ?>/images/feature2.png" width="100%" class="img-responsive" alt=""/>
-				  <img src="<? $assets ?>/images/newsarticles.png"  width="100%" class="img-responsive"  alt=""/></span> <br>
-                  <a href="<?= $step1_link ?>"><img  style="border-radius:5px;" src="<? $assets ?>/images/ag1-2.jpg"  width="100%"  class="img-responsive" /></a><br><br>
+                  <!--<span class="none"><img src="<?= $assets ?>/images/feature2.png" width="100%" class="img-responsive" alt=""/>
+				  <img src="<?= $assets ?>/images/newsarticles.png"  width="100%" class="img-responsive"  alt=""/></span> <br>
+                  <a href="<?= $step1_link ?>"><img  style="border-radius:5px;" src="<?= $assets ?>/images/ag1-2.jpg"  width="100%"  class="img-responsive" /></a><br><br>
                  <blockquote><em>In a Recent Interview, Jackie Wilson Tells Us About Her Struggle With Bingo Wings After Having 4 Children. And Reveals Her Secret Fix! </em></blockquote>-->
                   <figure class="right"><iframe width="560" height="315" src="https://www.youtube.com/embed/T5QHujCzDaw?rel=0&amp;autoplay=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a></figure>
                   <div class="clear"></div>
@@ -174,27 +174,27 @@
   <!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="<? $assets ?>/images/img2/celeb1.jpg" class="img-responsive" alt="Chania">
+      <img src="<?= $assets ?>/images/img2/celeb1.jpg" class="img-responsive" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="<? $assets ?>/images/img2/celeb2.jpg" class="img-responsive" alt="Chania">
+      <img src="<?= $assets ?>/images/img2/celeb2.jpg" class="img-responsive" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="<? $assets ?>/images/img2/celeb3.jpg"  class="img-responsive" alt="Flower">
+      <img src="<?= $assets ?>/images/img2/celeb3.jpg"  class="img-responsive" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="<? $assets ?>/images/img2/celeb4.jpg" class="img-responsive" alt="Flower">
+      <img src="<?= $assets ?>/images/img2/celeb4.jpg" class="img-responsive" alt="Flower">
     </div>
 
 	 <div class="item">
-      <img src="<? $assets ?>/images/img2/celeb5.jpg" class="img-responsive" alt="Flower">
+      <img src="<?= $assets ?>/images/img2/celeb5.jpg" class="img-responsive" alt="Flower">
     </div>
 
 	 <div class="item">
-      <img src="<? $assets ?>/images/img2/celeb6.jpg" class="img-responsive" alt="Flower">
+      <img src="<?= $assets ?>/images/img2/celeb6.jpg" class="img-responsive" alt="Flower">
     </div>
   </div>
 
@@ -202,9 +202,9 @@
 
 
 			<div style="padding:20px;">
-				<sup><img src="<? $assets ?>/images/cite.png" width="25" height="19"></sup><b><i>
+				<sup><img src="<?= $assets ?>/images/cite.png" width="25" height="19"></sup><b><i>
 				  Hollywood Celebs Have Been Using This Secret Formula For Years. And Now </i><b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b><i>
-				  Is FINALLY Available To The Public!</b></i> <sup><img src="<? $assets ?>/images/cite2.png" width="25" height="19"></sup> </div></span>
+				  Is FINALLY Available To The Public!</b></i> <sup><img src="<?= $assets ?>/images/cite2.png" width="25" height="19"></sup> </div></span>
           <p>Turns out Lauren isn't the first to discover this miracle cream, after some serious digging and jumping through some
           major hoops, our sources reveal celebrities including Demi Moore, Madonna, Jessica Simpson, and Malin Akerman were all
           using <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> to keep their toned form. I’ve been incredibly intrigued since,
@@ -245,7 +245,7 @@
                     The best part about <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> is the fact that it's backed by a 100% Satisfaction guarantee! </p>
                  <hr/>
                   <span class="none"><div>
-                    <p> <img src="<? $assets ?>/images/drozsmall.jpg" width="135" height="135" alt="droz" align="left" style="margin-right: 10px;"/>
+                    <p> <img src="<?= $assets ?>/images/drozsmall.jpg" width="135" height="135" alt="droz" align="left" style="margin-right: 10px;"/>
 					"<b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> works by penetrating all 7 layers of skin and getting rid of old, dead layers which helps your
 					skin generate fresh new ones. Our tests show that you can erase almost 25 years off your body in less than 30 days. The key is to choose
 					the toning cream that contains the highest and purest quality of ingredients, since they are not all made the same.
@@ -254,11 +254,11 @@
 					<hr/>
                   </div></span>
                   <h2>Lauren's Story &amp; 14 Day <?= $step1_name ?> Anti-Aging Cream Results:</h2>
-                  <img src="<? $assets ?>/images/lauren.png" alt="" class="img-responsive" width="100%"/>
+                  <img src="<?= $assets ?>/images/lauren.png" alt="" class="img-responsive" width="100%"/>
                   <br/>
-                  <sup><img src="<? $assets ?>/images/cite.png" width="25" height="15"/></sup>
+                  <sup><img src="<?= $assets ?>/images/cite.png" width="25" height="15"/></sup>
 				  <b>Lauren Before and After Using <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> For 30 Days</b> </a>
-				  <sup><img src="<? $assets ?>/images/cite2.png" width="25" height="15"/></sup>
+				  <sup><img src="<?= $assets ?>/images/cite2.png" width="25" height="15"/></sup>
                   <br/>
                   <h2>"How did I do it?"</h2>
 				<p>"The trick is that <?= $step1_name ?> contains high concentrations of pure Vitamin C and Hyaluronic Acid in just the right concentrations. I also discovered that it contains all sorts of anti-oxidants, an ingredient called Dermaxyl (also known as facelift in a jar) and Ester-C (the active anti-aging compound in Vitamin C). The instructions were easy to follow but very specific: they're important to follow precisely because it does make a visible difference. You apply just a light coat of <?= $step1_name ?> on your face and neck after washing and drying your face just before bed time. I saw results almost overnight, but after 14 days, the results were literally shocking. I looked how I used to look 20 years ago!" - Lauren</p>
@@ -274,7 +274,7 @@
                   <br/>
                   <div style="background-color:rgba(94, 94, 94, 0.05); padding:10px;">
                   <div style="float: left; width: 154px; height: 250px;">
-					<img src="<? $assets ?>/images/eyes1.jpg" alt="" height="207" width="130"></div>
+					<img src="<?= $assets ?>/images/eyes1.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 1:  </span></h2>
 
                     <p>After the first day of using <?= $step1_name ?>, I was surprised at how wonderful it made my skin feel. It felt like every last pore on my face was being tightened and pulled by a gigantic vacuum cleaner.
@@ -286,7 +286,7 @@
                   </div>
                   <div style="background-color:rgba(94, 94, 94, 0.05); padding:10px; clear:both">
                    <div style="float: left; width: 154px; height: 250px;">
-				   <img src="<? $assets ?>/images/eyes2.jpg" alt="" height="207" width="130"></div>
+				   <img src="<?= $assets ?>/images/eyes2.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 5:  </span></h2>
                     <p> After five days of using <a href="<?= $step1_link ?>"><?= $step1_name ?></a> I was shocked at the drastic results.
 
@@ -299,7 +299,7 @@
                   </div>
                   <div style="background-color:rgba(94, 94, 94, 0.05); padding:10px; clear:both">
                     <div style="float: left; width: 154px; height: 250px;">
-					<img src="<? $assets ?>/images/eyes3.jpg" alt="" height="207" width="130"></div>
+					<img src="<?= $assets ?>/images/eyes3.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 14:</h2>
                     </span>
                     <p>
@@ -315,7 +315,7 @@
 				<!--
 				<div style="background-color:rgba(94, 94, 94, 0.05); padding:10px; clear:both">
                     <div style="float: left; width: 154px; height: 250px;">
-					<img src="<? $assets ?>/images/eyes4.jpg" alt="" height="207" width="130"></div>
+					<img src="<?= $assets ?>/images/eyes4.jpg" alt="" height="207" width="130"></div>
                     <h2><span style="background-color: #FFFF00">Day 30:</h2>
                     </span>
                     <p>
@@ -353,7 +353,7 @@
 					</ol>-->
 <div>
        <br/>
-                  <img src="<? $assets ?>/images/offer.jpg" alt="" class="img-responsive"/>
+                  <img src="<?= $assets ?>/images/offer.jpg" alt="" class="img-responsive"/>
                   <p>For your convenience, we have provided the links that Lauren used to sign up for her Free Trials
 				  of <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b>. Use the links below and you will get the lowest possible shipping price as well.</p>
 
@@ -361,7 +361,7 @@
                   <p><b>Note:</b> Lauren and Shelly both used <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b> to tone their facec,
 				  we suggest you do the same in order to achieve similar results.</p>
                   <div class="none" style="border: 1px black dotted;padding: 5px;">
-				  <img src="<? $assets ?>/images/checkmark-green-sm.png"
+				  <img src="<?= $assets ?>/images/checkmark-green-sm.png"
 				  alt="" align="left" style="margin-right: 10px;"/> <b>Update:</b> Only 6 Free
 				  Trials Still Available. Estimated Promotion End Date: <span
 				  style="background-color: #FFFF00"><strong>
@@ -381,7 +381,7 @@
                     <h4>Step 1 : <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b></h4>
                     Use Our <span style="background-color: #FFFF00">EXCLUSIVE LINK</span> and pay only <span style="background-color: #FFFF00"><b>$4.95 USD</b></span> for shipping</b></span><br/>
                     <br/>
-                    <a href="<?= $step1_link ?>" target="_blank"><img title="" src="<? $assets ?>/images/BottleCTA.png" class="img-responsive" alt="" /></a><br/>
+                    <a href="<?= $step1_link ?>" target="_blank"><img title="" src="<?= $assets ?>/images/BottleCTA.png" class="img-responsive" alt="" /></a><br/>
                     <br/>
                     <b>Only <span style="background-color: #FFFF00">6 Free Trials Remaining</span>, Offer Expires On:</b><br/>
                     <br/>
@@ -420,7 +420,7 @@
                         </div>
                         <ul class="uiList fbFeedbackPosts">
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/tohloria.lewis" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/41554_50302938_1878686864_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/tohloria.lewis" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/41554_50302938_1878686864_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/tohloria.lewis">Lucie Cormons</a>
                                   <div class="postContent fsm fwn fcg">
@@ -435,7 +435,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/tanyaporquez" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/370176_564964504_308463864_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/tanyaporquez" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/370176_564964504_308463864_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/tanyaporquez">Tanya Porquez</a>
                                   <div class="postContent fsm fwn fcg">
@@ -450,7 +450,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/jennifer.jacksonmercer" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/157804_21416303_1043059674_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/jennifer.jacksonmercer" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/157804_21416303_1043059674_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/jennifer.jacksonmercer">Beth Mcgee</a>
                                   <div class="postContent fsm fwn fcg">
@@ -464,7 +464,7 @@
                                   <div id="uz1cxy_4">
                                     <ul class="uiList fbFeedbackReplies">
                                       <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbCommentReply uiListItem  uiListVerticalItemBorder" id="fbc_10150877337728759_22500369_10150877995903759_reply">
-                                        <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/157689_1027278331_1478344009_q.jpg" alt=""/></a>
+                                        <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/157689_1027278331_1478344009_q.jpg" alt=""/></a>
                                           <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                             <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/kristy.cash.14">Kristy Cash</a>
                                               <div class="postContent fsm fwn fcg">
@@ -487,7 +487,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=30110787" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/572741_30110787_2084442239_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=30110787" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/572741_30110787_2084442239_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/profile.php?id=30110787">Katy Barrott</a>
                                   <div class="postContent fsm fwn fcg">
@@ -502,7 +502,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/amanda.gibson.1656" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/174008_50902984_682021130_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/amanda.gibson.1656" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/174008_50902984_682021130_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/amanda.gibson.1656">Amanda Gibson</a>
                                   <div class="postContent fsm fwn fcg">
@@ -519,7 +519,7 @@
                                                             >
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/julie.keyse" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/371948_501645553_1716896386_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/julie.keyse" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/371948_501645553_1716896386_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/julie.keyse">Julie Keyse</a>
                                   <div class="postContent fsm fwn fcg">
@@ -534,7 +534,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=20904468" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/273930_20904468_1027986766_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=20904468" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/273930_20904468_1027986766_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/profile.php?id=20904468">Sarah Williams</a>
                                   <div class="postContent fsm fwn fcg">
@@ -549,7 +549,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://ww.beinformed.in/skincare/ocr/src/i-c-772211aa.php.html#" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/173211_1135451090_1466382495_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://ww.beinformed.in/skincare/ocr/src/i-c-772211aa.php.html#" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/173211_1135451090_1466382495_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/kirst.riley">Kirsten Bauman Riley</a>
                                   <div class="postContent fsm fwn fcg">
@@ -564,7 +564,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/celia.kilgard" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/369223_12411516_333332392_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/celia.kilgard" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/369223_12411516_333332392_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/celia.kilgard">Celia Kilgard</a>
                                   <div class="postContent fsm fwn fcg">
@@ -579,7 +579,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/alannismartini" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/371738_1363268399_1637317047_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/alannismartini" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/371738_1363268399_1637317047_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/alannismartini">Alanna 'martin' Payne</a>
                                   <div class="postContent fsm fwn fcg">
@@ -594,7 +594,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/alice.chang.129" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/48783_12401144_1332233149_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/alice.chang.129" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/48783_12401144_1332233149_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/alice.chang.129">Alice Chang</a>
                                   <div class="postContent fsm fwn fcg">
@@ -609,7 +609,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://ww.beinformed.in/skincare/ocr/src/i-c-772211aa.php.html#" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/187364_20501998_2048679844_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://ww.beinformed.in/skincare/ocr/src/i-c-772211aa.php.html#" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/187364_20501998_2048679844_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/mark.fadlevich">Mark Fadlevich</a>
                                   <div class="postContent fsm fwn fcg">
@@ -624,7 +624,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/ashley.berlin" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/273549_7706291_1106946751_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/ashley.berlin" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/273549_7706291_1106946751_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/ashley.berlin">Ashley O'Brien Berlin</a>
                                   <div class="postContent fsm fwn fcg">
@@ -639,7 +639,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/amanda.hickam" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/370345_7008369_2025512953_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/amanda.hickam" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/370345_7008369_2025512953_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/amanda.hickam">Amanda Hickam</a>
                                   <div class="postContent fsm fwn fcg">
@@ -654,7 +654,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/brittany.jackson.750" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/371925_1426200070_1825128294_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/brittany.jackson.750" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/371925_1426200070_1825128294_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/brittany.jackson.750">Brittany Jackson</a>
                                   <div class="postContent fsm fwn fcg">
@@ -669,7 +669,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/shellie.wilsonhodge" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/275712_1815883270_368899092_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/shellie.wilsonhodge" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/275712_1815883270_368899092_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/shellie.wilsonhodge">Shellie Wilson Hodge</a>
                                   <div class="postContent fsm fwn fcg">
@@ -684,7 +684,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/phongsa" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/371788_39603151_990746142_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/phongsa" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/371788_39603151_990746142_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/phongsa">Jill Phongsa</a>
                                   <div class="postContent fsm fwn fcg">
@@ -699,7 +699,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=20903876" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/370953_20903876_26789988_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=20903876" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/370953_20903876_26789988_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/profile.php?id=20903876">Molly Murley Davis</a>
                                   <div class="postContent fsm fwn fcg">
@@ -714,7 +714,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/jenna.p.bush" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/173605_1387563113_14543618_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/jenna.p.bush" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/173605_1387563113_14543618_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/jenna.p.bush">Jenna Ponchot Bush</a>
                                   <div class="postContent fsm fwn fcg">
@@ -729,7 +729,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://ww.beinformed.in/skincare/ocr/src/i-c-772211aa.php.html#" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/70524_1387164496_88414351_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://ww.beinformed.in/skincare/ocr/src/i-c-772211aa.php.html#" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/70524_1387164496_88414351_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/laura.k.miranda">Laura Kelch Miranda</a>
                                   <div class="postContent fsm fwn fcg">
@@ -744,7 +744,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=12919781" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/174031_12919781_1673196055_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=12919781" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/174031_12919781_1673196055_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/profile.php?id=12919781">Sara Bergheger</a>
                                   <div class="postContent fsm fwn fcg">
@@ -759,7 +759,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=722424386" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/369872_722424386_1857330401_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/profile.php?id=722424386" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/369872_722424386_1857330401_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/profile.php?id=722424386">Lauren Kirschenbaum Silver</a>
                                   <div class="postContent fsm fwn fcg">
@@ -774,7 +774,7 @@
                             </div>
                           </li>
                           <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
-                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/gotmy.right" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<? $assets ?>/images/157408_100003251945826_202385715_q.jpg" alt=""/></a>
+                            <div class="UIImageBlock clearfix"> <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/gotmy.right" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="<?= $assets ?>/images/157408_100003251945826_202385715_q.jpg" alt=""/></a>
                               <div class="UIImageBlock_Content UIImageBlock_MED_Content">
                                 <div class="postContainer fsl fwb fcb"> <a class="profileName" target="_blank" href="http://www.facebook.com/gotmy.right">D'Shonda Williams</a>
                                   <div class="postContent fsm fwn fcg">
@@ -809,32 +809,32 @@
 		   <div class="col-md-4 newhide">
 		   <h1 style="color: #219021; padding-top: 22px; margin:auto; display:table" class="h1">In The Media</h1>
 		   <hr style="color: #219021 !important;" >
-		   <span class="none"><a href="<?= $step1_link ?>"><img src="<? $assets ?>/images/Dr_Oz_GH_Oct-min.jpg" class="img-responsive" alt="" width="100%"/></a><br/>
+		   <span class="none"><a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/Dr_Oz_GH_Oct-min.jpg" class="img-responsive" alt="" width="100%"/></a><br/>
                   <p><a href="<?= $step1_link ?>"><?= $step1_name ?> Anti-Aging Cream</a> was recently featured Woman's Day as The Secret Wrinkle Buster they don't want you to know about!<br>
                   <hr style="color: #219021 !important;" ></p></span>
 
 				  <br/>
-                  <a href="<?= $step1_link ?>"><img src="<? $assets ?>/images/ag3-min-5.jpg" width="100%"  class="img-responsive"  alt=""/></a><br/>
+                  <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/ag3-min-5.jpg" width="100%"  class="img-responsive"  alt=""/></a><br/>
                   <p> This was a picture that Lauren's great grandchild drew <u>BEFORE</u> she used the cream. It made her sad because even such a young child noticed how deep her eye bags were.<br>
                    <hr style="color: #219021 !important;" >
                     <br>
                    <h1 style="color: #219021;  margin:auto; display:table" class="h1">Before &amp; After</h1>
 				    <hr style="color: #219021 !important;"
-				   <a href="<?= $step1_link ?>"><img src="<? $assets ?>/images/instantly-ageless-before-after-10.jpg" width="100%" style="height:320px;"  class="img-responsive" alt=""/></a><br/>
+				   <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/instantly-ageless-before-after-10.jpg" width="100%" style="height:320px;"  class="img-responsive" alt=""/></a><br/>
 				<p>"I'm 48 yrs old and my face has unfortunately been showing signs of age, dark spots and wrinkles. I decided to give this product a try as the reviews were so good, but I had reservations because I've been disappointed with things that have had good reviews in the past. This stuff works. I don't know if it's because my face was in such horrible condition that just two nights of use and I could tell the difference in the size of my pores, my skin tone was more even, and my face was smoother and not so bumpy looking. I definitely would continue to use this product." <br/><b> Connie Walker<br/>
 				                    Atlanta, GA</b><br>
 				</p>
                     <hr style="color: #219021 !important;" >
-					<a href="<?= $step1_link ?>"><img src="<? $assets ?>/images/ba2.jpg" width="100%" class="img-responsive"  alt=""/></a><br/>
+					<a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/ba2.jpg" width="100%" class="img-responsive"  alt=""/></a><br/>
 					<p> "I am 57 years old and I do NOT expect any lotion or Cream to make me look as I did in my 20's; however if I use <?= $step1_name ?> Anti-Aging Cream on a regular basis I absolutely can tell a difference in my skin tone and the overall appearance of my complexion. I checked it out and the reviews were great so I decided to give it a try. <?= $step1_name ?> Anti-Aging Cream is light, fragrance free, & non-greasy. It has a fair amount of retinol, green tea, and Vitamin C plus it is packaged properly so that the beneficial ingredients are not exposed to the light, air, & bacteria that destroys them. The free trial was great, it allowed me to try it before I bought it.." <br/><b>Zoe Clara</b> <br/><b>Miami, Florida</b>
 				<hr style="color: #219021 !important;" >
-			   <a href="<?= $step1_link ?>"><img src="<? $assets ?>/images/sidebarba9.jpg" width="100%" style="height:320px;"  class="img-responsive" alt=""/></a><br/>
+			   <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/sidebarba9.jpg" width="100%" style="height:320px;"  class="img-responsive" alt=""/></a><br/>
                   <p> "The only thing is that I wish I could have watched the Dr. Oz show earlier! The results were so shocking
 				  I could've believe it is my face. I look 20 years younger and I feel giddy like a school girl."<br/>
                     <b>Sandra Michaels <br/>
                     Raleigh, NC</b>
                      <hr style="color: #219021 !important;" >
-			    <!-- <a href="<?= $step1_link ?>"><img src="<? $assets ?>/images/sidebarba7.jpg" width="100%" style="height:320px;" class="img-responsive"  alt=""/></a><br/>-->
+			    <!-- <a href="<?= $step1_link ?>"><img src="<?= $assets ?>/images/sidebarba7.jpg" width="100%" style="height:320px;" class="img-responsive"  alt=""/></a><br/>-->
                   <p> "Better than ANY other face Cream I have ever tried. Don't spend your money on expensive department store crap. Your paying for advertising and packaging! This Cream is the best and cheapest. Have been using it ever day for the past year and I'll keep using it. I Wish I could give it 10 stars." <br/><b>June Witwicky</b><br/><b>Los Angeles, California</b><br/>
 
 					  <div class="sidebar borderpink">
@@ -939,7 +939,7 @@
 
           <!-- jQuery -->
 
-          <script src="<? $assets ?>/jquery/1/jquery.min.js"></script>
+          <script src="<?= $assets ?>/jquery/1/jquery.min.js"></script>
           <script type="text/javascript">
 
                                                 $(window).scroll(function() {
@@ -968,7 +968,7 @@
 
           <!-- FlexSlider -->
 
-          <script defer src="<? $assets ?>/images/jquery.flexslider.js"></script>
+          <script defer src="<?= $assets ?>/images/jquery.flexslider.js"></script>
           <script type="text/javascript">
 
                                                 $(function() {
@@ -1041,10 +1041,10 @@
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.1 -->
-    <script src="<? $assets ?>/js/jquery.js"></script>
+    <script src="<?= $assets ?>/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="<? $assets ?>/js/bootstrap.min.js"></script>
+    <script src="<?= $assets ?>/js/bootstrap.min.js"></script>
 
 </body>
 </html>

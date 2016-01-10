@@ -422,8 +422,7 @@
                   <br/>
                   <div style="border: 1px #4cc659 solid;padding: 10px;">
 					<div style="float: left; width:280px; height: 250px;"><a href="<?= $step1_link ?>">
-					<img src="../../img/junisse.png"
-					name="rvtl" width="90%" align="left" class="img-responsive" style="margin-top:30px; margin-right: 20px;" id="rvtl" title=""/> </a></div>
+					<img src="<?= $step1_image ?>" name="rvtl" width="90%" align="left" class="img-responsive" style="margin-top:30px; margin-right: 20px;" id="rvtl" title=""/> </a></div>
                     <h4>Step 1 : <b><a href="<?= $step1_link ?>"><?= $step1_name ?></a></b></h4>
                     Use Our <span style="background-color: #FFFF00">EXCLUSIVE LINK</span> and pay only <span style="background-color: #FFFF00"><b>$4.95 USD</b></span> for shipping</b></span><br/>
                     <br/>
