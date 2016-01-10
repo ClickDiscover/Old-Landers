@@ -536,7 +536,7 @@ document.onclick=reEnable
                         <div class="show-for-phone text-center">
                             <div class="phone-12 columns padding-top-20 text-center">
                                 <h3 class="padding-top-20 text-left"><i>STEP 2:</i></h3>
-                                <p>Receive A Free 30 Day Supply Of <b></b></p>
+                                <p>Receive A Free 30 Day Supply Of <b><?= $step2_name ?></b></p>
                                     <img src="<?= $assets ?>/images/index.html" alt="">
 
 
@@ -554,7 +554,7 @@ document.onclick=reEnable
                         <div class="hide-for-phone">
                             <div class="tablet-7 phone-8 columns padding-top-20">
                                 <h3 class="padding-top-20"><i>STEP 2:</i></h3>
-                                <p>Receive A Free 30 Day Supply Of <b></b></p><br>
+                                <p>Receive A Free 30 Day Supply Of <b><?= $step2_name ?></b></p><br>
 
 
                                 <div class="tablet-12 columns no-padding-left padding-bottom-20">
