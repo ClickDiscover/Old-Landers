@@ -1,0 +1,404 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	/*background:url(../png/hd_pink_gradient.png) top left repeat-x;*/
+	font-family:Arial, Helvetica, sans-serif;
+	color:#555;
+}
+a {
+	color:#069;
+}
+.wrapper {
+	width:1043px;
+	margin:auto;
+	position:relative;
+}
+.headerbar {
+	height:130px;
+	width:1043px;
+	position:relative;
+}
+.hdr1 {
+	width:135px;
+	height:60px;
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+}
+.logo {
+	
+	width: 208px;
+  	height: 108px;
+  	float: left;
+  	/*background: url(../png/wh_new_logo.png);*/
+ 	margin-top: 22px;
+  	  margin-left: 12px;
+	
+}
+.hdrsearch {
+	width:175px;
+	height:25px;
+	position:absolute;
+	top:21px;
+	right:2px;
+}
+input.email-field {
+	background: none repeat scroll 0% 0% transparent;
+	border: 0px none;
+	color: rgb(191, 191, 191);
+	font-size: 12px;
+	font-style: italic;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 3px;
+	width: 145px;
+}
+input.email-field2 {
+	background: none repeat scroll 0% 0% transparent;
+	border: 0px none;
+	color: rgb(191, 191, 191);
+	font-size: 12px;
+	font-style: italic;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 3px;
+	width: 185px;
+}
+input[type="text"], textarea, input[type="submit"], ins {
+	background-color: rgb(240, 240, 240);
+}
+.search-btn {
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	cursor: pointer;
+	outline: medium none;
+	vertical-align: top;
+	background:url(http://allure-promos-magazine.com/png/btn_search2.png) top left no-repeat;
+	float: right;
+}
+.search-btn2 {
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	cursor: pointer;
+	outline: medium none;
+	vertical-align: top;
+	background:url(http://allure-promos-magazine.com/png/btn_search.png) top left no-repeat;
+	float: right;
+}
+.navbar {
+	width:1043px;
+	height:96px;
+	
+	position:RELATIVE;
+}
+.navPad {
+	padding:20px 0 0 0;
+}
+ul.nav {
+	list-style: none;
+	margin:0 0 0 0;
+}
+ul.nav li {
+	margin:0;
+	display:inline;
+	padding:0 17px 0 17px;
+	border-right:1px solid #ccc;
+	height:36px;
+	font:26px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#444;
+}
+ul.nav li a {
+	color:#444;
+	text-decoration:none;
+}
+ul.nav li a:hover {
+	color:#00a5d9;
+	text-decoration:none;
+}
+.subnavwrap {
+	position: relative;
+	text-align: center;
+}
+.sub-nav {
+	width: 100%;
+	padding-top: 4px;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+ul.main-subnav {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	padding-top:10px;
+}
+ul.main-subnav li {
+	display: inline;
+	padding:15px 10px 0 10px;
+	font:13px arial;
+	color:#09C;
+}
+ul.main-subnav li a {
+	color:#09C;
+	text-decoration:none;
+}
+.bannerbar {
+	height:125px;
+	padding:15px;
+}
+.bodycontentOutter {
+	/*background:url(../png/content_gradient.png) top left repeat-x;
+	border-bottom:3px solid #000;*/
+}
+.bodycontentInner {
+	padding:20px;
+}
+.scoopOutter {
+	width:1004px;
+	height:86px;
+	background:url(http://allure-promos-magazine.com/gif/logo-article-scoop.jpg) top left no-repeat;
+	position:relative;
+}
+.scoopSearch {
+	width:220px;
+	height:25px;
+	position:absolute;
+	top:23px;
+	left:763px;
+}
+.catnav {
+	height:36px;
+	background:url(http://allure-promos-magazine.com/png/double_bar.png) top left repeat-x;
+	position:relative;
+	margin:10px 0 10px 0;
+}
+.catNavInner {
+	width:666px;
+	height:15px;
+	position:absolute;
+	top:10px;
+	left:0;
+}
+ul.catnavLinks {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+ul.catnavLinks li {
+	display:inline;
+	margin:0 10px 0 0;
+	font:13px "Times New Roman", Times, serif;
+	color:#666;
+	text-transform:uppercase;
+}
+ul.catnavLinks li a {
+	color:#666;
+	text-decoration:none;
+}
+ul.catnavLinks li a:hover {
+	color:#ff0060;
+	text-decoration:none;
+}
+.artitle {
+	font:32px Georgia, "Times New Roman", Times, serif;
+	color:#333;
+	font-weight:bold;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.artitle2 {
+	font:24px Georgia, "Times New Roman", Times, serif;
+	color:#333;
+	font-weight:bold;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.postedby {
+	font:10px Arial, Helvetica, sans-serif;
+	color:#666;
+	border-bottom:1px solid #ccc;
+}
+ul.footernavs {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#000;
+	list-style-type:none;
+	font-weight:bold;
+}
+ul.footernavs a {
+	font:11px arial;
+	color:#777;
+	text-decoration:none;
+	font-weight:normal;
+}
+ul.footernavs a:hover {
+	text-decoration:underline;
+}
+ul.footernavs li {
+	line-height:21px;
+}
+.commentBoxOutter {
+	background:#f2f2f2;
+	border-bottom:1px solid #999;
+}
+.commentBoxInner {
+	padding:20px;
+}
+.comment1 {
+	padding:20px;
+	border-bottom:1px dashed #ccc;
+	font:12px arial;
+	color:#666;
+}
+.comment2 {
+	padding:20px;
+	font:12px arial;
+	color:#666;
+}
+.comments {
+	font:12px Verdana, Geneva, sans-serif;
+	color:#666;
+}
+.comments a {
+	color:#069;
+	font:10px Verdana, Geneva, sans-serif;
+}
+.ar12whtB {
+	font:12px arial;
+	color:#fff;
+	font-weight:bold;
+}
+.ar12whtB {
+	color:#fff;
+	text-decoration:none;
+}
+.notebar {
+	font:11px arial;
+	color:#666;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:5px;
+}
+.quote {
+	width:500px;
+	background:#F4F4F4;
+	padding:20px;
+	font:14px arial;
+	font-style:italic;
+	margin:auto;
+}
+
+/* Updations*/
+.add_top {
+  width: 1043px;
+  float: left;
+  /* margin: 0 auto; */
+  /* margin-bottom: 8px; */
+  border-bottom: 1px solid #e0e0e0;
+}
+.add_img {
+	height: 92px;	
+  width: 74%;
+  margin: 0 auto;
+  /* float: left; */
+}
+#login {
+  font-size: 11px;
+  color: #000;
+  float: left;
+  margin-top: 18px;
+  margin-left:10px;
+  width: 100%;
+  /*position: absolute;
+  top: 16px;*/
+}
+  
+.f_right{
+	float:right;
+}
+#login a {
+  color: #333;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+#header-subs {
+  background: url(http://allure-promos-magazine.com/png/bg-header-subs.png) top left no-repeat;
+  height: 159px;
+  position: absolute;
+  right: 18px;
+  top: 120px;
+  float: right;
+  width: 288px;
+  margin-bottom: 13px;
+  padding-bottom: 12px;
+}
+#header {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+#global-nav {
+  background-color: #252525;
+  float: left;
+  width: 100%;
+}
+#global-nav-menu {
+  /* border-top: 1px solid #fff; */
+  list-style: none;
+  /* float: left; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+#global-nav-menu li {
+  float: left;
+  height: 34px;
+  width: auto;
+  /*padding-right: 15px;
+  padding-left: 12px;*/
+}
+#global-nav-menu li a {
+ color: #fff;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  float: left;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 24px;
+  padding-right: 19px;
+}
+#global-nav-menu li a:hover {
+	text-decoration:underline;
+	background-color:#474747;
+}
+#nav-subscribe div a {
+  width: 104px;
+  background: url(http://allure-promos-magazine.com/png/subscribe.png) 0 0 no-repeat #db1244;
+}
+
+#nav-subscribe a:hover {
+  background: url(http://allure-promos-magazine.com/png/subscribe.png) 0 -38px no-repeat #f4164d;
+  text-decoration: none;
+}
+.active{
+	background-color:#474747;
+}
+#index_headers h2 a{
+	display: block;
+  width: 640px;
+  height: 111px;
+  text-indent: -9999px;
+  background: #fff url(daily_beauty_reporter.gif) no-repeat;
+}
