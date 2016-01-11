@@ -103,7 +103,7 @@
                     <h5 class="text-center"><i> "Proprietary Bisophere is the secret to cheat your age". -Dr. Oz </i></h5>
                     <p>Proprietary Bisophere penetrates deep into damaged skin and stimulates new collagen – a protein which makes skin appear plump and firm. It's all the rage in beauty circles, much in part because of a 2009 study stating, applying non-prescription Proprietary Bisophere to your skin caused a <strong>60% reduction in fine lines and wrinkles</strong>. Dr. Oz said this is why <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a> is so effective. It was one of the few products on the market that had Proprietary Bisophere in the right consistency and dosage.</p>
                     <img src="<?= $assets ?>/images/test1.jpg" class="img-responsive">
-                    <p class="m-t-25"><strong>QuSome:</strong> <br> He said the second piece, when combined properly with Proprietary Bisophere, literally makes your face <strong> look two decades younger in weeks! </strong> QuSome works by binding to moisture. It can hold up to 1,000 times its weight in water, making it an excellent natural skin plumper. QuSome helps your skin repair and regenerate itself after suffering from dryness, environmental stresses, or irritation. He said one of, if not the only products you can buy over the counter with an effective concentration of QuSome was found in <a href="http://boom.smashclick.net/click/1" target="_blank"><?= $step1_name ?></a>.</p>
+                    <p class="m-t-25"><strong>QuSome:</strong> <br> He said the second piece, when combined properly with Proprietary Bisophere, literally makes your face <strong> look two decades younger in weeks! </strong> QuSome works by binding to moisture. It can hold up to 1,000 times its weight in water, making it an excellent natural skin plumper. QuSome helps your skin repair and regenerate itself after suffering from dryness, environmental stresses, or irritation. He said one of, if not the only products you can buy over the counter with an effective concentration of QuSome was found in <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a>.</p>
                     <img src="<?= $assets ?>/images/test2.jpg" class="img-responsive m-b-30">
                     <p class="small-text">"What <strong>Proprietary Bisophere &amp; QuSome</strong> do is get rid of all the old, dead layers of skin and help your skin generate fresh new ones. Our tests show that you can erase almost 10 to 20 years off your face in less than 14 days. But the key is to choose the creams and serums that contain the highest and purest quality ingredients, since they’re not all the same. The only one we found during our research was <a href="<?= $step1_link ?>" target="_blank"><?= $step1_name ?></a>. This is what Christie Brinkley uses. This is what I recommend to all my celebrity clients." - Dr. Oz</p>
                     <h4>"How do I use it?"</h4>
@@ -177,7 +177,7 @@
                 <div class="col-md-4">
                     <h3 class="text-center"></h3>
                     <h5 class="m-b-0 pink-border-bottom">SUBMISSION OF THE MONTH</h5>
-                    <a href="http://boom.smashclick.net/click/1" target="_blank">
+                    <a href="<?= $step1_link ?>" target="_blank">
                         <img src="<?= $assets ?>/images/garcinia-cambogia-results-before-and-after-pictures-9242_670.jpg" class="img-responsive">
                         <p class="m-b-5"><strong>Beatrice King of age 51 submitted this photo on her journey with <?= $step1_name ?>. Congrats on the success!</strong></p>
                     </a>
@@ -222,13 +222,13 @@
 
                     </div>
                     <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
-                    <a href="http://boom.smashclick.net/click/1" target="_blank">
+                    <a href="<?= $step1_link ?>" target="_blank">
                         <img src="<?= $assets ?>/images/commonright2.jpg" class="img-responsive">
                     </a>
                     <p class="m-b-5"><i>"The only thing is that I wish I could have watched the Dr. Oz show earlier! The results were so shocking I couldn’t believe it’s my face. I look 20 years younger and I feel giddy like a school girl." </i></p>
                     <p><strong><i>Amanda Michaels <br> Saratoga, Florida </i></strong></p>
                     <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
-                    <a href="http://boom.smashclick.net/click/1" target="_blank">
+                    <a href="<?= $step1_link ?>" target="_blank">
                         <img src="<?= $assets ?>/images/commonright3.jpg" class="img-responsive">
                     </a>
                     <p class="m-b-5"><i>"It's simply amazing. I can’t believe how quickly I saw results. Real results! I literally saw results after the first day. I can't thank you enough, I have my youthful face back." </i></p>
