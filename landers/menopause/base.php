@@ -58,7 +58,7 @@ $assets .= '/';
   <section class="topbar">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12"><img src="<?= $assets ?>img/logo.png" class="center-block img-responsive"></div>
+          <?= $this->variant($v, 'logos') ?>
       </div>
     </div>
   </section>
